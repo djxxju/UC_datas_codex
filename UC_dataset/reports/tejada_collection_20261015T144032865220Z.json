@@ -1,0 +1,81 @@
+{
+  "collection_only": true,
+  "instance_archives_extracted": false,
+  "files": [
+    {
+      "filename": "UC-Instances.zip",
+      "url": "https://api.github.com/repos/datejada/UC-data/git/blobs/7a2f0916d0628e66eb7cea5799ff0373f464a1a3",
+      "upstream_git_blob_sha": "7a2f0916d0628e66eb7cea5799ff0373f464a1a3",
+      "commit": "1b417ece7ca61d41fca7302df6a0313f8236d611",
+      "local_path": "raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/UC-Instances.zip",
+      "collection_time_utc": "2026-10-15T14:40:32.845349+00:00",
+      "content_validation": "not_run",
+      "solve_status": "not_run",
+      "status": "copied_from_official_repository_archive",
+      "acquisition_method": "outer_repository_archive_only; nested_instance_zips_unopened",
+      "source_archive": "UC_dataset/raw/official_packages/tejada/UC-data-1b417ece7ca61d41fca7302df6a0313f8236d611.zip",
+      "bytes": 1069070,
+      "sha256": "92a6752ea328689bd7d0e5d644b034e5e0e920867830a641ff55597258f5a36b"
+    },
+    {
+      "filename": "UC-Instances-ResultsSummary.zip",
+      "url": "https://api.github.com/repos/datejada/UC-data/git/blobs/3ce815e2ba77e5b9c313509b066014997ff59731",
+      "upstream_git_blob_sha": "3ce815e2ba77e5b9c313509b066014997ff59731",
+      "commit": "1b417ece7ca61d41fca7302df6a0313f8236d611",
+      "local_path": "raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/UC-Instances-ResultsSummary.zip",
+      "collection_time_utc": "2026-10-15T14:40:32.856773+00:00",
+      "content_validation": "not_run",
+      "solve_status": "not_run",
+      "status": "copied_from_official_repository_archive",
+      "acquisition_method": "outer_repository_archive_only; nested_instance_zips_unopened",
+      "source_archive": "UC_dataset/raw/official_packages/tejada/UC-data-1b417ece7ca61d41fca7302df6a0313f8236d611.zip",
+      "bytes": 1899047,
+      "sha256": "00eb62feb959777395454df75f3bc2e3f732f784779c94d0db4bbf0b36ca143b"
+    },
+    {
+      "filename": "README.md",
+      "url": "https://api.github.com/repos/datejada/UC-data/git/blobs/aac30686fb007679148e5053c459a701c115c06a",
+      "upstream_git_blob_sha": "aac30686fb007679148e5053c459a701c115c06a",
+      "commit": "1b417ece7ca61d41fca7302df6a0313f8236d611",
+      "local_path": "raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/README.md",
+      "collection_time_utc": "2026-10-15T14:40:32.861887+00:00",
+      "content_validation": "not_run",
+      "solve_status": "not_run",
+      "status": "copied_from_official_repository_archive",
+      "acquisition_method": "outer_repository_archive_only; nested_instance_zips_unopened",
+      "source_archive": "UC_dataset/raw/official_packages/tejada/UC-data-1b417ece7ca61d41fca7302df6a0313f8236d611.zip",
+      "bytes": 452,
+      "sha256": "b5ced9677d93748a96d0887a23f294a537d07aa86a6930edf735f0c612aff90a"
+    },
+    {
+      "filename": "LICENSE",
+      "url": "https://api.github.com/repos/datejada/UC-data/git/blobs/88f1f56e4f809a8d15e52cb761a6b79870b8f4a8",
+      "upstream_git_blob_sha": "88f1f56e4f809a8d15e52cb761a6b79870b8f4a8",
+      "commit": "1b417ece7ca61d41fca7302df6a0313f8236d611",
+      "local_path": "raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/LICENSE",
+      "collection_time_utc": "2026-10-15T14:40:32.863200+00:00",
+      "content_validation": "not_run",
+      "solve_status": "not_run",
+      "status": "copied_from_official_repository_archive",
+      "acquisition_method": "outer_repository_archive_only; nested_instance_zips_unopened",
+      "source_archive": "UC_dataset/raw/official_packages/tejada/UC-data-1b417ece7ca61d41fca7302df6a0313f8236d611.zip",
+      "bytes": 1086,
+      "sha256": "4c64953e7738fc4f1f439069238cbf30b47d8aa0ec2a5dc9386673e53eab7161"
+    },
+    {
+      "filename": "StarGenLite_SCUC.gms",
+      "url": "https://api.github.com/repos/datejada/UC-data/git/blobs/8febf49d61a9d6d1ff8b24267345c81303afe990",
+      "upstream_git_blob_sha": "8febf49d61a9d6d1ff8b24267345c81303afe990",
+      "commit": "1b417ece7ca61d41fca7302df6a0313f8236d611",
+      "local_path": "raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/StarGenLite_SCUC.gms",
+      "collection_time_utc": "2026-10-15T14:40:32.864220+00:00",
+      "content_validation": "not_run",
+      "solve_status": "not_run",
+      "status": "copied_from_official_repository_archive",
+      "acquisition_method": "outer_repository_archive_only; nested_instance_zips_unopened",
+      "source_archive": "UC_dataset/raw/official_packages/tejada/UC-data-1b417ece7ca61d41fca7302df6a0313f8236d611.zip",
+      "bytes": 44815,
+      "sha256": "01c71c40a922e68eda727dfeafdeaf20af7166a2ad5902d68a75080bb4b936e2"
+    }
+  ]
+}

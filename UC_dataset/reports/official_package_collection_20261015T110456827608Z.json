@@ -1,0 +1,28 @@
+{
+  "collection_only": true,
+  "archives_extracted": false,
+  "selected_count": 1,
+  "failed_count": 0,
+  "files": [
+    {
+      "id": "rts_gmlc_v023",
+      "filename": "rts_gmlc/RTS-GMLC-3ece0d3725c844056132393ee252b3083dd4eab4.zip",
+      "url": "https://codeload.github.com/GridMod/RTS-GMLC/zip/3ece0d3725c844056132393ee252b3083dd4eab4",
+      "description": "Official release repository archive; prepared tool formats and original time series; excludes submodule contents",
+      "source_page": "https://github.com/GridMod/RTS-GMLC/releases/tag/v0.2.3",
+      "version": "v0.2.3",
+      "commit": "3ece0d3725c844056132393ee252b3083dd4eab4",
+      "data_license": "Custom DATA USE DISCLAIMER AGREEMENT in root README",
+      "redistribution": "permitted_subject_to_upstream_notice",
+      "local_path": "raw/official_packages/rts_gmlc/RTS-GMLC-3ece0d3725c844056132393ee252b3083dd4eab4.zip",
+      "collection_time_utc": "2026-10-15T11:04:25.969263+00:00",
+      "content_validation": "not_run",
+      "solve_status": "not_run",
+      "final_url": "https://codeload.github.com/GridMod/RTS-GMLC/zip/3ece0d3725c844056132393ee252b3083dd4eab4",
+      "last_modified": null,
+      "status": "downloaded",
+      "sha256": "eb1086cc0f12f92c1a5de3f431784b324eb5bfdfdb8d8223f4c6e301bd15673e",
+      "bytes": 84452206
+    }
+  ]
+}

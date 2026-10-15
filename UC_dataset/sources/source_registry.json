@@ -24,24 +24,90 @@
       "code_version": "v0.4.2",
       "code_commit": "e4cc95dae16d9b8bccbfcd95ccf754b307d66c4a",
       "official_instance_server": "https://axavier.org/UnitCommitment.jl/0.4/instances/",
-      "status": "official_documented_index_and_local_samples",
+      "status": "117_selected_official_files_collected_locally_without_new_validation",
       "documented_entries": 173,
-      "documented_families": {"matpower": 26, "pglib-uc": 56, "or-lib": 42, "tejada19": 49},
+      "documented_families": {
+        "matpower": 26,
+        "pglib-uc": 56,
+        "or-lib": 42,
+        "tejada19": 49
+      },
       "overlap_note": "The 56 pglib-uc entries are converted versions of the PGLIB collection, not independent systems.",
       "data_license": null,
       "license_status": "external_instance_redistribution_not_cleared",
       "public_redistribution": "index_and_fetch_helper_only",
       "server_immutability": "versioned_url_but_no_upstream_git_commit_for_data; pin_downloaded_bytes_with_sha256",
-      "local_samples": ["or-lib/10_0_1_w", "or-lib/20_0_1_w", "tejada19/UC_24h_214g", "matpower/case118/2017-01-01"],
-      "solve_status": "not_run"
+      "local_samples": [
+        "or-lib/10_0_1_w",
+        "or-lib/20_0_1_w",
+        "tejada19/UC_24h_214g",
+        "matpower/case118/2017-01-01"
+      ],
+      "solve_status": "not_run",
+      "local_collected_count": 117,
+      "local_collected_families": {
+        "or-lib": 42,
+        "tejada19": 49,
+        "matpower_representative_days": 26
+      },
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "source_id": "rts_gmlc",
       "official_repository": "https://github.com/GridMod/RTS-GMLC",
       "previously_pinned_commit": "3ece0d3725c844056132393ee252b3083dd4eab4",
-      "status": "background_source_requires_model_mapping_and_initialization",
-      "public_redistribution": "not_included_in_first_ready_case_package",
-      "note": "Partial earlier raw collection is not a complete directly solvable UC instance."
+      "status": "official_v0.2.3_archive_downloaded_locally_unopened",
+      "public_redistribution": "official_fixed_download_link_and_receipt; large_archive_local_only",
+      "note": "Official Prescient, PLEXOS and openTEPES inputs exist. Preserve time series and source data together; no local import or solving claimed.",
+      "version": "v0.2.3",
+      "official_release": "https://github.com/GridMod/RTS-GMLC/releases/tag/v0.2.3",
+      "source_note": "../reports/rts_official_packages.md",
+      "archive_bytes": 84452206,
+      "collection_receipt": "../reports/official_package_collection_20261015T110456827608Z.json"
+    },
+    {
+      "source_id": "commalab_uc",
+      "publisher": "University of Pisa, Department of Computer Science, CommaLAB",
+      "official_page": "https://commalab.di.unipi.it/datasets/uc/",
+      "version": null,
+      "source_page_last_update": "2022-12-07",
+      "status": "four_official_archives_downloaded_locally_unopened",
+      "packages": [
+        "RCUC.tgz",
+        "RCUC2.tgz",
+        "118_UC.tgz",
+        "System_46buses.zip"
+      ],
+      "data_license": null,
+      "public_redistribution": "official_links_and_fetch_helper_only",
+      "collection_receipt": "../reports/official_package_collection_20261015T110033311397Z.json",
+      "source_note": "../reports/commalab_source_notes.md",
+      "solve_status": "not_run"
+    },
+    {
+      "source_id": "tejada_uc_data",
+      "publisher": "Diego Alejandro Tejada Arango and paper coauthors",
+      "official_repository": "https://github.com/datejada/UC-data",
+      "commit": "1b417ece7ca61d41fca7302df6a0313f8236d611",
+      "doi": "10.1109/TPWRS.2019.2962024",
+      "repository_license": "MIT; retain root LICENSE and README",
+      "status": "official_repository_archive_collected_and_five_original_files_prepared_for_publication",
+      "upstream_results_status": "author_published_reference_results_not_reproduced_here",
+      "overlap_note": "Same paper family as UC.jl Tejada19; original ZIP and converted instances are not disjoint systems.",
+      "source_note": "../reports/tejada_official_packages.md",
+      "solve_status": "not_run",
+      "collected_original_files": [
+        "UC-Instances.zip",
+        "UC-Instances-ResultsSummary.zip",
+        "StarGenLite_SCUC.gms",
+        "README.md",
+        "LICENSE"
+      ],
+      "collection_receipt": "../reports/tejada_collection_20261015T144032865220Z.json",
+      "public_redistribution": "five_original_files_with_MIT_notice_and_attribution"
     }
-  ]
+  ],
+  "current_priority": "collect_official_ready_made_data_only",
+  "current_validation_policy": "deferred_by_user_2026-10-15",
+  "current_solve_policy": "deferred; COPT remains future local solver"
 }

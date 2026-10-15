@@ -4,7 +4,7 @@
   "code_commit": "e4cc95dae16d9b8bccbfcd95ccf754b307d66c4a",
   "server_version": "0.4",
   "checked_date": "2026-10-15",
-  "note": "Names explicitly listed in official documentation. MATPOWER rows are one daily example of 365 advertised daily variations. Numeric columns differ: OR-LIB and Tejada include hours; MATPOWER and PGLIB omit hours. These are upstream-available entries, not locally solved or all downloaded.",
+  "note": "Official-documentation index of 173 entries. 117 selected files are locally collected; the 56 overlapping PGLIB conversion entries are not collected here. MATPOWER names represent one day per system, not the whole year. No new parameter checks or solving were performed.",
   "instances": [
     {
       "name": "matpower/case14/2017-01-01",
@@ -17,8 +17,9 @@
         "19"
       ],
       "references": "[MTPWR, PSTCA]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case30/2017-01-01",
@@ -31,8 +32,9 @@
         "38"
       ],
       "references": "[MTPWR, PSTCA]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case57/2017-01-01",
@@ -45,8 +47,9 @@
         "79"
       ],
       "references": "[MTPWR, PSTCA]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case118/2017-01-01",
@@ -59,8 +62,9 @@
         "177"
       ],
       "references": "[MTPWR, PSTCA]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case300/2017-01-01",
@@ -73,8 +77,9 @@
         "320"
       ],
       "references": "[MTPWR, PSTCA]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case2383wp/2017-01-01",
@@ -87,8 +92,9 @@
         "2240"
       ],
       "references": "[MTPWR]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case2736sp/2017-01-01",
@@ -101,8 +107,9 @@
         "3159"
       ],
       "references": "[MTPWR]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case2737sop/2017-01-01",
@@ -115,8 +122,9 @@
         "3161"
       ],
       "references": "[MTPWR]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case2746wop/2017-01-01",
@@ -129,8 +137,9 @@
         "3155"
       ],
       "references": "[MTPWR]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case2746wp/2017-01-01",
@@ -143,8 +152,9 @@
         "3156"
       ],
       "references": "[MTPWR]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case3012wp/2017-01-01",
@@ -157,8 +167,9 @@
         "2854"
       ],
       "references": "[MTPWR]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case3120sp/2017-01-01",
@@ -171,8 +182,9 @@
         "2950"
       ],
       "references": "[MTPWR]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case3375wp/2017-01-01",
@@ -185,8 +197,9 @@
         "3245"
       ],
       "references": "[MTPWR]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case89pegase/2017-01-01",
@@ -199,8 +212,9 @@
         "192"
       ],
       "references": "[JoFlMa16, FlPaCa13, MTPWR]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case1354pegase/2017-01-01",
@@ -213,8 +227,9 @@
         "1288"
       ],
       "references": "[JoFlMa16, FlPaCa13, MTPWR]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case2869pegase/2017-01-01",
@@ -227,8 +242,9 @@
         "3579"
       ],
       "references": "[JoFlMa16, FlPaCa13, MTPWR]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case9241pegase/2017-01-01",
@@ -241,8 +257,9 @@
         "13932"
       ],
       "references": "[JoFlMa16, FlPaCa13, MTPWR]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case13659pegase/2017-01-01",
@@ -255,8 +272,9 @@
         "13932"
       ],
       "references": "[JoFlMa16, FlPaCa13, MTPWR]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case1888rte/2017-01-01",
@@ -269,8 +287,9 @@
         "1484"
       ],
       "references": "[MTPWR, JoFlMa16]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case1951rte/2017-01-01",
@@ -283,8 +302,9 @@
         "1497"
       ],
       "references": "[MTPWR, JoFlMa16]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case2848rte/2017-01-01",
@@ -297,8 +317,9 @@
         "2242"
       ],
       "references": "[MTPWR, JoFlMa16]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case2868rte/2017-01-01",
@@ -311,8 +332,9 @@
         "2260"
       ],
       "references": "[MTPWR, JoFlMa16]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case6468rte/2017-01-01",
@@ -325,8 +347,9 @@
         "6094"
       ],
       "references": "[MTPWR, JoFlMa16]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case6470rte/2017-01-01",
@@ -339,8 +362,9 @@
         "6085"
       ],
       "references": "[MTPWR, JoFlMa16]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case6495rte/2017-01-01",
@@ -353,8 +377,9 @@
         "6060"
       ],
       "references": "[MTPWR, JoFlMa16]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "matpower/case6515rte/2017-01-01",
@@ -367,8 +392,9 @@
         "6063"
       ],
       "references": "[MTPWR, JoFlMa16]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "pglib-uc/ca/2014-09-01_reserves_0",
@@ -1166,8 +1192,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/10_0_2_w",
@@ -1181,8 +1208,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/10_0_3_w",
@@ -1196,8 +1224,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/10_0_4_w",
@@ -1211,8 +1240,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/10_0_5_w",
@@ -1226,8 +1256,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/20_0_1_w",
@@ -1241,8 +1272,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/20_0_2_w",
@@ -1256,8 +1288,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/20_0_3_w",
@@ -1271,8 +1304,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/20_0_4_w",
@@ -1286,8 +1320,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/20_0_5_w",
@@ -1301,8 +1336,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/50_0_1_w",
@@ -1316,8 +1352,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/50_0_2_w",
@@ -1331,8 +1368,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/50_0_3_w",
@@ -1346,8 +1384,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/50_0_4_w",
@@ -1361,8 +1400,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/50_0_5_w",
@@ -1376,8 +1416,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/75_0_1_w",
@@ -1391,8 +1432,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/75_0_2_w",
@@ -1406,8 +1448,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/75_0_3_w",
@@ -1421,8 +1464,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/75_0_4_w",
@@ -1436,8 +1480,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/75_0_5_w",
@@ -1451,8 +1496,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/100_0_1_w",
@@ -1466,8 +1512,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/100_0_2_w",
@@ -1481,8 +1528,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/100_0_3_w",
@@ -1496,8 +1544,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/100_0_4_w",
@@ -1511,8 +1560,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/100_0_5_w",
@@ -1526,8 +1576,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/150_0_1_w",
@@ -1541,8 +1592,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/150_0_2_w",
@@ -1556,8 +1608,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/150_0_3_w",
@@ -1571,8 +1624,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/150_0_4_w",
@@ -1586,8 +1640,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/150_0_5_w",
@@ -1601,8 +1656,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/200_0_10_w",
@@ -1616,8 +1672,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/200_0_11_w",
@@ -1631,8 +1688,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/200_0_12_w",
@@ -1646,8 +1704,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/200_0_1_w",
@@ -1661,8 +1720,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/200_0_2_w",
@@ -1676,8 +1736,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/200_0_3_w",
@@ -1691,8 +1752,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/200_0_4_w",
@@ -1706,8 +1768,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/200_0_5_w",
@@ -1721,8 +1784,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/200_0_6_w",
@@ -1736,8 +1800,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/200_0_7_w",
@@ -1751,8 +1816,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/200_0_8_w",
@@ -1766,8 +1832,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "or-lib/200_0_9_w",
@@ -1781,8 +1848,9 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_214g",
@@ -1796,8 +1864,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_250g",
@@ -1811,8 +1880,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_290g",
@@ -1826,8 +1896,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_480g",
@@ -1841,8 +1912,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_505g",
@@ -1856,8 +1928,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_623g",
@@ -1871,8 +1944,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_647g",
@@ -1886,8 +1960,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_836g",
@@ -1901,8 +1976,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_850g",
@@ -1916,8 +1992,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_918g",
@@ -1931,8 +2008,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_931g",
@@ -1946,8 +2024,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_940g",
@@ -1961,8 +2040,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_957g",
@@ -1976,8 +2056,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_959g",
@@ -1991,8 +2072,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_1069g",
@@ -2006,8 +2088,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_1130g",
@@ -2021,8 +2104,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_1376g",
@@ -2036,8 +2120,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_1393g",
@@ -2051,8 +2136,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_1577g",
@@ -2066,8 +2152,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_1615g",
@@ -2081,8 +2168,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_1632g",
@@ -2096,8 +2184,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_1768g",
@@ -2111,8 +2200,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_1804g",
@@ -2126,8 +2216,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_1820g",
@@ -2141,8 +2232,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_1823g",
@@ -2156,8 +2248,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_24h_1888g",
@@ -2171,8 +2264,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_36g",
@@ -2186,8 +2280,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_38g",
@@ -2201,8 +2296,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_40g",
@@ -2216,8 +2312,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_53g",
@@ -2231,8 +2328,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_58g",
@@ -2246,8 +2344,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_59g",
@@ -2261,8 +2360,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_72g",
@@ -2276,8 +2376,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_84g",
@@ -2291,8 +2392,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_86g",
@@ -2306,8 +2408,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_88g",
@@ -2321,8 +2424,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_93g",
@@ -2336,8 +2440,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_105g",
@@ -2351,8 +2456,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_110g",
@@ -2366,8 +2472,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_125g",
@@ -2381,8 +2488,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_130g",
@@ -2396,8 +2504,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_131g",
@@ -2411,8 +2520,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_140g",
@@ -2426,8 +2536,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_165g",
@@ -2441,8 +2552,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_175g",
@@ -2456,8 +2568,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_179g",
@@ -2471,8 +2584,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_188g",
@@ -2486,8 +2600,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_192g",
@@ -2501,8 +2616,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     },
     {
       "name": "tejada19/UC_168h_199g",
@@ -2516,8 +2632,9 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "not_collected_by_this_catalog",
-      "redistribution_status": "not_cleared"
+      "download_status": "collected_locally_without_new_data_validation",
+      "redistribution_status": "not_cleared",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
     }
   ]
 }

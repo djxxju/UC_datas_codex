@@ -25,8 +25,21 @@ The code's modified BSD license identifies the software as UnitCommitment.jl and
 
 When using downloaded data in research, cite UnitCommitment.jl (https://doi.org/10.5281/zenodo.4269874) and the original case references given by the official instance documentation. OR-LIB and Tejada19 entries are preconverted instances offered by UC.jl, not newly extracted or newly generated cases from this project.
 
+## Tejada author UC-data
+
+Upstream: https://github.com/datejada/UC-data  
+Pinned commit: `1b417ece7ca61d41fca7302df6a0313f8236d611`.
+
+Five originals are included under `UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/`: `UC-Instances.zip`, `UC-Instances-ResultsSummary.zip`, `StarGenLite_SCUC.gms`, `README.md`, and `LICENSE`. They were copied from the official repository archive without changing their contents. The two inner ZIPs remain unopened; no case parameters were checked and no model was run.
+
+The repository root has the standard MIT license, Copyright (c) 2018 Diego Alejandro Tejada Arango. Its complete LICENSE and README accompany the files. Cite D. A. Tejada-Arango, S. Lumbreras, P. Sanchez-Martin and A. Ramos, DOI https://doi.org/10.1109/TPWRS.2019.2962024 . Preserve the original README's citation wording and generator attribution. The results summary is an author-published reference artifact, not a result reproduced by this project.
+
+## CommaLAB UC collection
+
+Official institutional page: https://commalab.di.unipi.it/datasets/uc/ . Four ready-made archives (RCUC, RCUC2, 118_UC, System_46buses) were downloaded locally. The reviewed page did not state an independent data redistribution license; this repository distributes factual descriptions, official URLs, collection receipts and download code, not a mirror of those archives. Citation details remain linked to the official bibliography. Generator `ucig.tgz` is not counted as a ready-made data package.
+
 ## Other sources
 
-RTS-GMLC: https://github.com/GridMod/RTS-GMLC . It has custom data-use terms in the upstream README, and is not covered by the PGLIB license merely because PGLIB contains RTS-derived cases. Partial raw files collected during earlier investigation are kept local and excluded from this first public package.
+RTS-GMLC: https://github.com/GridMod/RTS-GMLC . It has custom data-use terms in the upstream README, and is not covered by the PGLIB license merely because PGLIB contains RTS-derived cases. The complete official v0.2.3 repository ZIP is now saved locally; this public repository supplies a pinned official download link and collection receipt. The ZIP preserves the upstream notices, source data and prepared tool formats, but does not include external Git submodule contents. Earlier partial raw files remain distinct from this archive. The custom notice permits redistribution subject to preservation and attribution requirements; the large archive is kept off this Git history for size reasons.
 
 This repository does not relicense upstream materials as a single new dataset license.
