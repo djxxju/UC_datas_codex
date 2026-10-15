@@ -1,0 +1,172 @@
+{
+  "created_date": "2026-10-15",
+  "repository": "djxxju/UC_datas_codex",
+  "release_tag": "official-data-2026-10-15-batch04",
+  "scope": "Collect original files on GitHub-hosted runner and publish GitHub Release assets. No parameter validation, model conversion or solver execution.",
+  "sources": [
+    {
+      "source_id": "rts_gmlc",
+      "title": "RTS-GMLC v0.2.3",
+      "source_url": "https://github.com/GridMod/RTS-GMLC/releases/tag/v0.2.3",
+      "version": "v0.2.3",
+      "commit": "3ece0d3725c844056132393ee252b3083dd4eab4",
+      "license": "Custom DATA USE DISCLAIMER AGREEMENT in upstream README",
+      "license_url": "https://github.com/GridMod/RTS-GMLC/blob/3ece0d3725c844056132393ee252b3083dd4eab4/README.md",
+      "citation": "Barrows et al., The IEEE Reliability Test System: A Proposed 2019 Update, DOI 10.1109/TPWRS.2019.2925557; preserve the complete upstream notice and DOE/NREL/ALLIANCE attribution.",
+      "packaging": "unchanged_archive",
+      "asset_name": "RTS-GMLC-v0.2.3.zip",
+      "files": [
+        {
+          "filename": "RTS-GMLC-v0.2.3.zip",
+          "url": "https://codeload.github.com/GridMod/RTS-GMLC/zip/3ece0d3725c844056132393ee252b3083dd4eab4"
+        }
+      ]
+    },
+    {
+      "source_id": "tejada_uc_data",
+      "title": "Tejada-Arango UC-data author repository",
+      "source_url": "https://github.com/datejada/UC-data",
+      "version": null,
+      "commit": "1b417ece7ca61d41fca7302df6a0313f8236d611",
+      "license": "MIT repository license; original LICENSE included in archive",
+      "license_url": "https://github.com/datejada/UC-data/blob/1b417ece7ca61d41fca7302df6a0313f8236d611/LICENSE",
+      "citation": "D. A. Tejada-Arango, S. Lumbreras, P. Sanchez-Martin and A. Ramos; DOI 10.1109/TPWRS.2019.2962024. Copyright (c) 2018 Diego Alejandro Tejada Arango. Preserve original LICENSE and README.",
+      "packaging": "unchanged_archive",
+      "asset_name": "Tejada-UC-data-1b417ece.zip",
+      "files": [
+        {
+          "filename": "Tejada-UC-data-1b417ece.zip",
+          "url": "https://codeload.github.com/datejada/UC-data/zip/1b417ece7ca61d41fca7302df6a0313f8236d611"
+        }
+      ]
+    },
+    {
+      "source_id": "stochastic_uc_solar",
+      "title": "Stochastic UC data files",
+      "source_url": "https://data.mendeley.com/datasets/h7cnt32kys/1",
+      "version": 1,
+      "doi": "10.17632/h7cnt32kys.1",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "citation": "Doubleday, Kate; Hodge, Bri-Mathias; Lara, Jose Daniel (2022), Stochastic UC data files, Mendeley Data, V1, doi: 10.17632/h7cnt32kys.1.",
+      "institutional_affiliations": [
+        "National Renewable Energy Laboratory",
+        "University of California Berkeley",
+        "University of Colorado Boulder"
+      ],
+      "model_scope": "Research data for stochastic UC with high solar PV shares; original JSON and HDF5 files for HodgeLab/Unit_Commitment and NREL-SIIP/ExtremeSolarTexas.",
+      "metadata_url": "https://data.mendeley.com/public-api/datasets/h7cnt32kys/files?folder_id=root&version=1",
+      "packaging": "original_files_with_notice",
+      "asset_name": "Stochastic-UC-solar-h7cnt32kys-v1.zip",
+      "files": [
+        {
+          "filename": "cc_restrictions.json",
+          "url": "https://data.mendeley.com/public-files/datasets/h7cnt32kys/files/2488bb67-56d8-491f-afa2-32d8382fb08e/file_downloaded",
+          "upstream_file_id": "2488bb67-56d8-491f-afa2-32d8382fb08e",
+          "upstream_size": 5505,
+          "upstream_sha256_as_reported": "317926cda200b83ffa0b2caefb5c27344d18864a13da5918a8064046c4f4d7e3"
+        },
+        {
+          "filename": "DA_sys_31_scenarios.json",
+          "url": "https://data.mendeley.com/public-files/datasets/h7cnt32kys/files/c449d85c-e736-472b-b518-cb6c36f9c1ea/file_downloaded",
+          "upstream_file_id": "c449d85c-e736-472b-b518-cb6c36f9c1ea",
+          "upstream_size": 5639391,
+          "upstream_sha256_as_reported": "18e8de846e18220c9375aef689fad544521fc643f33909610970d54f491b8ebf"
+        },
+        {
+          "filename": "DA_sys_31_scenarios_time_series_storage.h5",
+          "url": "https://data.mendeley.com/public-files/datasets/h7cnt32kys/files/53c0ff3b-c554-4b7a-a28b-e3b622588ca9/file_downloaded",
+          "upstream_file_id": "53c0ff3b-c554-4b7a-a28b-e3b622588ca9",
+          "upstream_size": 22956587,
+          "upstream_sha256_as_reported": "02a59119efd7ae76f54ec9c8d62c42abe1178f67c1e8bf67c85c47ed9dd253d2"
+        },
+        {
+          "filename": "DA_sys_31_scenarios_validation_descriptors.json",
+          "url": "https://data.mendeley.com/public-files/datasets/h7cnt32kys/files/4bf03139-7df2-4c1e-bae5-24411a35ec46/file_downloaded",
+          "upstream_file_id": "4bf03139-7df2-4c1e-bae5-24411a35ec46",
+          "upstream_size": 207066,
+          "upstream_sha256_as_reported": "f5c16f52dfd56168d89825fda643b5a84e46952a7c96a465281da95c6c9c7aa1"
+        },
+        {
+          "filename": "HA_sys_UC_experiment.json",
+          "url": "https://data.mendeley.com/public-files/datasets/h7cnt32kys/files/f60d1723-094d-4b0b-a9ca-f1dbcb81a085/file_downloaded",
+          "upstream_file_id": "f60d1723-094d-4b0b-a9ca-f1dbcb81a085",
+          "upstream_size": 5641693,
+          "upstream_sha256_as_reported": "5c81aa19f174fe0bf4670870494f6c9feac63c8efbfb6b206ade8e2c6d72a4fc"
+        },
+        {
+          "filename": "HA_sys_UC_experiment_time_series_storage.h5",
+          "url": "https://data.mendeley.com/public-files/datasets/h7cnt32kys/files/64a549b4-02b8-4331-aeb7-59ead2f6de6c/file_downloaded",
+          "upstream_file_id": "64a549b4-02b8-4331-aeb7-59ead2f6de6c",
+          "upstream_size": 306673085,
+          "upstream_sha256_as_reported": "ab91083290059005239d6fd275c2929e28a0424fd639ba790c683abca5ef2da5"
+        },
+        {
+          "filename": "HA_sys_UC_experiment_validation_descriptors.json",
+          "url": "https://data.mendeley.com/public-files/datasets/h7cnt32kys/files/821be7a9-3152-412d-acf3-aa69a8c91c16/file_downloaded",
+          "upstream_file_id": "821be7a9-3152-412d-acf3-aa69a8c91c16",
+          "upstream_size": 207066,
+          "upstream_sha256_as_reported": "94e85ad84be42d63210fba0542fe7058a3ddcd5956905c54ad96b898880c61e6"
+        }
+      ]
+    },
+    {
+      "source_id": "monash_capacity_uc",
+      "title": "Data Set for Capacity Expansion Planning with Unit Commitment",
+      "source_url": "https://bridges.monash.edu/articles/dataset/Data_Set_for_Capacity_Expansion_Planning_with_Unit_Commitment/8131529/2",
+      "version": 2,
+      "doi": "10.26180/5cdbde51bbb1b",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "citation": "Semini Wijekoon; Ariel Liebman; Simon Dunstall (2019), Data Set for Capacity Expansion Planning with Unit Commitment, Monash University, version 2, DOI 10.26180/5cdbde51bbb1b.",
+      "model_scope": "Six capacity-expansion cases with UC parameters, DC networks, storage candidates and chronological annual load/renewable profiles; retain the original XLSX files without conversion.",
+      "metadata_url": "https://api.figshare.com/v2/articles/8131529/versions/2",
+      "packaging": "original_files_with_notice",
+      "asset_name": "Monash-capacity-expansion-UC-v2.zip",
+      "files": [
+        {
+          "filename": "6bus.xlsx",
+          "url": "https://ndownloader.figshare.com/files/15158033",
+          "upstream_file_id": 15158033,
+          "upstream_size": 462344,
+          "upstream_md5_as_reported": "68a87cfa8897ff1f0460661e8f2c0022"
+        },
+        {
+          "filename": "6busww.xlsx",
+          "url": "https://ndownloader.figshare.com/files/15158036",
+          "upstream_file_id": 15158036,
+          "upstream_size": 255848,
+          "upstream_md5_as_reported": "011e200f5477527d48870b2d6393be8d"
+        },
+        {
+          "filename": "14bus.xlsx",
+          "url": "https://ndownloader.figshare.com/files/15158039",
+          "upstream_file_id": 15158039,
+          "upstream_size": 259772,
+          "upstream_md5_as_reported": "fc2df81e2f83c7a9577126cf8cc47cba"
+        },
+        {
+          "filename": "15bus.xlsx",
+          "url": "https://ndownloader.figshare.com/files/15158042",
+          "upstream_file_id": 15158042,
+          "upstream_size": 263693,
+          "upstream_md5_as_reported": "9c24259865916b9c987a1c8bbeac8c02"
+        },
+        {
+          "filename": "21bus.xlsx",
+          "url": "https://ndownloader.figshare.com/files/15158045",
+          "upstream_file_id": 15158045,
+          "upstream_size": 241801,
+          "upstream_md5_as_reported": "2a4c6e14755f6d7ff59090ce46a339e0"
+        },
+        {
+          "filename": "24bus.xlsx",
+          "url": "https://ndownloader.figshare.com/files/15158084",
+          "upstream_file_id": 15158084,
+          "upstream_size": 244286,
+          "upstream_md5_as_reported": "51686e6053700b30ec9dc0ea6e15436b"
+        }
+      ]
+    }
+  ]
+}
