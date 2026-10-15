@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/djxxju/UC_datas_codex",
+  "branch": "main",
+  "date": "2026-10-15",
+  "data_commit": "a0d16eef002af841a214204eb53a4d5ccb6de801",
+  "data_tree": "2d9b80513a5330cc7f7bc946d3bbf620c7916296",
+  "verified_data_snapshot_files": 81,
+  "original_pglib_files": 63,
+  "pglib_instances": 56,
+  "upstream_commit": "39a7f38cf4703de92f0291f0c873c2e98c789301",
+  "remote_git_blob_comparison": "passed",
+  "ucjl_index_entries": 173,
+  "copt_uc_solve_status": "not_run",
+  "note": "This receipt identifies the verified data commit. Closing progress/log records are committed after that snapshot."
+}
