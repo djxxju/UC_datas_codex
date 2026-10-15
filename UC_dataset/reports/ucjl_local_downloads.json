@@ -1,0 +1,58 @@
+{
+  "checked_at_utc": "2026-10-15T09:48:57.603929+00:00",
+  "files": [
+    {
+      "name": "or-lib/10_0_1_w",
+      "url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/10_0_1_w.json.gz",
+      "status": "downloaded_and_json_parsed",
+      "bytes": 2419,
+      "sha256": "6ef95ef5a1966914306da848f2ffa4bd835c49d520e30b1dcbcfa948eee85cbe",
+      "parameters": {
+        "Time (h)": 24,
+        "Version": "0.3"
+      },
+      "redistribution_status": "not_cleared",
+      "solve_status": "not_run"
+    },
+    {
+      "name": "or-lib/20_0_1_w",
+      "url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/20_0_1_w.json.gz",
+      "status": "downloaded_and_json_parsed",
+      "bytes": 3350,
+      "sha256": "6a567e0c8ebe5b2420d940f7526f343850fd45c6400e09ef1247cb450a6551be",
+      "parameters": {
+        "Time (h)": 24,
+        "Version": "0.3"
+      },
+      "redistribution_status": "not_cleared",
+      "solve_status": "not_run"
+    },
+    {
+      "name": "tejada19/UC_24h_214g",
+      "url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_214g.json.gz",
+      "status": "downloaded_and_json_parsed",
+      "bytes": 20700,
+      "sha256": "05de26ee47c585d19dfcbf560db954de6cd7a62aa4d77dd842e3306e6096144a",
+      "parameters": {
+        "Time (h)": 24,
+        "Version": "0.3"
+      },
+      "redistribution_status": "not_cleared",
+      "solve_status": "not_run"
+    },
+    {
+      "name": "matpower/case118/2017-01-01",
+      "url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case118/2017-01-01.json.gz",
+      "status": "downloaded_and_json_parsed",
+      "bytes": 27400,
+      "sha256": "3837610f1af2d224bd572af380a9370e01ebe8091040c2bc7cc36aea533cf88b",
+      "parameters": {
+        "Version": "0.3",
+        "Power balance penalty ($/MW)": 1000.0,
+        "Time horizon (h)": 36
+      },
+      "redistribution_status": "not_cleared",
+      "solve_status": "not_run"
+    }
+  ]
+}

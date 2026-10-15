@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+UC_dataset/.cache/
+UC_dataset/raw/unitcommitment_jl_0.4/
+UC_dataset/raw/rts_gmlc/
+UC_dataset/sources/download_attempt.json
+UC_dataset/reports/copt_environment.json
+*.lic
+*.key
+*.pem

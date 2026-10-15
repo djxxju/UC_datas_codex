@@ -1,0 +1,2523 @@
+{
+  "documentation_url": "https://github.com/ANL-CEEESA/UnitCommitment.jl/blob/e4cc95dae16d9b8bccbfcd95ccf754b307d66c4a/docs/src/guides/instances.md",
+  "code_version": "v0.4.2",
+  "code_commit": "e4cc95dae16d9b8bccbfcd95ccf754b307d66c4a",
+  "server_version": "0.4",
+  "checked_date": "2026-10-15",
+  "note": "Names explicitly listed in official documentation. MATPOWER rows are one daily example of 365 advertised daily variations. Numeric columns differ: OR-LIB and Tejada include hours; MATPOWER and PGLIB omit hours. These are upstream-available entries, not locally solved or all downloaded.",
+  "instances": [
+    {
+      "name": "matpower/case14/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case14/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "14",
+        "5",
+        "20",
+        "19"
+      ],
+      "references": "[MTPWR, PSTCA]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case30/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case30/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "30",
+        "6",
+        "41",
+        "38"
+      ],
+      "references": "[MTPWR, PSTCA]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case57/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case57/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "57",
+        "7",
+        "80",
+        "79"
+      ],
+      "references": "[MTPWR, PSTCA]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case118/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case118/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "118",
+        "54",
+        "186",
+        "177"
+      ],
+      "references": "[MTPWR, PSTCA]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case300/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case300/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "300",
+        "69",
+        "411",
+        "320"
+      ],
+      "references": "[MTPWR, PSTCA]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case2383wp/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case2383wp/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "2383",
+        "323",
+        "2896",
+        "2240"
+      ],
+      "references": "[MTPWR]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case2736sp/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case2736sp/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "2736",
+        "289",
+        "3504",
+        "3159"
+      ],
+      "references": "[MTPWR]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case2737sop/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case2737sop/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "2737",
+        "267",
+        "3506",
+        "3161"
+      ],
+      "references": "[MTPWR]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case2746wop/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case2746wop/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "2746",
+        "443",
+        "3514",
+        "3155"
+      ],
+      "references": "[MTPWR]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case2746wp/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case2746wp/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "2746",
+        "457",
+        "3514",
+        "3156"
+      ],
+      "references": "[MTPWR]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case3012wp/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case3012wp/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "3012",
+        "496",
+        "3572",
+        "2854"
+      ],
+      "references": "[MTPWR]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case3120sp/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case3120sp/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "3120",
+        "483",
+        "3693",
+        "2950"
+      ],
+      "references": "[MTPWR]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case3375wp/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case3375wp/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "3374",
+        "590",
+        "4161",
+        "3245"
+      ],
+      "references": "[MTPWR]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case89pegase/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case89pegase/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "89",
+        "12",
+        "210",
+        "192"
+      ],
+      "references": "[JoFlMa16, FlPaCa13, MTPWR]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case1354pegase/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case1354pegase/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "1354",
+        "260",
+        "1991",
+        "1288"
+      ],
+      "references": "[JoFlMa16, FlPaCa13, MTPWR]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case2869pegase/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case2869pegase/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "2869",
+        "510",
+        "4582",
+        "3579"
+      ],
+      "references": "[JoFlMa16, FlPaCa13, MTPWR]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case9241pegase/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case9241pegase/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "9241",
+        "1445",
+        "16049",
+        "13932"
+      ],
+      "references": "[JoFlMa16, FlPaCa13, MTPWR]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case13659pegase/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case13659pegase/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "13659",
+        "4092",
+        "20467",
+        "13932"
+      ],
+      "references": "[JoFlMa16, FlPaCa13, MTPWR]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case1888rte/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case1888rte/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "1888",
+        "296",
+        "2531",
+        "1484"
+      ],
+      "references": "[MTPWR, JoFlMa16]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case1951rte/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case1951rte/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "1951",
+        "390",
+        "2596",
+        "1497"
+      ],
+      "references": "[MTPWR, JoFlMa16]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case2848rte/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case2848rte/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "2848",
+        "544",
+        "3776",
+        "2242"
+      ],
+      "references": "[MTPWR, JoFlMa16]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case2868rte/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case2868rte/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "2868",
+        "596",
+        "3808",
+        "2260"
+      ],
+      "references": "[MTPWR, JoFlMa16]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case6468rte/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case6468rte/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "6468",
+        "1262",
+        "9000",
+        "6094"
+      ],
+      "references": "[MTPWR, JoFlMa16]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case6470rte/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case6470rte/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "6470",
+        "1306",
+        "9005",
+        "6085"
+      ],
+      "references": "[MTPWR, JoFlMa16]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case6495rte/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case6495rte/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "6495",
+        "1352",
+        "9019",
+        "6060"
+      ],
+      "references": "[MTPWR, JoFlMa16]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "matpower/case6515rte/2017-01-01",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/matpower/case6515rte/2017-01-01.json.gz",
+      "source_family": "matpower",
+      "listed_numeric_columns": [
+        "6515",
+        "1368",
+        "9037",
+        "6063"
+      ],
+      "references": "[MTPWR, JoFlMa16]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ca/2014-09-01_reserves_0",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ca/2014-09-01_reserves_0.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "610",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ca/2014-09-01_reserves_1",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ca/2014-09-01_reserves_1.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "610",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ca/2014-09-01_reserves_3",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ca/2014-09-01_reserves_3.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "610",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ca/2014-09-01_reserves_5",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ca/2014-09-01_reserves_5.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "610",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ca/2014-12-01_reserves_0",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ca/2014-12-01_reserves_0.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "610",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ca/2014-12-01_reserves_1",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ca/2014-12-01_reserves_1.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "610",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ca/2014-12-01_reserves_3",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ca/2014-12-01_reserves_3.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "610",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ca/2014-12-01_reserves_5",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ca/2014-12-01_reserves_5.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "610",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ca/2015-03-01_reserves_0",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ca/2015-03-01_reserves_0.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "610",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ca/2015-03-01_reserves_1",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ca/2015-03-01_reserves_1.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "610",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ca/2015-03-01_reserves_3",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ca/2015-03-01_reserves_3.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "610",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ca/2015-03-01_reserves_5",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ca/2015-03-01_reserves_5.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "610",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ca/2015-06-01_reserves_0",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ca/2015-06-01_reserves_0.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "610",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ca/2015-06-01_reserves_1",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ca/2015-06-01_reserves_1.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "610",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ca/2015-06-01_reserves_3",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ca/2015-06-01_reserves_3.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "610",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ca/2015-06-01_reserves_5",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ca/2015-06-01_reserves_5.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "610",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ca/Scenario400_reserves_0",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ca/Scenario400_reserves_0.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "611",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ca/Scenario400_reserves_1",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ca/Scenario400_reserves_1.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "611",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ca/Scenario400_reserves_3",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ca/Scenario400_reserves_3.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "611",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ca/Scenario400_reserves_5",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ca/Scenario400_reserves_5.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "611",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-01-01_hw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-01-01_hw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "935",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-01-01_lw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-01-01_lw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "935",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-02-01_hw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-02-01_hw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "935",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-02-01_lw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-02-01_lw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "935",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-03-01_hw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-03-01_hw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "935",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-03-01_lw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-03-01_lw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "935",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-04-01_hw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-04-01_hw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "979",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-04-01_lw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-04-01_lw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "979",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-05-01_hw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-05-01_hw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "979",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-05-01_lw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-05-01_lw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "979",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-06-01_hw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-06-01_hw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "979",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-06-01_lw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-06-01_lw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "979",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-07-01_hw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-07-01_hw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "979",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-07-01_lw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-07-01_lw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "979",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-08-01_hw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-08-01_hw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "979",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-08-01_lw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-08-01_lw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "979",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-09-01_hw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-09-01_hw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "979",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-09-01_lw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-09-01_lw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "979",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-10-01_hw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-10-01_hw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "935",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-10-01_lw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-10-01_lw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "935",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-11-02_hw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-11-02_hw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "935",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-11-02_lw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-11-02_lw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "935",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-12-01_hw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-12-01_hw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "935",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/ferc/2015-12-01_lw",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/ferc/2015-12-01_lw.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "935",
+        "0",
+        "0"
+      ],
+      "references": "[KnOsWa20, KrHiOn12]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/rts_gmlc/2020-01-27",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/rts_gmlc/2020-01-27.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "154",
+        "0",
+        "0"
+      ],
+      "references": "[BaBlEh19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/rts_gmlc/2020-02-09",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/rts_gmlc/2020-02-09.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "154",
+        "0",
+        "0"
+      ],
+      "references": "[BaBlEh19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/rts_gmlc/2020-03-05",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/rts_gmlc/2020-03-05.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "154",
+        "0",
+        "0"
+      ],
+      "references": "[BaBlEh19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/rts_gmlc/2020-04-03",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/rts_gmlc/2020-04-03.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "154",
+        "0",
+        "0"
+      ],
+      "references": "[BaBlEh19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/rts_gmlc/2020-05-05",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/rts_gmlc/2020-05-05.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "154",
+        "0",
+        "0"
+      ],
+      "references": "[BaBlEh19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/rts_gmlc/2020-06-09",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/rts_gmlc/2020-06-09.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "154",
+        "0",
+        "0"
+      ],
+      "references": "[BaBlEh19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/rts_gmlc/2020-07-06",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/rts_gmlc/2020-07-06.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "154",
+        "0",
+        "0"
+      ],
+      "references": "[BaBlEh19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/rts_gmlc/2020-08-12",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/rts_gmlc/2020-08-12.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "154",
+        "0",
+        "0"
+      ],
+      "references": "[BaBlEh19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/rts_gmlc/2020-09-20",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/rts_gmlc/2020-09-20.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "154",
+        "0",
+        "0"
+      ],
+      "references": "[BaBlEh19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/rts_gmlc/2020-10-27",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/rts_gmlc/2020-10-27.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "154",
+        "0",
+        "0"
+      ],
+      "references": "[BaBlEh19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/rts_gmlc/2020-11-25",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/rts_gmlc/2020-11-25.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "154",
+        "0",
+        "0"
+      ],
+      "references": "[BaBlEh19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "pglib-uc/rts_gmlc/2020-12-23",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/pglib-uc/rts_gmlc/2020-12-23.json.gz",
+      "source_family": "pglib-uc",
+      "listed_numeric_columns": [
+        "1",
+        "154",
+        "0",
+        "0"
+      ],
+      "references": "[BaBlEh19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/10_0_1_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/10_0_1_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "10",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/10_0_2_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/10_0_2_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "10",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/10_0_3_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/10_0_3_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "10",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/10_0_4_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/10_0_4_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "10",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/10_0_5_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/10_0_5_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "10",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/20_0_1_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/20_0_1_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "20",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/20_0_2_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/20_0_2_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "20",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/20_0_3_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/20_0_3_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "20",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/20_0_4_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/20_0_4_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "20",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/20_0_5_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/20_0_5_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "20",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/50_0_1_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/50_0_1_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "50",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/50_0_2_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/50_0_2_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "50",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/50_0_3_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/50_0_3_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "50",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/50_0_4_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/50_0_4_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "50",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/50_0_5_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/50_0_5_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "50",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/75_0_1_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/75_0_1_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "75",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/75_0_2_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/75_0_2_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "75",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/75_0_3_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/75_0_3_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "75",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/75_0_4_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/75_0_4_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "75",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/75_0_5_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/75_0_5_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "75",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/100_0_1_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/100_0_1_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "100",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/100_0_2_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/100_0_2_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "100",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/100_0_3_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/100_0_3_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "100",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/100_0_4_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/100_0_4_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "100",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/100_0_5_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/100_0_5_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "100",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/150_0_1_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/150_0_1_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "150",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/150_0_2_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/150_0_2_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "150",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/150_0_3_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/150_0_3_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "150",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/150_0_4_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/150_0_4_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "150",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/150_0_5_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/150_0_5_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "150",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/200_0_10_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/200_0_10_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "200",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/200_0_11_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/200_0_11_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "200",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/200_0_12_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/200_0_12_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "200",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/200_0_1_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/200_0_1_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "200",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/200_0_2_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/200_0_2_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "200",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/200_0_3_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/200_0_3_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "200",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/200_0_4_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/200_0_4_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "200",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/200_0_5_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/200_0_5_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "200",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/200_0_6_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/200_0_6_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "200",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/200_0_7_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/200_0_7_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "200",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/200_0_8_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/200_0_8_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "200",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "or-lib/200_0_9_w",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/200_0_9_w.json.gz",
+      "source_family": "or-lib",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "200",
+        "0",
+        "0"
+      ],
+      "references": "[ORLIB, FrGe06]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_214g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_214g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "214",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_250g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_250g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "250",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_290g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_290g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "290",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_480g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_480g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "480",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_505g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_505g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "505",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_623g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_623g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "623",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_647g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_647g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "647",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_836g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_836g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "836",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_850g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_850g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "850",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_918g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_918g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "918",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_931g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_931g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "931",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_940g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_940g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "940",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_957g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_957g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "957",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_959g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_959g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "959",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_1069g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_1069g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "1069",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_1130g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_1130g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "1130",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_1376g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_1376g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "1376",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_1393g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_1393g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "1393",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_1577g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_1577g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "1577",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_1615g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_1615g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "1615",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_1632g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_1632g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "1632",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_1768g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_1768g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "1768",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_1804g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_1804g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "1804",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_1820g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_1820g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "1820",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_1823g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_1823g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "1823",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_24h_1888g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_24h_1888g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "24",
+        "1",
+        "1888",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_36g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_36g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "36",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_38g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_38g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "38",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_40g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_40g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "40",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_53g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_53g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "53",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_58g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_58g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "58",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_59g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_59g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "59",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_72g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_72g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "72",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_84g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_84g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "84",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_86g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_86g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "86",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_88g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_88g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "88",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_93g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_93g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "93",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_105g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_105g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "105",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_110g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_110g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "110",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_125g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_125g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "125",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_130g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_130g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "130",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_131g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_131g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "131",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_140g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_140g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "140",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_165g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_165g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "165",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_175g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_175g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "175",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_179g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_179g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "179",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_188g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_188g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "188",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_192g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_192g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "192",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    },
+    {
+      "name": "tejada19/UC_168h_199g",
+      "official_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/tejada19/UC_168h_199g.json.gz",
+      "source_family": "tejada19",
+      "listed_numeric_columns": [
+        "168",
+        "1",
+        "199",
+        "0",
+        "0"
+      ],
+      "references": "[TeLuSa19]",
+      "download_status": "not_collected_by_this_catalog",
+      "redistribution_status": "not_cleared"
+    }
+  ]
+}

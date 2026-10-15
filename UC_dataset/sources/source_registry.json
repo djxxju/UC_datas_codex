@@ -1,0 +1,47 @@
+{
+  "updated_date": "2026-10-15",
+  "primary_local_solver": "COPT",
+  "sources": [
+    {
+      "source_id": "pglib_uc",
+      "official_repository": "https://github.com/power-grid-lib/pglib-uc",
+      "commit": "39a7f38cf4703de92f0291f0c873c2e98c789301",
+      "data_license": "CC-BY-4.0",
+      "software_license": "MIT",
+      "status": "all_56_instances_archived_and_original_bytes_verified",
+      "collected_files": 63,
+      "time_periods": 48,
+      "time_step_hours": 1,
+      "network": false,
+      "manifest": "../reports/pglib_integrity.json",
+      "model": "../raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/MODEL.tex",
+      "solve_status": "not_run",
+      "public_redistribution": "included_with_attribution_and_original_license"
+    },
+    {
+      "source_id": "unitcommitment_jl",
+      "official_repository": "https://github.com/ANL-CEEESA/UnitCommitment.jl",
+      "code_version": "v0.4.2",
+      "code_commit": "e4cc95dae16d9b8bccbfcd95ccf754b307d66c4a",
+      "official_instance_server": "https://axavier.org/UnitCommitment.jl/0.4/instances/",
+      "status": "official_documented_index_and_local_samples",
+      "documented_entries": 173,
+      "documented_families": {"matpower": 26, "pglib-uc": 56, "or-lib": 42, "tejada19": 49},
+      "overlap_note": "The 56 pglib-uc entries are converted versions of the PGLIB collection, not independent systems.",
+      "data_license": null,
+      "license_status": "external_instance_redistribution_not_cleared",
+      "public_redistribution": "index_and_fetch_helper_only",
+      "server_immutability": "versioned_url_but_no_upstream_git_commit_for_data; pin_downloaded_bytes_with_sha256",
+      "local_samples": ["or-lib/10_0_1_w", "or-lib/20_0_1_w", "tejada19/UC_24h_214g", "matpower/case118/2017-01-01"],
+      "solve_status": "not_run"
+    },
+    {
+      "source_id": "rts_gmlc",
+      "official_repository": "https://github.com/GridMod/RTS-GMLC",
+      "previously_pinned_commit": "3ece0d3725c844056132393ee252b3083dd4eab4",
+      "status": "background_source_requires_model_mapping_and_initialization",
+      "public_redistribution": "not_included_in_first_ready_case_package",
+      "note": "Partial earlier raw collection is not a complete directly solvable UC instance."
+    }
+  ]
+}
