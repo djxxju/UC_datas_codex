@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-15",
+  "session": "02",
+  "repository": "https://github.com/djxxju/UC_datas_codex",
+  "branch": "main",
+  "data_commit": "e1cf685275d02065336c95d8bc4ea7ca67b37907",
+  "tree_sha": "17422386b5ba9860feab4c22cf01cc7a58b45aa0",
+  "publication_status": "update_ref_succeeded",
+  "changed_paths": [
+    ".gitignore",
+    "README.md",
+    "THIRD_PARTY_NOTICES.md",
+    "项目计划书.md",
+    "项目进度.md",
+    "工作日志/2026-10-15-02.md",
+    "UC_dataset/官方现成算例库清单.md",
+    "UC_dataset/sources/collect_ucjl.py",
+    "UC_dataset/sources/collect_official_packages.py",
+    "UC_dataset/sources/collect_tejada_author.py",
+    "UC_dataset/sources/official_packages.json",
+    "UC_dataset/sources/source_registry.json",
+    "UC_dataset/sources/ucjl_available_instances.json",
+    "UC_dataset/reports/commalab_source_notes.md",
+    "UC_dataset/reports/rts_official_packages.md",
+    "UC_dataset/reports/tejada_official_packages.md",
+    "UC_dataset/reports/ucjl_collection_20261015T105825566710Z.json",
+    "UC_dataset/reports/official_package_collection_20261015T110033311397Z.json",
+    "UC_dataset/reports/official_package_collection_20261015T110130807812Z.json",
+    "UC_dataset/reports/official_package_collection_20261015T110456827608Z.json",
+    "UC_dataset/reports/official_package_collection_20261015T144015328826Z.json",
+    "UC_dataset/reports/tejada_collection_20261015T110551232577Z.json",
+    "UC_dataset/reports/tejada_collection_20261015T144032865220Z.json",
+    "UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/UC-Instances.zip",
+    "UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/UC-Instances-ResultsSummary.zip",
+    "UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/README.md",
+    "UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/LICENSE",
+    "UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/StarGenLite_SCUC.gms"
+  ],
+  "mirrored_originals": [
+    {
+      "path": "UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/UC-Instances.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a2f0916d0628e66eb7cea5799ff0373f464a1a3"
+    },
+    {
+      "path": "UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/UC-Instances-ResultsSummary.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ce815e2ba77e5b9c313509b066014997ff59731"
+    },
+    {
+      "path": "UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aac30686fb007679148e5053c459a701c115c06a"
+    },
+    {
+      "path": "UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88f1f56e4f809a8d15e52cb761a6b79870b8f4a8"
+    },
+    {
+      "path": "UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/StarGenLite_SCUC.gms",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8febf49d61a9d6d1ff8b24267345c81303afe990"
+    }
+  ],
+  "local_only_collections": {
+    "unitcommitment_jl_selected_files": 117,
+    "commalab_archives": 4,
+    "rts_gmlc_archive_bytes": 84452206,
+    "tejada_full_repository_archive_bytes": 4613427
+  },
+  "scope": "Official original file collection and publication only; no new dataset validation, model conversion, solver execution or benchmark reproduction."
+}

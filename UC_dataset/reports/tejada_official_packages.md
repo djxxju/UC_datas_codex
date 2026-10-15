@@ -36,4 +36,4 @@
 
 ## 本项完成状态
 
-已下载固定提交的官方仓库整包（4,613,427 字节），并从外层仓库 ZIP 原样取出两个数据/结果 ZIP、GAMS 模型、README、LICENSE，保存至 `raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/`。两个内部 ZIP 没有打开，模型没有运行。采集记录见 [回执](tejada_collection_20261015T144032865220Z.json)；本批将五个原件连同许可一起公开。
+已下载固定提交的官方仓库整包（4,613,427 字节），并从外层仓库 ZIP 原样取出两个数据/结果 ZIP、GAMS 模型、README、LICENSE，保存至 `raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/`。两个内部 ZIP 没有打开，模型没有运行。采集记录见 [回执](tejada_collection_20261015T144032865220Z.json)；本批已将五个原件连同许可一起公开。

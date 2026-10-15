@@ -91,7 +91,7 @@
       "commit": "1b417ece7ca61d41fca7302df6a0313f8236d611",
       "doi": "10.1109/TPWRS.2019.2962024",
       "repository_license": "MIT; retain root LICENSE and README",
-      "status": "official_repository_archive_collected_and_five_original_files_prepared_for_publication",
+      "status": "official_repository_archive_collected_and_five_original_files_published",
       "upstream_results_status": "author_published_reference_results_not_reproduced_here",
       "overlap_note": "Same paper family as UC.jl Tejada19; original ZIP and converted instances are not disjoint systems.",
       "source_note": "../reports/tejada_official_packages.md",
@@ -109,5 +109,6 @@
   ],
   "current_priority": "collect_official_ready_made_data_only",
   "current_validation_policy": "deferred_by_user_2026-10-15",
-  "current_solve_policy": "deferred; COPT remains future local solver"
+  "current_solve_policy": "deferred; COPT remains future local solver",
+  "latest_collection_publication_commit": "e1cf685275d02065336c95d8bc4ea7ca67b37907"
 }
