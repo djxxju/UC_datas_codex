@@ -1,3 +1,5 @@
+> 第 04 次工作更新：完整官方归档已发布到 [GitHub Releases](https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-15-batch04)；确认远端副本后已清理本地重复原件。下文原采集过程保留为历史记录，当前存储状态以 [来源登记](../sources/source_registry.json)为准。
+
 # RTS-GMLC 官方成套数据包入口
 
 登记日期：2026-10-15。此次只整理官方发布包、已生成的工具格式和引用，不检查参数、不转换数据、不运行模型或求解器。以下“现成”指上游仓库已提供文件，不代表本机已验证兼容性。

@@ -1,0 +1,496 @@
+{
+  "purpose": "Delete only local duplicates with confirmed GitHub originals; no remote deletion and no UC parameter validation",
+  "files": [
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/CHANGELOG.md",
+      "remote_git_blob_sha": "9ed62151bc55a94de2ddaeedf9b6884dde79e84a",
+      "remote_bytes": 92,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/CHANGELOG.md",
+      "local_sha256": "bcb1a84b6cae1e53b8fdfdee42322de2e29feca7d78164069c0675353f339926"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/LICENSE",
+      "remote_git_blob_sha": "7a08b4873c3ff22b929b261bc20bb8fa97e5b0a5",
+      "remote_bytes": 1308,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/LICENSE",
+      "local_sha256": "b5ececfa64eb67fd5b0e5c135624f0f9004b938d399150e644f9641b659e628c"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/MODEL.pdf",
+      "remote_git_blob_sha": "0e6de6f4d52d04aadf236085d98a66428b096336",
+      "remote_bytes": 165220,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/MODEL.pdf",
+      "local_sha256": "9283ae264e65fd765aab7d4d1144e3f20b9016c58dd24f7fdc51a0fa8900f371"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/MODEL.tex",
+      "remote_git_blob_sha": "54a264774bb06883693170a562a007522cfb8792",
+      "remote_bytes": 9314,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/MODEL.tex",
+      "local_sha256": "e612d71922cf5b19a2f8e7903c8ac6b25a0953e5065c368c94571752f360b6aa"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/README.md",
+      "remote_git_blob_sha": "030a580299a040e612b78e3271d5e3823007691f",
+      "remote_bytes": 4657,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/README.md",
+      "local_sha256": "615188ccf790380c7fa36df0b1a2b8378f9b0ccc31f6c5bcba5a099caa747925"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2014-09-01_reserves_0.json",
+      "remote_git_blob_sha": "07573a6862af2a80b25fc47443a643926885edd9",
+      "remote_bytes": 329326,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2014-09-01_reserves_0.json",
+      "local_sha256": "ec49d9a81f9f39ffd36f3065ab4a3942d28c6bce5356de9b24fbd75e83cd0cde"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2014-09-01_reserves_1.json",
+      "remote_git_blob_sha": "256dd82e0a414a1ac638ec144c8fcf670407426f",
+      "remote_bytes": 329702,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2014-09-01_reserves_1.json",
+      "local_sha256": "ae2c0bbf7be38a34e3167a2bb839c33b0f1b8bcced51a5b4c0f9ef46fd759831"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2014-09-01_reserves_3.json",
+      "remote_git_blob_sha": "8a0c9b080cef89a0bdab6fb808892cd8007b4692",
+      "remote_bytes": 329682,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2014-09-01_reserves_3.json",
+      "local_sha256": "7d3a1f68ae009b9eabf30c604491480ae02715b1029dafa5c0105a3302608bfe"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2014-09-01_reserves_5.json",
+      "remote_git_blob_sha": "d4b12e88c73768f3c1fa50a0a9f6f872ca7a6a4b",
+      "remote_bytes": 329782,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2014-09-01_reserves_5.json",
+      "local_sha256": "347a922ad6e88e4c0782d5ec9da1d6ff29ce38923ce81e5922762521afdec68f"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2014-12-01_reserves_0.json",
+      "remote_git_blob_sha": "e07ed4e48ce57952a2157533fa3656604199c0ba",
+      "remote_bytes": 329330,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2014-12-01_reserves_0.json",
+      "local_sha256": "d0cf1713c2217f60c0f87f88f76d6d9691b2e914f44508569d30802da99ae262"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2014-12-01_reserves_1.json",
+      "remote_git_blob_sha": "6e55c55bc5c71dfbde0e4c7d5b3129454a897190",
+      "remote_bytes": 329786,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2014-12-01_reserves_1.json",
+      "local_sha256": "627ad18a75e1cf7ad95e238d268a4d5d5ebf40d6b668a8c18a35e94925031eac"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2014-12-01_reserves_3.json",
+      "remote_git_blob_sha": "acccd930f9f6695af5c1f104ef67232c43baf237",
+      "remote_bytes": 329696,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2014-12-01_reserves_3.json",
+      "local_sha256": "24ba6b81cd994e421578a441ddc62b19e4d9593bf24dbae0e03fa4f6ed104520"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2014-12-01_reserves_5.json",
+      "remote_git_blob_sha": "863c71656631bc7a8e407d1b51dbfde36723b910",
+      "remote_bytes": 329778,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2014-12-01_reserves_5.json",
+      "local_sha256": "3035a58b824757902558f5d4b16cca9791a3c78ac9a14c8b9bcb95326f64b356"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2015-03-01_reserves_0.json",
+      "remote_git_blob_sha": "b4cf74201ad2902d34f11b4e893f54c830f198f4",
+      "remote_bytes": 329328,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2015-03-01_reserves_0.json",
+      "local_sha256": "70560a0f1288c33c76b59358b81a2adc57ad368ba6b34ec543636bcd0b283a36"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2015-03-01_reserves_1.json",
+      "remote_git_blob_sha": "e9f1f7cf35eaefb60ea55bbeda825db0313d56ee",
+      "remote_bytes": 329806,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2015-03-01_reserves_1.json",
+      "local_sha256": "a5b9075fa3d95aa962180d43d966cfa0ff3e739cc86234d77bd66dd9bef2e86f"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2015-03-01_reserves_3.json",
+      "remote_git_blob_sha": "04c9d33e75c3b5c54777f82fae783428c7dc688f",
+      "remote_bytes": 329762,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2015-03-01_reserves_3.json",
+      "local_sha256": "147a1647d57d361fbb47b92d030ecceea5de4adca5fa956e4338e9f16d19179b"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2015-03-01_reserves_5.json",
+      "remote_git_blob_sha": "e14d3f22da7c82b3b605b6718587bd0c362cedd6",
+      "remote_bytes": 329772,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2015-03-01_reserves_5.json",
+      "local_sha256": "54338e8d69768e4f457a1701adb4eef50120bbb0cc38c3cf730197df87a3afe8"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2015-06-01_reserves_0.json",
+      "remote_git_blob_sha": "185701b7803a3e836bf211a8994eca2618abc2b4",
+      "remote_bytes": 329326,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2015-06-01_reserves_0.json",
+      "local_sha256": "2cede3d360117aed33855fdf5c5dd498f928f87c403bdfcce5054649a04fbf15"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2015-06-01_reserves_1.json",
+      "remote_git_blob_sha": "81efed7505c30eb7ce176d0fc91ab1707efa4168",
+      "remote_bytes": 329680,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2015-06-01_reserves_1.json",
+      "local_sha256": "04cce443710e15bae1b3a9b6546d007b4ee0ab41682ffe98faa46b844a46bd42"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2015-06-01_reserves_3.json",
+      "remote_git_blob_sha": "ea5d3269f11f33a222f7d80ebe8577f0e735cfac",
+      "remote_bytes": 329742,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2015-06-01_reserves_3.json",
+      "local_sha256": "a426baec169748bf815e4792b4f686c970c4aca4231a14a2fdd6adf0b410e356"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2015-06-01_reserves_5.json",
+      "remote_git_blob_sha": "a6b09ead88a7fbd79ff192e68229c28b98fa84a1",
+      "remote_bytes": 329768,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/2015-06-01_reserves_5.json",
+      "local_sha256": "5c24ff632bac9879c39806ad0488ea74237c13b50a590572bcf5da3b437382c0"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/Scenario400_reserves_0.json",
+      "remote_git_blob_sha": "f4b43adf5190ec58d9e2775712e4a3ef7555a458",
+      "remote_bytes": 331126,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/Scenario400_reserves_0.json",
+      "local_sha256": "a4b9eca9fb08404d4cbb4aebad299c308961076454cef1179a6405c34cd3cd98"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/Scenario400_reserves_1.json",
+      "remote_git_blob_sha": "1f903643bc5a9c2d38b54968d5af68a076c3f914",
+      "remote_bytes": 331686,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/Scenario400_reserves_1.json",
+      "local_sha256": "8bbc9cbf7e8dac47ac3f911f86ea5e974263310eb2ef48f64a807ad99da7d35b"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/Scenario400_reserves_3.json",
+      "remote_git_blob_sha": "d9e7e85be3794041b08a7233380ad769ee10cb4e",
+      "remote_bytes": 331654,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/Scenario400_reserves_3.json",
+      "local_sha256": "fcb93b17637b6407ced17a33e9d6932b2018eafbf7e20659d218cafec2d8b7df"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/Scenario400_reserves_5.json",
+      "remote_git_blob_sha": "fb2753dae85ed8291ec60d50c6a05d8beaf0be15",
+      "remote_bytes": 331708,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ca/Scenario400_reserves_5.json",
+      "local_sha256": "a3b4a4be8b694f1aab4f872a384137344b2427145bc08115dafabac028a7c6b0"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-01-01_hw.json",
+      "remote_git_blob_sha": "f5b6ab084d32e664f280194a31ee79cc9d4d90df",
+      "remote_bytes": 511638,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-01-01_hw.json",
+      "local_sha256": "484a576bfdc08b54aae151716218b9ccc73bda0dfe70e04da76db51432d7008b"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-01-01_lw.json",
+      "remote_git_blob_sha": "39b3ee21fd69a1935170c6106a231976f9ca6974",
+      "remote_bytes": 511606,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-01-01_lw.json",
+      "local_sha256": "f1a14f5deefc229bcfbb8134b8159277971cde7e4da13ff64fbd728ea2df6622"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-02-01_hw.json",
+      "remote_git_blob_sha": "24aa09740e838c3d11ace9cd4eaa0ee052f81d58",
+      "remote_bytes": 511656,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-02-01_hw.json",
+      "local_sha256": "2821fd117bfbbd91b3d4e1f2f83504ac0d02b2513fc98d53bc6d1d15db4412d4"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-02-01_lw.json",
+      "remote_git_blob_sha": "ad4b4907f3cd076cb4deb81f657a94553be0c02d",
+      "remote_bytes": 511631,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-02-01_lw.json",
+      "local_sha256": "e8f095c38ec3c1e439be0b02bb002735fcfca96048dd2a2b8d1cb1d2bf7bf2a9"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-03-01_hw.json",
+      "remote_git_blob_sha": "b3f36632bdaefc2a4020fee75ea86022c2a24f3e",
+      "remote_bytes": 511661,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-03-01_hw.json",
+      "local_sha256": "8de02224d051e643100d1bc77ce8d3030f3df85f9f24eb20010cb700e37bb19d"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-03-01_lw.json",
+      "remote_git_blob_sha": "bd07b33ef8184ece0f672632e053fa8606ad9fb7",
+      "remote_bytes": 511616,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-03-01_lw.json",
+      "local_sha256": "5137e5f932957c7516dfd04e995dbf874be4f93e693b5f8abfd90e65c7e3c100"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-04-01_hw.json",
+      "remote_git_blob_sha": "dc4adfa47c9667e1851d578799a166fe18ed829b",
+      "remote_bytes": 515528,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-04-01_hw.json",
+      "local_sha256": "407eb22d90fea860dd251bcca14b82362dd3cce4f24b675f10e40cf60f81fddc"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-04-01_lw.json",
+      "remote_git_blob_sha": "53829e407746728f8cddbaa30f9c1409c53a43af",
+      "remote_bytes": 515497,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-04-01_lw.json",
+      "local_sha256": "85144cd409d33a432d026d6bb215b2761c98a92032b702cf84595d20872ed431"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-05-01_hw.json",
+      "remote_git_blob_sha": "20c8b16b233330012875c48e4b388ff3e1ee156d",
+      "remote_bytes": 515497,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-05-01_hw.json",
+      "local_sha256": "f2f06748d62a2571b607279b77dfb5f142ebf4829b663226da31392fc8d1ffbd"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-05-01_lw.json",
+      "remote_git_blob_sha": "0b92e80aa71116a7db41269f3c8eaf2fe151459f",
+      "remote_bytes": 515453,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-05-01_lw.json",
+      "local_sha256": "2026f2e2a7a0e13b205d8b8bea10b3032cb0587734b53119fb86ea152b870bc4"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-06-01_hw.json",
+      "remote_git_blob_sha": "14b17e3748c02f5edc58e38e457997ef704230eb",
+      "remote_bytes": 515493,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-06-01_hw.json",
+      "local_sha256": "4f2ae32ab11857fcd0f6b157bc66592f0c018df1ee4cee2f61830c80e06bf5a5"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-06-01_lw.json",
+      "remote_git_blob_sha": "49d381d306304a527f06f53eab69597f7be92a6b",
+      "remote_bytes": 515455,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-06-01_lw.json",
+      "local_sha256": "7b3bd92d863c9efcbfa90a9cb8bfb2aeaf99495fc738d0e75906de7689d3bd1d"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-07-01_hw.json",
+      "remote_git_blob_sha": "99372800a009910529a0f87b1c5933636afc8ad5",
+      "remote_bytes": 515527,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-07-01_hw.json",
+      "local_sha256": "e3c27db397ae719177bab6a9a5d12e6667f695871ff8b495199fe6388e8bea5e"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-07-01_lw.json",
+      "remote_git_blob_sha": "c791a7b0b437e299b7af7dff4166d52288483a69",
+      "remote_bytes": 515478,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-07-01_lw.json",
+      "local_sha256": "776b8c0225ebaffcdf21ef259a3a4f100f4b8c5976920459a236a7905c08b47f"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-08-01_hw.json",
+      "remote_git_blob_sha": "57e8ddecf9039c5ff74ab5d81d2220f3d4da1104",
+      "remote_bytes": 515553,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-08-01_hw.json",
+      "local_sha256": "a895b08802ffaf9bf312bc4e59a7cadc185daae1e059f62bbe14306ff6a4df2b"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-08-01_lw.json",
+      "remote_git_blob_sha": "bbfaf7d6ec5396097635baa4ebf2461b2f04f55f",
+      "remote_bytes": 515523,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-08-01_lw.json",
+      "local_sha256": "ea010e23d34ca25292b6aea25f9d55abdeb723e929055ed5fcdc50c940bcbd1e"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-09-01_hw.json",
+      "remote_git_blob_sha": "5323364159d4c41924cbc26eb228e4ca294c0da9",
+      "remote_bytes": 515593,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-09-01_hw.json",
+      "local_sha256": "21a873e00f0ca87738f04dbd43a9ef43e2006b1d7fc70be9ab47ed49a9d4847f"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-09-01_lw.json",
+      "remote_git_blob_sha": "4d6dd8929eac366c7a2e8f7ae23e06ceef14b8e2",
+      "remote_bytes": 515543,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-09-01_lw.json",
+      "local_sha256": "6bb7f06a03f55e0c87bc5c609588f9fc0cb574792f680b6cce3271f79df3697d"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-10-01_hw.json",
+      "remote_git_blob_sha": "6ec802eb8e667c834a8eb9f61e6244e2a30d7e8b",
+      "remote_bytes": 511630,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-10-01_hw.json",
+      "local_sha256": "299e519edffddafb50aefdadb5fff034192871fd9ca8dc0f97dcf6931081c72d"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-10-01_lw.json",
+      "remote_git_blob_sha": "8f3ce0bd12bef79f40860a3136bacd9ad8d2f9aa",
+      "remote_bytes": 511607,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-10-01_lw.json",
+      "local_sha256": "4dee628a26970a5f003d2c7e0c029faa03624b9c3906c59fd9913ec3bbd55346"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-11-02_hw.json",
+      "remote_git_blob_sha": "0c001a407d8b3bfae320c3a961a50cde46c5b100",
+      "remote_bytes": 511630,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-11-02_hw.json",
+      "local_sha256": "fef94a9e0e5534b2c08b2dd8c09f6355464aa11e698f6c52b827bcffca6463cc"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-11-02_lw.json",
+      "remote_git_blob_sha": "5a0a0bba079253640ec5865df3f35547862e2d4b",
+      "remote_bytes": 511598,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-11-02_lw.json",
+      "local_sha256": "5f37b8a4254927338866da26724ee707c055fade57ef9dbb202cfd16cea43dc4"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-12-01_hw.json",
+      "remote_git_blob_sha": "e06e896c71e745ab367be70f432c1b074929318d",
+      "remote_bytes": 511649,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-12-01_hw.json",
+      "local_sha256": "4c7757cd7179d4677d3818243afb23ae5b24650de8f05816458f7e1729dc8466"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-12-01_lw.json",
+      "remote_git_blob_sha": "5aac603ff762e9ecd0dee3ec16b6f183a67231f7",
+      "remote_bytes": 511629,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/ferc/2015-12-01_lw.json",
+      "local_sha256": "cbc09a09155c353e57670d98c262fb4622593bba52dbe758c2691fc1a97bbc58"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-01-27.json",
+      "remote_git_blob_sha": "0a7accf0397d543194e655800421ab9e50435410",
+      "remote_bytes": 90531,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-01-27.json",
+      "local_sha256": "c6d81435e84898b71d0253aed0fb87449b957129f441d45b776d041e3eba9058"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-02-09.json",
+      "remote_git_blob_sha": "4a71dfe55b47a02c779260e5d4cad80e4dd3d46d",
+      "remote_bytes": 90593,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-02-09.json",
+      "local_sha256": "3fcc4566b1054f7a87ecfbb6185c0257d34c2c6edd372b555651ae584564e827"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-03-05.json",
+      "remote_git_blob_sha": "0927d65de3a128abe23ea774ad8152af4dab5fea",
+      "remote_bytes": 89807,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-03-05.json",
+      "local_sha256": "0f89bf93327b5f90bb7381c1e7ae08614b60def2390e2e8940f40b9cf825045f"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-04-03.json",
+      "remote_git_blob_sha": "e66ce7e38a3f1d61d8076586aebf8e8faaed5381",
+      "remote_bytes": 90467,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-04-03.json",
+      "local_sha256": "249acdfc375f3aa98fa0eac891081f157946fe70f0d7c783ea172aa2b57b32f6"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-05-05.json",
+      "remote_git_blob_sha": "cd48a7db4034139294142f36b677e54fb50f363a",
+      "remote_bytes": 90934,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-05-05.json",
+      "local_sha256": "415afbe0fd60db75acc2213b60de7bea430321a849e3341bf1c60a0b9667e75b"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-06-09.json",
+      "remote_git_blob_sha": "f944ad3de377b6707d664a450769ba5672b98253",
+      "remote_bytes": 90682,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-06-09.json",
+      "local_sha256": "3fe5eadeb2e70471fb3441361516f8a817dce629fe822478b588fc223b6ac056"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-07-06.json",
+      "remote_git_blob_sha": "33f15d4ebcd64f1dbf078f8db3c372ea555a60b4",
+      "remote_bytes": 90806,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-07-06.json",
+      "local_sha256": "97a9a4d8ae7e80f6251e47550a60565bb99f0253df4a76bd58b96ede17d1cec8"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-08-12.json",
+      "remote_git_blob_sha": "7db7380ea9a1f2b7dec93415952ea25b096f2dc2",
+      "remote_bytes": 90417,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-08-12.json",
+      "local_sha256": "b283dd341922068fc7b2ca3bf03f1458755441d3b5d19213f7b7554e7342f177"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-09-20.json",
+      "remote_git_blob_sha": "d9a7f764eca9ad20f0c8dafb02f0267bf25b4530",
+      "remote_bytes": 90588,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-09-20.json",
+      "local_sha256": "4c3317cf5c9a250c3f3bda8add5b069066ade8ed11ce83aed0017bad938572f9"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-10-27.json",
+      "remote_git_blob_sha": "144e95413066cf673dabf0f2ca463743824e318e",
+      "remote_bytes": 90355,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-10-27.json",
+      "local_sha256": "77a45c4ff95c4266a7feab1d1180bb096e727900a9181330daf5af85b0c5837f"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-11-25.json",
+      "remote_git_blob_sha": "957321b6a889b540c1601c1934108762c92db208",
+      "remote_bytes": 90564,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-11-25.json",
+      "local_sha256": "2285b24bc1a33c00b3d0220aad6eb835695a42070871760eb40fe163b47037db"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-12-23.json",
+      "remote_git_blob_sha": "fab008a8f9fe7d7b56b364782e4351d54d617d32",
+      "remote_bytes": 90243,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/rts_gmlc/2020-12-23.json",
+      "local_sha256": "e84b968c3ecdc92f6a1cd54013ec4309d11e45afb9720e5a3dedfa7170da7a72"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/uc_model.jl",
+      "remote_git_blob_sha": "27638ad12d26aee1b8942325ec16da196357d989",
+      "remote_bytes": 5464,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/uc_model.jl",
+      "local_sha256": "d8a393b7eabbee8f09534a1e7d62b00659c9e3a01b540df2768e1d13ec6cfeda"
+    },
+    {
+      "relative_path": "UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/uc_model.py",
+      "remote_git_blob_sha": "f82fe5504445d634dadbfdc11f14bdcd2775ea2d",
+      "remote_bytes": 9650,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/pglib_uc/39a7f38cf4703de92f0291f0c873c2e98c789301/uc_model.py",
+      "local_sha256": "ca340c71fe78627c3fab2a2f356b4b2ec3a650c8e9883d6ef645aa2ea1b534ea"
+    },
+    {
+      "relative_path": "UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/LICENSE",
+      "remote_git_blob_sha": "88f1f56e4f809a8d15e52cb761a6b79870b8f4a8",
+      "remote_bytes": 1086,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/LICENSE",
+      "local_sha256": "4c64953e7738fc4f1f439069238cbf30b47d8aa0ec2a5dc9386673e53eab7161"
+    },
+    {
+      "relative_path": "UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/README.md",
+      "remote_git_blob_sha": "aac30686fb007679148e5053c459a701c115c06a",
+      "remote_bytes": 452,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/README.md",
+      "local_sha256": "b5ced9677d93748a96d0887a23f294a537d07aa86a6930edf735f0c612aff90a"
+    },
+    {
+      "relative_path": "UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/StarGenLite_SCUC.gms",
+      "remote_git_blob_sha": "8febf49d61a9d6d1ff8b24267345c81303afe990",
+      "remote_bytes": 44815,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/StarGenLite_SCUC.gms",
+      "local_sha256": "01c71c40a922e68eda727dfeafdeaf20af7166a2ad5902d68a75080bb4b936e2"
+    },
+    {
+      "relative_path": "UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/UC-Instances-ResultsSummary.zip",
+      "remote_git_blob_sha": "3ce815e2ba77e5b9c313509b066014997ff59731",
+      "remote_bytes": 1899047,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/UC-Instances-ResultsSummary.zip",
+      "local_sha256": "00eb62feb959777395454df75f3bc2e3f732f784779c94d0db4bbf0b36ca143b"
+    },
+    {
+      "relative_path": "UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/UC-Instances.zip",
+      "remote_git_blob_sha": "7a2f0916d0628e66eb7cea5799ff0373f464a1a3",
+      "remote_bytes": 1069070,
+      "restore_url": "https://raw.githubusercontent.com/djxxju/UC_datas_codex/f451177ea96f4eff856789163ecbb1a0ac21de46/UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/UC-Instances.zip",
+      "local_sha256": "92a6752ea328689bd7d0e5d644b034e5e0e920867830a641ff55597258f5a36b"
+    },
+    {
+      "relative_path": "UC_dataset/raw/official_packages/rts_gmlc/RTS-GMLC-3ece0d3725c844056132393ee252b3083dd4eab4.zip",
+      "remote_sha256": "eb1086cc0f12f92c1a5de3f431784b324eb5bfdfdb8d8223f4c6e301bd15673e",
+      "remote_bytes": 84452206,
+      "restore_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-15-batch04/RTS-GMLC-v0.2.3.zip",
+      "local_sha256": "eb1086cc0f12f92c1a5de3f431784b324eb5bfdfdb8d8223f4c6e301bd15673e"
+    },
+    {
+      "relative_path": "UC_dataset/raw/official_packages/tejada/UC-data-1b417ece7ca61d41fca7302df6a0313f8236d611.zip",
+      "remote_sha256": "546948401861b3f340ac8bd9ff03eb7a9f256acac7885321c905de6f72f1e469",
+      "remote_bytes": 4613427,
+      "restore_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-15-batch04/Tejada-UC-data-1b417ece.zip",
+      "local_sha256": "546948401861b3f340ac8bd9ff03eb7a9f256acac7885321c905de6f72f1e469"
+    }
+  ],
+  "skipped": []
+}

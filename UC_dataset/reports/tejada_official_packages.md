@@ -1,3 +1,5 @@
+> 第 04 次工作更新：完整官方归档已发布到 [GitHub Releases](https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-15-batch04)；确认远端副本后已清理本地重复原件。下文原采集过程保留为历史记录，当前存储状态以 [来源登记](../sources/source_registry.json)为准。
+
 # Tejada 作者发布的现成 UC 数据包
 
 登记日期：2026-10-15。本轮收集官方来源与原件；未检查参数、转换模型或求解。

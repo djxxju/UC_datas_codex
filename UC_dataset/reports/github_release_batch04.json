@@ -1,0 +1,57 @@
+{
+  "repository": "djxxju/UC_datas_codex",
+  "release_tag": "official-data-2026-10-15-batch04",
+  "release_url": "https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-15-batch04",
+  "release_id": 413959969,
+  "published_at": "2026-10-15T15:15:46Z",
+  "run_id": 38758636950,
+  "run_url": "https://github.com/djxxju/UC_datas_codex/actions/runs/38758636950",
+  "run_conclusion": "success",
+  "collection_location": "GitHub-hosted runner",
+  "data_validation": "not_run",
+  "solve_status": "not_run",
+  "assets": [
+    {
+      "name": "ATTRIBUTION.md",
+      "bytes": 3184,
+      "digest": "sha256:1c2000bb909fecbc6007659034df5d2377313b5fb2fcacd0b41ba1eef7b6411e",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-15-batch04/ATTRIBUTION.md"
+    },
+    {
+      "name": "collection_receipt.json",
+      "bytes": 14775,
+      "digest": "sha256:5c9475a7efffafdde71c4c4cec57d1489fb2e646ac6e2734998b8d648fb6f4f9",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-15-batch04/collection_receipt.json"
+    },
+    {
+      "name": "Monash-capacity-expansion-UC-v2.zip",
+      "bytes": 1631015,
+      "digest": "sha256:e9309c5713ea53f4d133d248d3d4238619c18cb22db7ccab5be07b7d3fab45d0",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-15-batch04/Monash-capacity-expansion-UC-v2.zip"
+    },
+    {
+      "name": "RTS-GMLC-v0.2.3.zip",
+      "bytes": 84452206,
+      "digest": "sha256:eb1086cc0f12f92c1a5de3f431784b324eb5bfdfdb8d8223f4c6e301bd15673e",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-15-batch04/RTS-GMLC-v0.2.3.zip"
+    },
+    {
+      "name": "source_manifest.json",
+      "bytes": 9158,
+      "digest": "sha256:a52050b91c96b7af262f7d8eb4eceddc94e578606c60bfca8cfcddacf102fa03",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-15-batch04/source_manifest.json"
+    },
+    {
+      "name": "Stochastic-UC-solar-h7cnt32kys-v1.zip",
+      "bytes": 39444519,
+      "digest": "sha256:272709692acea880b538bc62da79c0c168d5ec1ed816ce5dcd2cab9b3551fae8",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-15-batch04/Stochastic-UC-solar-h7cnt32kys-v1.zip"
+    },
+    {
+      "name": "Tejada-UC-data-1b417ece.zip",
+      "bytes": 4613427,
+      "digest": "sha256:546948401861b3f340ac8bd9ff03eb7a9f256acac7885321c905de6f72f1e469",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-15-batch04/Tejada-UC-data-1b417ece.zip"
+    }
+  ]
+}

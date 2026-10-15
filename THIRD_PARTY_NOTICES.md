@@ -30,7 +30,7 @@ When using downloaded data in research, cite UnitCommitment.jl (https://doi.org/
 Upstream: https://github.com/datejada/UC-data  
 Pinned commit: `1b417ece7ca61d41fca7302df6a0313f8236d611`.
 
-Five originals are included under `UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/`: `UC-Instances.zip`, `UC-Instances-ResultsSummary.zip`, `StarGenLite_SCUC.gms`, `README.md`, and `LICENSE`. They were copied from the official repository archive without changing their contents. The two inner ZIPs remain unopened; no case parameters were checked and no model was run.
+Five originals remain included in the GitHub repository under `UC_dataset/raw/tejada_author/1b417ece7ca61d41fca7302df6a0313f8236d611/`: `UC-Instances.zip`, `UC-Instances-ResultsSummary.zip`, `StarGenLite_SCUC.gms`, `README.md`, and `LICENSE`. The complete official repository archive, including the author's workbooks, is also available in Release `official-data-2026-10-15-batch04`. Original contents are unchanged. Local duplicate copies were removed after confirming GitHub copies; the two inner ZIPs remain unopened and no model was run.
 
 The repository root has the standard MIT license, Copyright (c) 2018 Diego Alejandro Tejada Arango. Its complete LICENSE and README accompany the files. Cite D. A. Tejada-Arango, S. Lumbreras, P. Sanchez-Martin and A. Ramos, DOI https://doi.org/10.1109/TPWRS.2019.2962024 . Preserve the original README's citation wording and generator attribution. The results summary is an author-published reference artifact, not a result reproduced by this project.
 
@@ -40,6 +40,18 @@ Official institutional page: https://commalab.di.unipi.it/datasets/uc/ . Four re
 
 ## Other sources
 
-RTS-GMLC: https://github.com/GridMod/RTS-GMLC . It has custom data-use terms in the upstream README, and is not covered by the PGLIB license merely because PGLIB contains RTS-derived cases. The complete official v0.2.3 repository ZIP is now saved locally; this public repository supplies a pinned official download link and collection receipt. The ZIP preserves the upstream notices, source data and prepared tool formats, but does not include external Git submodule contents. Earlier partial raw files remain distinct from this archive. The custom notice permits redistribution subject to preservation and attribution requirements; the large archive is kept off this Git history for size reasons.
+RTS-GMLC: https://github.com/GridMod/RTS-GMLC . It has custom data-use terms in the upstream README, and is not covered by the PGLIB license merely because PGLIB contains RTS-derived cases. The unchanged official v0.2.3 repository ZIP is now mirrored in this repository's Release `official-data-2026-10-15-batch04`; its local duplicate was removed. The ZIP preserves the complete upstream notices, source data and prepared tool formats, but does not include external Git submodule contents. Earlier partial raw files remain distinct from this archive. Preserve the DATA USE DISCLAIMER AGREEMENT and acknowledge DOE/NREL/ALLIANCE, as the notice requires. Cite Barrows et al., DOI 10.1109/TPWRS.2019.2925557. Releases keep large assets outside the Git commit history.
+
+## Stochastic UC data files (new in batch 04)
+
+Doubleday, Kate; Hodge, Bri-Mathias; Lara, Jose Daniel (2022), “Stochastic UC data files”, Mendeley Data, V1, DOI: https://doi.org/10.17632/h7cnt32kys.1 . Official record: https://data.mendeley.com/datasets/h7cnt32kys/1 .
+
+The official dataset states CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ . All seven original JSON/HDF5 files were downloaded on GitHub and repackaged unchanged with SOURCE_NOTICE.md and SOURCE_METADATA.json. This project only adds packaging/provenance; it does not modify values, validate parameters or run models. The upstream filename suffix `validation_descriptors` is not a claim that this project performed validation.
+
+## Monash capacity expansion with UC (new in batch 04)
+
+Semini Wijekoon; Ariel Liebman; Simon Dunstall (2019), “Data Set for Capacity Expansion Planning with Unit Commitment”, Monash University, version 2, DOI: https://doi.org/10.26180/5cdbde51bbb1b . Official version: https://bridges.monash.edu/articles/dataset/Data_Set_for_Capacity_Expansion_Planning_with_Unit_Commitment/8131529/2 .
+
+The official metadata states CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ . All six original XLSX files are included unchanged in the Release ZIP, with added notice and source metadata. This is capacity-expansion data containing UC parameters, not a conversion into this project's schema. No spreadsheet values were edited or analyzed.
 
 This repository does not relicense upstream materials as a single new dataset license.

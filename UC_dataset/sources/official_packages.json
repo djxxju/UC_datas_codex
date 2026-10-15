@@ -76,12 +76,19 @@
       "commit": "3ece0d3725c844056132393ee252b3083dd4eab4",
       "data_license": "Custom DATA USE DISCLAIMER AGREEMENT in root README",
       "redistribution": "permitted_subject_to_upstream_notice",
-      "collection_status": "downloaded_locally",
+      "collection_status": "published_to_github_release_local_duplicate_removed",
       "bytes": 84452206,
       "sha256": "eb1086cc0f12f92c1a5de3f431784b324eb5bfdfdb8d8223f4c6e301bd15673e",
       "collection_receipt": "../reports/official_package_collection_20261015T110456827608Z.json",
       "case_validation": "not_run",
-      "solve_status": "not_run"
+      "solve_status": "not_run",
+      "github_release_asset": {
+        "name": "RTS-GMLC-v0.2.3.zip",
+        "bytes": 84452206,
+        "digest": "sha256:eb1086cc0f12f92c1a5de3f431784b324eb5bfdfdb8d8223f4c6e301bd15673e",
+        "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-15-batch04/RTS-GMLC-v0.2.3.zip"
+      },
+      "local_copy_present": false
     },
     {
       "id": "tejada_author",
@@ -93,12 +100,19 @@
       "commit": "1b417ece7ca61d41fca7302df6a0313f8236d611",
       "data_license": "MIT repository license; preserve LICENSE and citations",
       "redistribution": "included_with_original_notice",
-      "collection_status": "downloaded_locally",
+      "collection_status": "published_to_github_release_local_duplicate_removed",
       "bytes": 4613427,
       "sha256": "546948401861b3f340ac8bd9ff03eb7a9f256acac7885321c905de6f72f1e469",
       "collection_receipt": "../reports/official_package_collection_20261015T144015328826Z.json",
       "case_validation": "not_run",
-      "solve_status": "not_run"
+      "solve_status": "not_run",
+      "github_release_asset": {
+        "name": "Tejada-UC-data-1b417ece.zip",
+        "bytes": 4613427,
+        "digest": "sha256:546948401861b3f340ac8bd9ff03eb7a9f256acac7885321c905de6f72f1e469",
+        "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-15-batch04/Tejada-UC-data-1b417ece.zip"
+      },
+      "local_copy_present": false
     }
   ]
 }
