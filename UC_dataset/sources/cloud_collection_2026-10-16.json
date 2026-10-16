@@ -1,0 +1,62 @@
+{
+  "release_tag": "official-data-2026-10-16-batch05",
+  "prepared_date": "2026-10-16",
+  "collection_only": true,
+  "storage_policy": "Collect original payloads on GitHub-hosted runners; no local original-data download.",
+  "sources": [
+    {
+      "source_id": "hust_hydropower_uc",
+      "title": "Dataset for case studies of hydropower unit commitment",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5996229/",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5996229/fullTextXML",
+      "version": "2018 article supplementary material; Europe PMC snapshot 2026-10-16",
+      "doi": "10.1016/j.dib.2018.03.015",
+      "license": "CC BY 4.0; article and accompanying supplementary material, no separate exclusion found",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "Europe PMC JATS permissions: copyright 2018 The Authors, CC BY 4.0; supplementary-material lists mmc2.xlsx. No separate credit line or restriction is present in that record.",
+      "citation": "Jinwen Wang, Hao Zheng, Yan Li, Teng Ma (2018), Dataset for case studies of hydropower unit commitment, Data in Brief 18, 139-143. DOI: 10.1016/j.dib.2018.03.015. Copyright 2018 The Authors.",
+      "institutional_affiliations": ["Huazhong University of Science and Technology, Wuhan, China"],
+      "model_scope": "Author-described nine hydropower UC cases with 96 quarter-hour periods, water-head/discharge and operating-zone data plus upstream reference results. Not a conventional thermal UC cost benchmark. Workbook contents not parsed by this project.",
+      "packaging": "unchanged_archive",
+      "asset_name": "HUST-hydropower-UC-PMC5996229-supplement.zip",
+      "archive_inventory": true,
+      "required_member_basenames": ["mmc2.xlsx"],
+      "files": [
+        {
+          "filename": "PMC5996229_SupplementaryFiles.zip",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5996229/supplementaryFiles",
+          "expected_content_types": ["application/zip", "application/octet-stream"]
+        }
+      ]
+    },
+    {
+      "source_id": "rpglab_spatiotemporal_scuc",
+      "title": "Spatio-Temporal Deep Learning-Assisted Reduced Security-Constrained Unit Commitment",
+      "source_url": "https://figshare.com/articles/dataset/Spatio-Temporal_Deep_Learning-Assisted_Reduced_Security-Constrained_Unit_Commitment/24116394/2",
+      "metadata_url": "https://api.figshare.com/v2/articles/24116394/versions/2",
+      "author_repository": "https://github.com/rpglab/GNN-LSTM_C-V-R-SCUC",
+      "author_repository_commit_observed": "d9fb2a1c92c86b9d16c8fa30372b74cd3c86d89e",
+      "paper_url": "https://rpglab.github.io/papers/ArunR_ST-C-V_R-SCUC/",
+      "version": 2,
+      "doi": "10.6084/m9.figshare.24116394.v2",
+      "paper_doi": "10.1109/TPWRS.2023.3313430",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "citation": "Arun Venkatesh Ramesh and Xingpeng Li, Spatio-Temporal Deep Learning-Assisted Reduced Security-Constrained Unit Commitment, Figshare dataset V2, DOI 10.6084/m9.figshare.24116394.v2; associated IEEE Transactions on Power Systems paper 39(2), 4735-4746 (2024), DOI 10.1109/TPWRS.2023.3313430.",
+      "institutional_affiliations": ["Renewable Power Grid Lab, University of Houston"],
+      "model_scope": "Author-published SCUC and machine-learning research data. Paper reports IEEE 24/73/118-bus and synthetic South-Carolina 500-bus systems. Includes prepared data and generated graph samples; graphs are not independent UC systems. Upstream Pyomo CPLEX/Gurobi usage is not this project's solver compatibility certification.",
+      "packaging": "unchanged_archive",
+      "asset_name": "RPG-Lab-Spatio-Temporal-SCUC-figshare-v2.zip",
+      "archive_inventory": true,
+      "files": [
+        {
+          "filename": "Spatio-TemporalUCAcceleration_GNNLSTM.zip",
+          "url": "https://ndownloader.figshare.com/files/42307935",
+          "upstream_file_id": 42307935,
+          "upstream_size": 1152197046,
+          "upstream_md5_as_reported": "62c1278a8389520fd9004ee3923a6d8a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 """Collect original UC files on a GitHub runner; never parse or solve case data.
 
-The output is four Release assets plus attribution and byte-provenance records.
+The output is manifest-selected Release assets plus attribution and byte-provenance records.
 All payloads are downloaded into temporary runner storage, not the user's PC.
 """
 from concurrent.futures import ThreadPoolExecutor
@@ -25,19 +25,27 @@ def fetch_file(row, destination):
         try:
             request = urllib.request.Request(row['url'], headers={'User-Agent': 'UC-dataset-collector/1.0'})
             digest = hashlib.sha256()
+            md5 = hashlib.md5(usedforsecurity=False)
             size = 0
             with urllib.request.urlopen(request, timeout=90) as response, target.open('wb') as stream:
                 final_url = response.url
                 last_modified = response.headers.get('Last-Modified')
+                content_type = response.headers.get_content_type()
+                if row.get('expected_content_types') and content_type not in row['expected_content_types']:
+                    raise ValueError(f'Unexpected download content type: {content_type}')
                 while chunk := response.read(1024 * 1024):
                     stream.write(chunk)
                     digest.update(chunk)
+                    md5.update(chunk)
                     size += len(chunk)
             # Detect interrupted/error-page transfers only, not UC data validity.
             expected_size = row.get('upstream_size')
             if expected_size is not None and expected_size != size:
                 raise ValueError(f'Transfer length differs from official file metadata: {size} != {expected_size}')
+            if row.get('upstream_md5_as_reported') and row['upstream_md5_as_reported'].lower() != md5.hexdigest():
+                raise ValueError('Downloaded bytes differ from official MD5 metadata')
             record = dict(row, status='downloaded', bytes=size, sha256=digest.hexdigest(),
+                          md5=md5.hexdigest(), content_type=content_type,
                           final_url=final_url, last_modified=last_modified,
                           collected_at_utc=datetime.now(timezone.utc).isoformat(),
                           parameter_validation='not_run', solve_status='not_run')
@@ -80,10 +88,30 @@ def collect_source(source, output):
                     archive.write(path, arcname=path.name)
         with asset.open('rb') as stream:
             sha256 = hashlib.file_digest(stream, 'sha256').hexdigest()
-        return {'source_id': source['source_id'], 'source_url': source['source_url'],
+        record = {'source_id': source['source_id'], 'source_url': source['source_url'],
                 'asset_name': asset.name, 'asset_bytes': asset.stat().st_size, 'asset_sha256': sha256,
                 'status': 'collected_and_packaged_for_release', 'original_files': files,
                 'parameter_validation': 'not_run', 'solve_status': 'not_run'}
+        if source.get('archive_inventory'):
+            # Read the ZIP directory only. Never open spreadsheets, arrays or model code.
+            with zipfile.ZipFile(asset) as archive:
+                members = [x for x in archive.infolist() if not x.is_dir()]
+                names = [x.filename for x in members]
+                required = source.get('required_member_basenames', [])
+                for name in required:
+                    if not any(Path(member).name == name for member in names):
+                        raise ValueError(f'Official archive is missing expected attachment: {name}')
+                folders = sorted(set('/'.join(name.split('/')[:-1]) for name in names))
+                record['archive_directory'] = {
+                    'inspection': 'ZIP central directory only; no parameter files parsed',
+                    'file_count': len(members),
+                    'uncompressed_bytes': sum(x.file_size for x in members),
+                    'folders': folders[:100], 'folder_list_truncated': len(folders) > 100,
+                    'first_20_members': names[:20],
+                    'required_attachments': [{'path': x.filename, 'bytes': x.file_size, 'crc32': f'{x.CRC:08x}'}
+                                             for x in members if Path(x.filename).name in required]
+                }
+        return record
 
 
 def main():
