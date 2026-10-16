@@ -1,0 +1,139 @@
+{
+  "source": "https://github.com/IEE-TUGraz/LEGO",
+  "accessed_date": "2026-10-16",
+  "commit": "eb0cb5d478305bfd97c2f2ae952c01fcf87db743",
+  "tree": {
+    "sha": "1517165618b53c2627538c5f29990927a46bde8c",
+    "url": "https://api.github.com/repos/IEE-TUGraz/LEGO/git/trees/1517165618b53c2627538c5f29990927a46bde8c",
+    "tree": [
+      {
+        "path": "Figures",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1e5cafad494ef4dcfa4288c48eb92c5465fe4be1",
+        "url": "https://api.github.com/repos/IEE-TUGraz/LEGO/git/trees/1e5cafad494ef4dcfa4288c48eb92c5465fe4be1"
+      },
+      {
+        "path": "Figures/LEGO_InputSheets.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "553d62a41e2874449bc706d4042147ca411a61d9",
+        "size": 443968,
+        "url": "https://api.github.com/repos/IEE-TUGraz/LEGO/git/blobs/553d62a41e2874449bc706d4042147ca411a61d9"
+      },
+      {
+        "path": "Figures/LEGO_Logo.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "58a0d144f12bc1fe95ecac35cec26eb5f684c65f",
+        "size": 13256650,
+        "url": "https://api.github.com/repos/IEE-TUGraz/LEGO/git/blobs/58a0d144f12bc1fe95ecac35cec26eb5f684c65f"
+      },
+      {
+        "path": "Figures/LEGO_Logo_DarkMode.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2645344712297f36c684b8931e18201ecf01d51c",
+        "size": 13285974,
+        "url": "https://api.github.com/repos/IEE-TUGraz/LEGO/git/blobs/2645344712297f36c684b8931e18201ecf01d51c"
+      },
+      {
+        "path": "Figures/LEGO_Module.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "206b0980ca5c86b45c448528c407374ff25fc721",
+        "size": 86387,
+        "url": "https://api.github.com/repos/IEE-TUGraz/LEGO/git/blobs/206b0980ca5c86b45c448528c407374ff25fc721"
+      },
+      {
+        "path": "Figures/LEGO_SoftwareArchitecture.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6006b753ff6c8489cf39bad54973b09d33f59d0e",
+        "size": 374000,
+        "url": "https://api.github.com/repos/IEE-TUGraz/LEGO/git/blobs/6006b753ff6c8489cf39bad54973b09d33f59d0e"
+      },
+      {
+        "path": "Figures/LEGO_SoftwareArchitecture_DarkMode.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "150d6fed540fee976918c951302ae1ddb1b5fb26",
+        "size": 375742,
+        "url": "https://api.github.com/repos/IEE-TUGraz/LEGO/git/blobs/150d6fed540fee976918c951302ae1ddb1b5fb26"
+      },
+      {
+        "path": "LEGO-Base-Case-Study-1LRP.zip",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d82f276958d12046d3e9e8e09650f6a11beb19f5",
+        "size": 5188634,
+        "url": "https://api.github.com/repos/IEE-TUGraz/LEGO/git/blobs/d82f276958d12046d3e9e8e09650f6a11beb19f5"
+      },
+      {
+        "path": "LEGO-Base-Case-Study-7LRP.zip",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7230b2deedaa6b5fbe1733e3c4f92aa54aceede7",
+        "size": 6137129,
+        "url": "https://api.github.com/repos/IEE-TUGraz/LEGO/git/blobs/7230b2deedaa6b5fbe1733e3c4f92aa54aceede7"
+      },
+      {
+        "path": "LEGO-Base-Case-Study-Hourly.zip",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "398caeeff0512188de22492b922772196d0ae67f",
+        "size": 17333003,
+        "url": "https://api.github.com/repos/IEE-TUGraz/LEGO/git/blobs/398caeeff0512188de22492b922772196d0ae67f"
+      },
+      {
+        "path": "LEGO.gms",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e99a170f3cc0a51d46b8bc4ef33e5e2bf8abdeaa",
+        "size": 118857,
+        "url": "https://api.github.com/repos/IEE-TUGraz/LEGO/git/blobs/e99a170f3cc0a51d46b8bc4ef33e5e2bf8abdeaa"
+      },
+      {
+        "path": "LEGO_User_Manual.pdf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5adce0f26745c555345751d467b831b2dc4ef926",
+        "size": 1467412,
+        "url": "https://api.github.com/repos/IEE-TUGraz/LEGO/git/blobs/5adce0f26745c555345751d467b831b2dc4ef926"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f2e30ad33ad7c49436bfcd8f9db554d16f56cc78",
+        "size": 1067,
+        "url": "https://api.github.com/repos/IEE-TUGraz/LEGO/git/blobs/f2e30ad33ad7c49436bfcd8f9db554d16f56cc78"
+      },
+      {
+        "path": "PreviousData",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "78b9d1f5ab1962077ed7b74093b1fc4895642045",
+        "url": "https://api.github.com/repos/IEE-TUGraz/LEGO/git/trees/78b9d1f5ab1962077ed7b74093b1fc4895642045"
+      },
+      {
+        "path": "PreviousData/EnStOpInvMo-7LRP-kmeans-net.xlsm",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0d9d454717642ac7d29ccd0bbad3b2925c7dc171",
+        "size": 23396797,
+        "url": "https://api.github.com/repos/IEE-TUGraz/LEGO/git/blobs/0d9d454717642ac7d29ccd0bbad3b2925c7dc171"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "68a51b9a60c0c799cb7a7d58f4ae2c09e22e4054",
+        "size": 5113,
+        "url": "https://api.github.com/repos/IEE-TUGraz/LEGO/git/blobs/68a51b9a60c0c799cb7a7d58f4ae2c09e22e4054"
+      }
+    ],
+    "truncated": false
+  },
+  "license_text": "MIT License\n\nCopyright (c) 2022 IEE-TUGraz\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+}

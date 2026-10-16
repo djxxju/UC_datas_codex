@@ -1,0 +1,438 @@
+[
+  {
+    "retrieved_at_utc": "2026-10-16T03:12:10.182994+00:00",
+    "metadata_url": "https://api.datacite.org/dois/10.5281/zenodo.3775569",
+    "metadata": {
+      "data": {
+        "id": "10.5281/zenodo.3775569",
+        "type": "dois",
+        "attributes": {
+          "doi": "10.5281/zenodo.3775569",
+          "prefix": "10.5281",
+          "suffix": "zenodo.3775569",
+          "identifiers": [],
+          "alternateIdentifiers": [],
+          "creators": [
+            {
+              "name": "De Felice, Matteo",
+              "givenName": "Matteo",
+              "familyName": "De Felice",
+              "affiliation": [
+                "JRC"
+              ],
+              "nameIdentifiers": [
+                {
+                  "schemeUri": "https://orcid.org",
+                  "nameIdentifier": "https://orcid.org/0000-0002-5457-3045",
+                  "nameIdentifierScheme": "ORCID"
+                }
+              ]
+            }
+          ],
+          "titles": [
+            {
+              "title": "Input files for Dispa-SET for the JRC report \"Power System Flexibility in a variable climate\""
+            }
+          ],
+          "publisher": "Zenodo",
+          "container": {},
+          "publicationYear": 2020,
+          "subjects": [
+            {
+              "subject": "power systems modelling"
+            },
+            {
+              "subject": "climate variability"
+            },
+            {
+              "subject": "EnVarClim"
+            },
+            {
+              "subject": "Dispa-SET"
+            }
+          ],
+          "contributors": [],
+          "dates": [
+            {
+              "date": "2020-04-29",
+              "dateType": "Issued"
+            }
+          ],
+          "language": "en",
+          "types": {
+            "ris": "DATA",
+            "bibtex": "misc",
+            "citeproc": "dataset",
+            "schemaOrg": "Dataset",
+            "resourceTypeGeneral": "Dataset"
+          },
+          "relatedIdentifiers": [
+            {
+              "relationType": "IsSupplementTo",
+              "relatedIdentifier": "10.5281/zenodo.3778132",
+              "resourceTypeGeneral": "Dataset",
+              "relatedIdentifierType": "DOI"
+            },
+            {
+              "relationType": "IsReferencedBy",
+              "relatedIdentifier": "10.2760/75312",
+              "resourceTypeGeneral": "Text",
+              "relatedIdentifierType": "DOI"
+            },
+            {
+              "relationType": "IsVersionOf",
+              "relatedIdentifier": "10.5281/zenodo.3775568",
+              "relatedIdentifierType": "DOI"
+            }
+          ],
+          "relatedItems": [],
+          "sizes": [],
+          "formats": [],
+          "version": null,
+          "rightsList": [
+            {
+              "rights": "Creative Commons Attribution 4.0 International",
+              "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+              "schemeUri": "https://spdx.org/licenses/",
+              "rightsIdentifier": "cc-by-4.0",
+              "rightsIdentifierScheme": "SPDX"
+            },
+            {
+              "rights": "Open Access",
+              "rightsUri": "info:eu-repo/semantics/openAccess"
+            }
+          ],
+          "descriptions": [
+            {
+              "description": "<strong>Input files for Dispa-SET for the JRC report \"Power System Flexibility in a variable climate\"</strong> Here you can find the input files needed to reproduce the results of the report: <pre><code>De Felice, M., Busch, S., Kanellopoulos, K., Kavvadias, K. and Hidalgo Gonzalez, I., Power system flexibility in a variable climate, EUR 30184 EN, Publications Office of the European Union, Luxembourg, 2020, ISBN 978-92-76-18183-5 (online), doi:10.2760/75312 (online), JRC120338. </code></pre> The results in the report are generated with the Dispa-SET power system model, available and explained at www.dispaset.eu. A description of the data sources with the references can be found into the report. <strong>How to use this dataset</strong> This dataset can be used as input data for the Dispa-SET model. We refer to the report and the official model documentation for information about the data and the model. <strong>Description of the dataset</strong> The file <code>EnVarClim.yml</code> is a template of the YAML configuration file used by Dispa-SET. To run a specific climate year the <code>XXXX</code> present in some input files must be replaced with the year. <strong>Availability factors</strong> In the folder <code>AvailabilityFactors</code> there are the availability factors (from 0 to 1) for the power plants and the renewable generation. There is a subfolder for each simulated zone and inside a file for each climate year: from <code>emh_and_cc_availability_1990.csv</code> to <code>emh_and_cc_availability_2015.csv</code>. <strong>Cross-border transmission</strong> In the folder <code>DayAheadNTC</code> there is the file <code>merged_constant_NTC.csv</code> containing the capacity (in MW). <strong>NOTE</strong>: due to an error in the pre-processing code there are some additional lines for the Western Balkans countries ending with a <code>1</code> (e.g. <code>GR -&gt; MK1</code>). Those lines are ignored by the model because are not associated to any simulated zone. <strong>Cross-border historical flows</strong> In the file <code>CC_L_flows.csv</code> under the folder <code>Flows</code> are contained the hourly flows between the simulated zones and their neighbours (RU, TR, UA). <strong>Fuel prices</strong> In the folder <code>FuelPrices</code> are contained a set of files containing the hourly prices for the fuels (biomass, coal, lignite, gas, oil) and CO2 emissions. It is worth noting that in spite of their hourly resolution the time-series are constant through the year. <strong>Hourly load</strong> In the folder <code>Load_RealTime</code> there are hourly load time-series for each zone considering a different climate year. For the Western Balkans countries we use the same time-series for each climate year. <strong>Outage factors</strong> The files <code>CC_L_outages.csv</code> in the folder <code>OutageFactors</code> contain the outage factor (from 1, full outage, to 0) for the various generation units. Whenever a simulation zone is missing the model assumes the absence of outages. <strong>Power plants data</strong> In the folder <code>PowerPlants</code> there is a file named <code>CC_L_plants.mip.csv</code> for each simulated zone. The CSV files contain the data needed by Dispa-SET. <strong>Water storage levels</strong> The folder <code>ReservoirLevel</code> contains the storage level (values from 0 to 1 relative to the size of the storage) for all the simulated zones. The levels have been computed for each climate year using a different inflow using the mid-term scheduler recently implemented in Dispa-SET. For the Western Balkans countries we use the same time-series for each climate year. <strong>Hydro-power inflows</strong> In the folder <code>ScaledInflows</code> are contained the inflows used for the hydro-power generation. The values in the CSV files describes how much energy is available for hydro-power generation compared to the installed capacity. <strong>Linked resources</strong> Model output files:<strong> </strong>https://zenodo.org/record/3778133 Source code for the figures: https://github.com/energy-modelling-toolkit/figures-JRC-report-power-system-and-climate-variability",
+              "descriptionType": "Abstract"
+            },
+            {
+              "description": "{\"references\": [\"De Felice, M., Busch, S., Kanellopoulos, K., Kavvadias, K. and Hidalgo Gonzalez, I., Power system flexibility in a variable climate, EUR 30184 EN, Publications Office of the European Union, Luxembourg, 2020, ISBN 978-92-76-18183-5 (online), doi:10.2760/75312 (online), JRC120338.\"]}",
+              "descriptionType": "Other"
+            }
+          ],
+          "geoLocations": [],
+          "fundingReferences": [],
+          "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjEvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC41MjgxL1pFTk9ETy4zNzc1NTY5PC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+RGUgRmVsaWNlLCBNYXR0ZW88L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPk1hdHRlbzwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5EZSBGZWxpY2U8L2ZhbWlseU5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iT1JDSUQiIHNjaGVtZVVSST0iaHR0cDovL29yY2lkLm9yZy8iPjAwMDAtMDAwMi01NDU3LTMwNDU8L25hbWVJZGVudGlmaWVyPgogICAgICA8YWZmaWxpYXRpb24+SlJDPC9hZmZpbGlhdGlvbj4KICAgIDwvY3JlYXRvcj4KICA8L2NyZWF0b3JzPgogIDx0aXRsZXM+CiAgICA8dGl0bGU+SW5wdXQgZmlsZXMgZm9yIERpc3BhLVNFVCBmb3IgdGhlIEpSQyByZXBvcnQgIlBvd2VyIFN5c3RlbSBGbGV4aWJpbGl0eSBpbiBhICB2YXJpYWJsZSBjbGltYXRlIjwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPHB1Ymxpc2hlcj5aZW5vZG88L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjA8L3B1YmxpY2F0aW9uWWVhcj4KICA8c3ViamVjdHM+CiAgICA8c3ViamVjdD5wb3dlciBzeXN0ZW1zIG1vZGVsbGluZzwvc3ViamVjdD4KICAgIDxzdWJqZWN0PmNsaW1hdGUgdmFyaWFiaWxpdHk8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5FblZhckNsaW08L3N1YmplY3Q+CiAgICA8c3ViamVjdD5EaXNwYS1TRVQ8L3N1YmplY3Q+CiAgPC9zdWJqZWN0cz4KICA8ZGF0ZXM+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iSXNzdWVkIj4yMDIwLTA0LTI5PC9kYXRlPgogIDwvZGF0ZXM+CiAgPGxhbmd1YWdlPmVuPC9sYW5ndWFnZT4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9IkRhdGFzZXQiLz4KICA8YWx0ZXJuYXRlSWRlbnRpZmllcnM+CiAgICA8YWx0ZXJuYXRlSWRlbnRpZmllciBhbHRlcm5hdGVJZGVudGlmaWVyVHlwZT0idXJsIj5odHRwczovL3plbm9kby5vcmcvcmVjb3JkLzM3NzU1Njk8L2FsdGVybmF0ZUlkZW50aWZpZXI+CiAgPC9hbHRlcm5hdGVJZGVudGlmaWVycz4KICA8cmVsYXRlZElkZW50aWZpZXJzPgogICAgPHJlbGF0ZWRJZGVudGlmaWVyIHJlbGF0ZWRJZGVudGlmaWVyVHlwZT0iRE9JIiByZWxhdGlvblR5cGU9IklzU3VwcGxlbWVudFRvIiByZXNvdXJjZVR5cGVHZW5lcmFsPSJEYXRhc2V0Ij4xMC41MjgxL3plbm9kby4zNzc4MTMyPC9yZWxhdGVkSWRlbnRpZmllcj4KICAgIDxyZWxhdGVkSWRlbnRpZmllciByZWxhdGVkSWRlbnRpZmllclR5cGU9IkRPSSIgcmVsYXRpb25UeXBlPSJJc1JlZmVyZW5jZWRCeSIgcmVzb3VyY2VUeXBlR2VuZXJhbD0iVGV4dCI+MTAuMjc2MC83NTMxMjwvcmVsYXRlZElkZW50aWZpZXI+CiAgICA8cmVsYXRlZElkZW50aWZpZXIgcmVsYXRlZElkZW50aWZpZXJUeXBlPSJET0kiIHJlbGF0aW9uVHlwZT0iSXNWZXJzaW9uT2YiPjEwLjUyODEvemVub2RvLjM3NzU1Njg8L3JlbGF0ZWRJZGVudGlmaWVyPgogIDwvcmVsYXRlZElkZW50aWZpZXJzPgogIDxyaWdodHNMaXN0PgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LzQuMC9sZWdhbGNvZGUiPkNyZWF0aXZlIENvbW1vbnMgQXR0cmlidXRpb24gNC4wIEludGVybmF0aW9uYWw8L3JpZ2h0cz4KICAgIDxyaWdodHMgcmlnaHRzVVJJPSJpbmZvOmV1LXJlcG8vc2VtYW50aWNzL29wZW5BY2Nlc3MiPk9wZW4gQWNjZXNzPC9yaWdodHM+CiAgPC9yaWdodHNMaXN0PgogIDxkZXNjcmlwdGlvbnM+CiAgICA8ZGVzY3JpcHRpb24gZGVzY3JpcHRpb25UeXBlPSJBYnN0cmFjdCI+Jmx0O3AmZ3Q7Jmx0O3N0cm9uZyZndDtJbnB1dCBmaWxlcyBmb3IgRGlzcGEtU0VUIGZvciB0aGUgSlJDIHJlcG9ydCAmYW1wO3F1b3Q7UG93ZXIgU3lzdGVtIEZsZXhpYmlsaXR5IGluIGEgdmFyaWFibGUgY2xpbWF0ZSZhbXA7cXVvdDsmbHQ7L3N0cm9uZyZndDsmbHQ7L3AmZ3Q7CgombHQ7cCZndDtIZXJlIHlvdSBjYW4gZmluZCB0aGUgaW5wdXQgZmlsZXMgbmVlZGVkIHRvIHJlcHJvZHVjZSB0aGUgcmVzdWx0cyBvZiB0aGUgJmx0O2EgaHJlZj0iaHR0cHM6Ly9kb2kub3JnLzEwLjI3NjAvNzUzMTIiJmd0O3JlcG9ydCZsdDsvYSZndDs6Jmx0Oy9wJmd0OwoKJmx0O3ByZSZndDsmbHQ7Y29kZSZndDtEZSBGZWxpY2UsIE0uLCBCdXNjaCwgUy4sIEthbmVsbG9wb3Vsb3MsIEsuLCBLYXZ2YWRpYXMsIEsuIGFuZCBIaWRhbGdvIEdvbnphbGV6LCBJLiwgUG93ZXIgc3lzdGVtIGZsZXhpYmlsaXR5IGluIGEgdmFyaWFibGUgY2xpbWF0ZSwgRVVSIDMwMTg0IEVOLCBQdWJsaWNhdGlvbnMgT2ZmaWNlIG9mIHRoZSBFdXJvcGVhbiBVbmlvbiwgTHV4ZW1ib3VyZywgMjAyMCwgSVNCTiA5NzgtOTItNzYtMTgxODMtNSAob25saW5lKSwgZG9pOjEwLjI3NjAvNzUzMTIgKG9ubGluZSksIEpSQzEyMDMzOC4KJmx0Oy9jb2RlJmd0OyZsdDsvcHJlJmd0OwoKJmx0O3AmZ3Q7VGhlIHJlc3VsdHMgaW4gdGhlIHJlcG9ydCBhcmUgZ2VuZXJhdGVkIHdpdGggdGhlIERpc3BhLVNFVCBwb3dlciBzeXN0ZW0gbW9kZWwsIGF2YWlsYWJsZSBhbmQgZXhwbGFpbmVkIGF0ICZsdDthIGhyZWY9Imh0dHBzOi8vd3d3LmRpc3Bhc2V0LmV1LyImZ3Q7d3d3LmRpc3Bhc2V0LmV1Jmx0Oy9hJmd0Oy4mbHQ7L3AmZ3Q7CgombHQ7cCZndDtBIGRlc2NyaXB0aW9uIG9mIHRoZSBkYXRhIHNvdXJjZXMgd2l0aCB0aGUgcmVmZXJlbmNlcyBjYW4gYmUgZm91bmQgaW50byB0aGUgcmVwb3J0LiZsdDsvcCZndDsKCiZsdDtwJmd0OyZsdDtzdHJvbmcmZ3Q7SG93IHRvIHVzZSB0aGlzIGRhdGFzZXQmbHQ7L3N0cm9uZyZndDsmbHQ7L3AmZ3Q7CgombHQ7cCZndDtUaGlzIGRhdGFzZXQgY2FuIGJlIHVzZWQgYXMgaW5wdXQgZGF0YSBmb3IgdGhlIERpc3BhLVNFVCBtb2RlbC4gV2UgcmVmZXIgdG8gdGhlICZsdDthIGhyZWY9Imh0dHBzOi8vZG9pLm9yZy8xMC4yNzYwLzc1MzEyIiZndDtyZXBvcnQmbHQ7L2EmZ3Q7IGFuZCB0aGUgJmx0O2EgaHJlZj0iaHR0cHM6Ly93d3cuZGlzcGFzZXQuZXUiJmd0O29mZmljaWFsIG1vZGVsIGRvY3VtZW50YXRpb24mbHQ7L2EmZ3Q7IGZvciBpbmZvcm1hdGlvbiBhYm91dCB0aGUgZGF0YSBhbmQgdGhlIG1vZGVsLiZsdDsvcCZndDsKCiZsdDtwJmd0OyZsdDtzdHJvbmcmZ3Q7RGVzY3JpcHRpb24gb2YgdGhlIGRhdGFzZXQmbHQ7L3N0cm9uZyZndDsmbHQ7L3AmZ3Q7CgombHQ7cCZndDtUaGUgZmlsZSAmbHQ7Y29kZSZndDtFblZhckNsaW0ueW1sJmx0Oy9jb2RlJmd0OyBpcyBhIHRlbXBsYXRlIG9mIHRoZSBZQU1MIGNvbmZpZ3VyYXRpb24gZmlsZSB1c2VkIGJ5IERpc3BhLVNFVC4gVG8gcnVuIGEgc3BlY2lmaWMgY2xpbWF0ZSB5ZWFyIHRoZSAmbHQ7Y29kZSZndDtYWFhYJmx0Oy9jb2RlJmd0OyBwcmVzZW50IGluIHNvbWUgaW5wdXQgZmlsZXMgbXVzdCBiZSByZXBsYWNlZCB3aXRoIHRoZSB5ZWFyLiZsdDsvcCZndDsKCiZsdDtwJmd0OyZsdDtzdHJvbmcmZ3Q7QXZhaWxhYmlsaXR5IGZhY3RvcnMmbHQ7L3N0cm9uZyZndDsmbHQ7L3AmZ3Q7CgombHQ7cCZndDtJbiB0aGUgZm9sZGVyICZsdDtjb2RlJmd0O0F2YWlsYWJpbGl0eUZhY3RvcnMmbHQ7L2NvZGUmZ3Q7IHRoZXJlIGFyZSB0aGUgYXZhaWxhYmlsaXR5IGZhY3RvcnMgKGZyb20gMCB0byAxKSBmb3IgdGhlIHBvd2VyIHBsYW50cyBhbmQgdGhlIHJlbmV3YWJsZSBnZW5lcmF0aW9uLiBUaGVyZSBpcyBhIHN1YmZvbGRlciBmb3IgZWFjaCBzaW11bGF0ZWQgem9uZSBhbmQgaW5zaWRlIGEgZmlsZSBmb3IgZWFjaCBjbGltYXRlIHllYXI6IGZyb20gJmx0O2NvZGUmZ3Q7ZW1oX2FuZF9jY19hdmFpbGFiaWxpdHlfMTk5MC5jc3YmbHQ7L2NvZGUmZ3Q7IHRvICZsdDtjb2RlJmd0O2VtaF9hbmRfY2NfYXZhaWxhYmlsaXR5XzIwMTUuY3N2Jmx0Oy9jb2RlJmd0Oy4mbHQ7L3AmZ3Q7CgombHQ7cCZndDsmbHQ7c3Ryb25nJmd0O0Nyb3NzLWJvcmRlciB0cmFuc21pc3Npb24mbHQ7L3N0cm9uZyZndDsmbHQ7L3AmZ3Q7CgombHQ7cCZndDtJbiB0aGUgZm9sZGVyICZsdDtjb2RlJmd0O0RheUFoZWFkTlRDJmx0Oy9jb2RlJmd0OyB0aGVyZSBpcyB0aGUgZmlsZSAmbHQ7Y29kZSZndDttZXJnZWRfY29uc3RhbnRfTlRDLmNzdiZsdDsvY29kZSZndDsgY29udGFpbmluZyB0aGUgY2FwYWNpdHkgKGluIE1XKS4mbHQ7L3AmZ3Q7CgombHQ7cCZndDsmbHQ7c3Ryb25nJmd0O05PVEUmbHQ7L3N0cm9uZyZndDs6IGR1ZSB0byBhbiBlcnJvciBpbiB0aGUgcHJlLXByb2Nlc3NpbmcgY29kZSB0aGVyZSBhcmUgc29tZSBhZGRpdGlvbmFsIGxpbmVzIGZvciB0aGUgV2VzdGVybiBCYWxrYW5zIGNvdW50cmllcyBlbmRpbmcgd2l0aCBhICZsdDtjb2RlJmd0OzEmbHQ7L2NvZGUmZ3Q7IChlLmcuICZsdDtjb2RlJmd0O0dSIC0mYW1wO2d0OyBNSzEmbHQ7L2NvZGUmZ3Q7KS4gVGhvc2UgbGluZXMgYXJlIGlnbm9yZWQgYnkgdGhlIG1vZGVsIGJlY2F1c2UgYXJlIG5vdCBhc3NvY2lhdGVkIHRvIGFueSBzaW11bGF0ZWQgem9uZS4mbHQ7L3AmZ3Q7CgombHQ7cCZndDsmbHQ7c3Ryb25nJmd0O0Nyb3NzLWJvcmRlciBoaXN0b3JpY2FsIGZsb3dzJmx0Oy9zdHJvbmcmZ3Q7Jmx0Oy9wJmd0OwoKJmx0O3AmZ3Q7SW4gdGhlIGZpbGUgJmx0O2NvZGUmZ3Q7Q0NfTF9mbG93cy5jc3YmbHQ7L2NvZGUmZ3Q7IHVuZGVyIHRoZSBmb2xkZXIgJmx0O2NvZGUmZ3Q7Rmxvd3MmbHQ7L2NvZGUmZ3Q7IGFyZSBjb250YWluZWQgdGhlIGhvdXJseSBmbG93cyBiZXR3ZWVuIHRoZSBzaW11bGF0ZWQgem9uZXMgYW5kIHRoZWlyIG5laWdoYm91cnMgKFJVLCBUUiwgVUEpLiZsdDsvcCZndDsKCiZsdDtwJmd0OyZsdDtzdHJvbmcmZ3Q7RnVlbCBwcmljZXMmbHQ7L3N0cm9uZyZndDsmbHQ7L3AmZ3Q7CgombHQ7cCZndDtJbiB0aGUgZm9sZGVyICZsdDtjb2RlJmd0O0Z1ZWxQcmljZXMmbHQ7L2NvZGUmZ3Q7IGFyZSBjb250YWluZWQgYSBzZXQgb2YgZmlsZXMgY29udGFpbmluZyB0aGUgaG91cmx5IHByaWNlcyBmb3IgdGhlIGZ1ZWxzIChiaW9tYXNzLCBjb2FsLCBsaWduaXRlLCBnYXMsIG9pbCkgYW5kIENPMiBlbWlzc2lvbnMuIEl0IGlzIHdvcnRoIG5vdGluZyB0aGF0IGluIHNwaXRlIG9mIHRoZWlyIGhvdXJseSByZXNvbHV0aW9uIHRoZSB0aW1lLXNlcmllcyBhcmUgY29uc3RhbnQgdGhyb3VnaCB0aGUgeWVhci4mbHQ7L3AmZ3Q7CgombHQ7cCZndDsmbHQ7c3Ryb25nJmd0O0hvdXJseSBsb2FkJmx0Oy9zdHJvbmcmZ3Q7Jmx0Oy9wJmd0OwoKJmx0O3AmZ3Q7SW4gdGhlIGZvbGRlciAmbHQ7Y29kZSZndDtMb2FkX1JlYWxUaW1lJmx0Oy9jb2RlJmd0OyB0aGVyZSBhcmUgaG91cmx5IGxvYWQgdGltZS1zZXJpZXMgZm9yIGVhY2ggem9uZSBjb25zaWRlcmluZyBhIGRpZmZlcmVudCBjbGltYXRlIHllYXIuIEZvciB0aGUgV2VzdGVybiBCYWxrYW5zIGNvdW50cmllcyB3ZSB1c2UgdGhlIHNhbWUgdGltZS1zZXJpZXMgZm9yIGVhY2ggY2xpbWF0ZSB5ZWFyLiZsdDsvcCZndDsKCiZsdDtwJmd0OyZsdDtzdHJvbmcmZ3Q7T3V0YWdlIGZhY3RvcnMmbHQ7L3N0cm9uZyZndDsmbHQ7L3AmZ3Q7CgombHQ7cCZndDtUaGUgZmlsZXMgJmx0O2NvZGUmZ3Q7Q0NfTF9vdXRhZ2VzLmNzdiZsdDsvY29kZSZndDsgaW4gdGhlIGZvbGRlciAmbHQ7Y29kZSZndDtPdXRhZ2VGYWN0b3JzJmx0Oy9jb2RlJmd0OyBjb250YWluIHRoZSBvdXRhZ2UgZmFjdG9yIChmcm9tIDEsIGZ1bGwgb3V0YWdlLCB0byAwKSBmb3IgdGhlIHZhcmlvdXMgZ2VuZXJhdGlvbiB1bml0cy4gV2hlbmV2ZXIgYSBzaW11bGF0aW9uIHpvbmUgaXMgbWlzc2luZyB0aGUgbW9kZWwgYXNzdW1lcyB0aGUgYWJzZW5jZSBvZiBvdXRhZ2VzLiZsdDsvcCZndDsKCiZsdDtwJmd0OyZsdDtzdHJvbmcmZ3Q7UG93ZXIgcGxhbnRzIGRhdGEmbHQ7L3N0cm9uZyZndDsmbHQ7L3AmZ3Q7CgombHQ7cCZndDtJbiB0aGUgZm9sZGVyICZsdDtjb2RlJmd0O1Bvd2VyUGxhbnRzJmx0Oy9jb2RlJmd0OyB0aGVyZSBpcyBhIGZpbGUgbmFtZWQgJmx0O2NvZGUmZ3Q7Q0NfTF9wbGFudHMubWlwLmNzdiZsdDsvY29kZSZndDsgZm9yIGVhY2ggc2ltdWxhdGVkIHpvbmUuIFRoZSBDU1YgZmlsZXMgY29udGFpbiB0aGUgZGF0YSAmbHQ7YSBocmVmPSJodHRwOi8vd3d3LmRpc3Bhc2V0LmV1L2VuL2xhdGVzdC9kYXRhLmh0bWwjcG93ZXItcGxhbnQtZGF0YSImZ3Q7bmVlZGVkIGJ5IERpc3BhLVNFVCZsdDsvYSZndDsuJmx0Oy9wJmd0OwoKJmx0O3AmZ3Q7Jmx0O3N0cm9uZyZndDtXYXRlciBzdG9yYWdlIGxldmVscyZsdDsvc3Ryb25nJmd0OyZsdDsvcCZndDsKCiZsdDtwJmd0O1RoZSBmb2xkZXIgJmx0O2NvZGUmZ3Q7UmVzZXJ2b2lyTGV2ZWwmbHQ7L2NvZGUmZ3Q7IGNvbnRhaW5zIHRoZSBzdG9yYWdlIGxldmVsICh2YWx1ZXMgZnJvbSAwIHRvIDEgcmVsYXRpdmUgdG8gdGhlIHNpemUgb2YgdGhlIHN0b3JhZ2UpIGZvciBhbGwgdGhlIHNpbXVsYXRlZCB6b25lcy4gVGhlIGxldmVscyBoYXZlIGJlZW4gY29tcHV0ZWQgZm9yIGVhY2ggY2xpbWF0ZSB5ZWFyIHVzaW5nIGEgZGlmZmVyZW50IGluZmxvdyB1c2luZyB0aGUgJmx0O2EgaHJlZj0iaHR0cDovL3d3dy5kaXNwYXNldC5ldS9lbi9sYXRlc3QvbWlkX3Rlcm0uaHRtbCImZ3Q7bWlkLXRlcm0gc2NoZWR1bGVyJmx0Oy9hJmd0OyByZWNlbnRseSBpbXBsZW1lbnRlZCBpbiBEaXNwYS1TRVQuIEZvciB0aGUgV2VzdGVybiBCYWxrYW5zIGNvdW50cmllcyB3ZSB1c2UgdGhlIHNhbWUgdGltZS1zZXJpZXMgZm9yIGVhY2ggY2xpbWF0ZSB5ZWFyLiZsdDsvcCZndDsKCiZsdDtwJmd0OyZsdDtzdHJvbmcmZ3Q7SHlkcm8tcG93ZXIgaW5mbG93cyZsdDsvc3Ryb25nJmd0OyZsdDsvcCZndDsKCiZsdDtwJmd0O0luIHRoZSBmb2xkZXIgJmx0O2NvZGUmZ3Q7U2NhbGVkSW5mbG93cyZsdDsvY29kZSZndDsgYXJlIGNvbnRhaW5lZCB0aGUgaW5mbG93cyB1c2VkIGZvciB0aGUgaHlkcm8tcG93ZXIgZ2VuZXJhdGlvbi4gVGhlIHZhbHVlcyBpbiB0aGUgQ1NWIGZpbGVzIGRlc2NyaWJlcyBob3cgbXVjaCBlbmVyZ3kgaXMgYXZhaWxhYmxlIGZvciBoeWRyby1wb3dlciBnZW5lcmF0aW9uIGNvbXBhcmVkIHRvIHRoZSBpbnN0YWxsZWQgY2FwYWNpdHkuJmx0Oy9wJmd0OwoKJmx0O3AmZ3Q7Jmx0O3N0cm9uZyZndDtMaW5rZWQgcmVzb3VyY2VzJmx0Oy9zdHJvbmcmZ3Q7Jmx0Oy9wJmd0OwoKJmx0O3VsJmd0OwoJJmx0O2xpJmd0O01vZGVsIG91dHB1dCBmaWxlczombHQ7c3Ryb25nJmd0OyAmbHQ7L3N0cm9uZyZndDtodHRwczovL3plbm9kby5vcmcvcmVjb3JkLzM3NzgxMzMmbHQ7L2xpJmd0OwoJJmx0O2xpJmd0O1NvdXJjZSBjb2RlIGZvciB0aGUgZmlndXJlczogaHR0cHM6Ly9naXRodWIuY29tL2VuZXJneS1tb2RlbGxpbmctdG9vbGtpdC9maWd1cmVzLUpSQy1yZXBvcnQtcG93ZXItc3lzdGVtLWFuZC1jbGltYXRlLXZhcmlhYmlsaXR5Jmx0Oy9saSZndDsKJmx0Oy91bCZndDs8L2Rlc2NyaXB0aW9uPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iT3RoZXIiPnsicmVmZXJlbmNlcyI6IFsiRGUgRmVsaWNlLCBNLiwgQnVzY2gsIFMuLCBLYW5lbGxvcG91bG9zLCBLLiwgS2F2dmFkaWFzLCBLLiBhbmQgSGlkYWxnbyBHb256YWxleiwgSS4sIFBvd2VyIHN5c3RlbSBmbGV4aWJpbGl0eSBpbiBhIHZhcmlhYmxlIGNsaW1hdGUsIEVVUiAzMDE4NCBFTiwgUHVibGljYXRpb25zIE9mZmljZSBvZiB0aGUgRXVyb3BlYW4gVW5pb24sIEx1eGVtYm91cmcsIDIwMjAsIElTQk4gOTc4LTkyLTc2LTE4MTgzLTUgKG9ubGluZSksIGRvaToxMC4yNzYwLzc1MzEyIChvbmxpbmUpLCBKUkMxMjAzMzguIl19PC9kZXNjcmlwdGlvbj4KICA8L2Rlc2NyaXB0aW9ucz4KPC9yZXNvdXJjZT4=",
+          "url": "https://zenodo.org/record/3775569",
+          "contentUrl": null,
+          "metadataVersion": 1,
+          "schemaVersion": null,
+          "source": "mds",
+          "isActive": true,
+          "state": "findable",
+          "reason": null,
+          "viewCount": 6,
+          "viewsOverTime": [
+            {
+              "yearMonth": "2020-06",
+              "total": 6
+            }
+          ],
+          "downloadCount": 0,
+          "downloadsOverTime": [
+            {
+              "yearMonth": "2020-06",
+              "total": 0
+            }
+          ],
+          "referenceCount": 0,
+          "citationCount": 2,
+          "citationsOverTime": [
+            {
+              "year": "2020",
+              "total": 2
+            }
+          ],
+          "partCount": 0,
+          "partOfCount": 0,
+          "versionCount": 0,
+          "versionOfCount": 0,
+          "created": "2020-04-29T13:13:48.000Z",
+          "registered": "2020-04-29T13:13:49.000Z",
+          "published": "2020",
+          "updated": "2020-08-01T18:28:21.000Z"
+        },
+        "relationships": {
+          "client": {
+            "data": {
+              "id": "cern.zenodo",
+              "type": "clients"
+            }
+          },
+          "provider": {
+            "data": {
+              "id": "cern",
+              "type": "providers"
+            }
+          },
+          "media": {
+            "data": {
+              "id": "10.5281/zenodo.3775569",
+              "type": "media"
+            }
+          },
+          "references": {
+            "data": []
+          },
+          "citations": {
+            "data": [
+              {
+                "id": "10.5281/zenodo.3778132",
+                "type": "dois"
+              },
+              {
+                "id": "10.5281/zenodo.3922023",
+                "type": "dois"
+              }
+            ]
+          },
+          "parts": {
+            "data": []
+          },
+          "partOf": {
+            "data": []
+          },
+          "versions": {
+            "data": []
+          },
+          "versionOf": {
+            "data": []
+          }
+        }
+      }
+    }
+  },
+  {
+    "retrieved_at_utc": "2026-10-16T03:12:11.747227+00:00",
+    "metadata_url": "https://api.datacite.org/dois/10.5281/zenodo.3627259",
+    "metadata": {
+      "data": {
+        "id": "10.5281/zenodo.3627259",
+        "type": "dois",
+        "attributes": {
+          "doi": "10.5281/zenodo.3627259",
+          "prefix": "10.5281",
+          "suffix": "zenodo.3627259",
+          "identifiers": [],
+          "alternateIdentifiers": [],
+          "creators": [
+            {
+              "name": "Pavičević, Matija",
+              "nameType": "Personal",
+              "givenName": "Matija",
+              "familyName": "Pavičević",
+              "affiliation": [
+                "KU Leuven"
+              ],
+              "nameIdentifiers": []
+            },
+            {
+              "name": "Mangipinto, Andrea",
+              "nameType": "Personal",
+              "givenName": "Andrea",
+              "familyName": "Mangipinto",
+              "affiliation": [
+                "Politecnico di Milano"
+              ],
+              "nameIdentifiers": []
+            },
+            {
+              "name": "Lombardi, Francesco",
+              "nameType": "Personal",
+              "givenName": "Francesco",
+              "familyName": "Lombardi",
+              "affiliation": [
+                "Politecnico di Milano"
+              ],
+              "nameIdentifiers": []
+            },
+            {
+              "name": "Kavvadias, Konstantinos",
+              "nameType": "Personal",
+              "givenName": "Konstantinos",
+              "familyName": "Kavvadias",
+              "affiliation": [
+                "European Commission"
+              ],
+              "nameIdentifiers": []
+            },
+            {
+              "name": "Navarro, Juan Pablo Jiménez",
+              "nameType": "Personal",
+              "givenName": "Juan Pablo Jiménez",
+              "familyName": "Navarro",
+              "affiliation": [
+                "European Commission"
+              ],
+              "nameIdentifiers": []
+            },
+            {
+              "name": "Colombo, Emanuela",
+              "nameType": "Personal",
+              "givenName": "Emanuela",
+              "familyName": "Colombo",
+              "affiliation": [
+                "Politecnico di Milano"
+              ],
+              "nameIdentifiers": []
+            },
+            {
+              "name": "Quoilin, Sylvain",
+              "nameType": "Personal",
+              "givenName": "Sylvain",
+              "familyName": "Quoilin",
+              "affiliation": [
+                "KU Leuven"
+              ],
+              "nameIdentifiers": []
+            }
+          ],
+          "titles": [
+            {
+              "title": "The potential of sector coupling in future European energy systems soft linking between the Dispa-SET and JRC-EU-TIMES models - Dataset"
+            }
+          ],
+          "publisher": "Zenodo",
+          "container": {},
+          "publicationYear": 2020,
+          "subjects": [
+            {
+              "subject": "Dispa-SET"
+            },
+            {
+              "subject": "Sector Coupling"
+            },
+            {
+              "subject": "High RES Europe"
+            },
+            {
+              "subject": "Electric vehicles"
+            },
+            {
+              "subject": "Thermal storage"
+            },
+            {
+              "subject": "Hydropower"
+            }
+          ],
+          "contributors": [],
+          "dates": [
+            {
+              "date": "2020-01-24",
+              "dateType": "Issued"
+            }
+          ],
+          "language": "en",
+          "types": {
+            "ris": "DATA",
+            "bibtex": "misc",
+            "citeproc": "dataset",
+            "schemaOrg": "Dataset",
+            "resourceTypeGeneral": "Dataset"
+          },
+          "relatedIdentifiers": [
+            {
+              "relationType": "IsVersionOf",
+              "relatedIdentifier": "10.5281/zenodo.3627258",
+              "relatedIdentifierType": "DOI"
+            }
+          ],
+          "relatedItems": [],
+          "sizes": [],
+          "formats": [],
+          "version": null,
+          "rightsList": [
+            {
+              "rights": "Creative Commons Attribution 4.0 International",
+              "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+              "schemeUri": "https://spdx.org/licenses/",
+              "rightsIdentifier": "cc-by-4.0",
+              "rightsIdentifierScheme": "SPDX"
+            },
+            {
+              "rights": "Open Access",
+              "rightsUri": "info:eu-repo/semantics/openAccess"
+            }
+          ],
+          "descriptions": [
+            {
+              "description": "Supporting dataset and Dispa-SET version used within \"The potential of sector coupling in future European energy systems soft linking between the Dispa-SET and JRC-EU-TIMES models\" paper.",
+              "descriptionType": "Abstract"
+            }
+          ],
+          "geoLocations": [],
+          "fundingReferences": [],
+          "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjEvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC41MjgxL1pFTk9ETy4zNjI3MjU5PC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+TWF0aWphIFBhdmnEjWV2acSHPC9jcmVhdG9yTmFtZT4KICAgICAgPGFmZmlsaWF0aW9uPktVIExldXZlbjwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPkFuZHJlYSBNYW5naXBpbnRvPC9jcmVhdG9yTmFtZT4KICAgICAgPGFmZmlsaWF0aW9uPlBvbGl0ZWNuaWNvIGRpIE1pbGFubzwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPkZyYW5jZXNjbyBMb21iYXJkaTwvY3JlYXRvck5hbWU+CiAgICAgIDxhZmZpbGlhdGlvbj5Qb2xpdGVjbmljbyBkaSBNaWxhbm88L2FmZmlsaWF0aW9uPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5Lb25zdGFudGlub3MgS2F2dmFkaWFzPC9jcmVhdG9yTmFtZT4KICAgICAgPGFmZmlsaWF0aW9uPkV1cm9wZWFuIENvbW1pc3Npb248L2FmZmlsaWF0aW9uPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5KdWFuIFBhYmxvIEppbcOpbmV6IE5hdmFycm88L2NyZWF0b3JOYW1lPgogICAgICA8YWZmaWxpYXRpb24+RXVyb3BlYW4gQ29tbWlzc2lvbjwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPkVtYW51ZWxhIENvbG9tYm88L2NyZWF0b3JOYW1lPgogICAgICA8YWZmaWxpYXRpb24+UG9saXRlY25pY28gZGkgTWlsYW5vPC9hZmZpbGlhdGlvbj4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+U3lsdmFpbiBRdW9pbGluPC9jcmVhdG9yTmFtZT4KICAgICAgPGFmZmlsaWF0aW9uPktVIExldXZlbjwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgPC9jcmVhdG9ycz4KICA8dGl0bGVzPgogICAgPHRpdGxlPlRoZSBwb3RlbnRpYWwgb2Ygc2VjdG9yIGNvdXBsaW5nIGluIGZ1dHVyZSBFdXJvcGVhbiBlbmVyZ3kgc3lzdGVtcyBzb2Z0IGxpbmtpbmcgYmV0d2VlbiB0aGUgRGlzcGEtU0VUIGFuZCBKUkMtRVUtVElNRVMgbW9kZWxzIC0gRGF0YXNldDwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPHB1Ymxpc2hlcj5aZW5vZG88L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjA8L3B1YmxpY2F0aW9uWWVhcj4KICA8c3ViamVjdHM+CiAgICA8c3ViamVjdD5EaXNwYS1TRVQ8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5TZWN0b3IgQ291cGxpbmc8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5IaWdoIFJFUyBFdXJvcGU8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5FbGVjdHJpYyB2ZWhpY2xlczwvc3ViamVjdD4KICAgIDxzdWJqZWN0PlRoZXJtYWwgc3RvcmFnZTwvc3ViamVjdD4KICAgIDxzdWJqZWN0Pkh5ZHJvcG93ZXI8L3N1YmplY3Q+CiAgPC9zdWJqZWN0cz4KICA8ZGF0ZXM+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iSXNzdWVkIj4yMDIwLTAxLTI0PC9kYXRlPgogIDwvZGF0ZXM+CiAgPGxhbmd1YWdlPmVuPC9sYW5ndWFnZT4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9IkRhdGFzZXQiLz4KICA8YWx0ZXJuYXRlSWRlbnRpZmllcnM+CiAgICA8YWx0ZXJuYXRlSWRlbnRpZmllciBhbHRlcm5hdGVJZGVudGlmaWVyVHlwZT0idXJsIj5odHRwczovL3plbm9kby5vcmcvcmVjb3JkLzM2MjcyNTk8L2FsdGVybmF0ZUlkZW50aWZpZXI+CiAgPC9hbHRlcm5hdGVJZGVudGlmaWVycz4KICA8cmVsYXRlZElkZW50aWZpZXJzPgogICAgPHJlbGF0ZWRJZGVudGlmaWVyIHJlbGF0ZWRJZGVudGlmaWVyVHlwZT0iRE9JIiByZWxhdGlvblR5cGU9IklzVmVyc2lvbk9mIj4xMC41MjgxL3plbm9kby4zNjI3MjU4PC9yZWxhdGVkSWRlbnRpZmllcj4KICA8L3JlbGF0ZWRJZGVudGlmaWVycz4KICA8cmlnaHRzTGlzdD4KICAgIDxyaWdodHMgcmlnaHRzVVJJPSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9ieS80LjAvbGVnYWxjb2RlIj5DcmVhdGl2ZSBDb21tb25zIEF0dHJpYnV0aW9uIDQuMCBJbnRlcm5hdGlvbmFsPC9yaWdodHM+CiAgICA8cmlnaHRzIHJpZ2h0c1VSST0iaW5mbzpldS1yZXBvL3NlbWFudGljcy9vcGVuQWNjZXNzIj5PcGVuIEFjY2VzczwvcmlnaHRzPgogIDwvcmlnaHRzTGlzdD4KICA8ZGVzY3JpcHRpb25zPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iQWJzdHJhY3QiPiZsdDtwJmd0O1N1cHBvcnRpbmcgZGF0YXNldCBhbmQgRGlzcGEtU0VUIHZlcnNpb24gdXNlZCB3aXRoaW4gJmFtcDtxdW90O1RoZSBwb3RlbnRpYWwgb2Ygc2VjdG9yIGNvdXBsaW5nIGluIGZ1dHVyZSBFdXJvcGVhbiBlbmVyZ3kgc3lzdGVtcyBzb2Z0IGxpbmtpbmcgYmV0d2VlbiB0aGUgRGlzcGEtU0VUIGFuZCBKUkMtRVUtVElNRVMgbW9kZWxzJmFtcDtxdW90OyBwYXBlci4mbHQ7L3AmZ3Q7PC9kZXNjcmlwdGlvbj4KICA8L2Rlc2NyaXB0aW9ucz4KPC9yZXNvdXJjZT4=",
+          "url": "https://zenodo.org/record/3627259",
+          "contentUrl": null,
+          "metadataVersion": 2,
+          "schemaVersion": "http://datacite.org/schema/kernel-4",
+          "source": "mds",
+          "isActive": true,
+          "state": "findable",
+          "reason": null,
+          "viewCount": 0,
+          "viewsOverTime": [],
+          "downloadCount": 0,
+          "downloadsOverTime": [],
+          "referenceCount": 0,
+          "citationCount": 0,
+          "citationsOverTime": [],
+          "partCount": 0,
+          "partOfCount": 0,
+          "versionCount": 0,
+          "versionOfCount": 1,
+          "created": "2020-03-13T22:06:15.000Z",
+          "registered": "2020-03-13T22:06:16.000Z",
+          "published": "2020",
+          "updated": "2020-08-01T06:35:50.000Z"
+        },
+        "relationships": {
+          "client": {
+            "data": {
+              "id": "cern.zenodo",
+              "type": "clients"
+            }
+          },
+          "provider": {
+            "data": {
+              "id": "cern",
+              "type": "providers"
+            }
+          },
+          "media": {
+            "data": {
+              "id": "10.5281/zenodo.3627259",
+              "type": "media"
+            }
+          },
+          "references": {
+            "data": []
+          },
+          "citations": {
+            "data": []
+          },
+          "parts": {
+            "data": []
+          },
+          "partOf": {
+            "data": []
+          },
+          "versions": {
+            "data": []
+          },
+          "versionOf": {
+            "data": [
+              {
+                "id": "10.5281/zenodo.3627258",
+                "type": "dois"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+]

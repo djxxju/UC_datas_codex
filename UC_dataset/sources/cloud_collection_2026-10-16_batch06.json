@@ -1,0 +1,74 @@
+{
+  "release_tag": "official-data-2026-10-16-batch06",
+  "prepared_date": "2026-10-16",
+  "collection_only": true,
+  "storage_policy": "Original payloads are collected only on GitHub-hosted runners; local storage holds metadata and documents.",
+  "sources": [
+    {
+      "source_id": "jrc_dispa_set_envarclim",
+      "title": "Input files for Dispa-SET for the JRC report Power System Flexibility in a variable climate",
+      "source_url": "https://zenodo.org/records/3775569",
+      "metadata_url": "https://api.datacite.org/dois/10.5281/zenodo.3775569",
+      "version": "v1, published 2020-04-29",
+      "doi": "10.5281/zenodo.3775569",
+      "report_doi": "10.2760/75312",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "DataCite DOI metadata rightsIdentifier=cc-by-4.0, retrieved 2026-10-16.",
+      "citation": "Matteo De Felice (2020), Input files for Dispa-SET for the JRC report Power System Flexibility in a variable climate, Zenodo v1, DOI 10.5281/zenodo.3775569. Related report: De Felice, M.; Busch, S.; Kanellopoulos, K.; Kavvadias, K.; Hidalgo Gonzalez, I., EUR 30184 EN, JRC120338, DOI 10.2760/75312.",
+      "institutional_affiliations": ["European Commission Joint Research Centre (JRC)"],
+      "model_scope": "Regional Dispa-SET unit-commitment/dispatch input data. Official description covers climate years 1990-2015, plant parameters, availability, hourly load, outages, fuel/CO2 prices, inter-zonal transfer capacities and flows, reservoir levels and hydro inflows. Not a bus-level IEEE SCUC benchmark; CO2 price inputs do not by themselves establish an emissions-cap model.",
+      "upstream_caveats": ["EnVarClim.yml is a template; paths and XXXX climate-year placeholders require later configuration.", "Upstream documents extra Western Balkans NTC rows ending in 1, ignored by its model because they do not map to simulated zones. Preserve originals; no correction made.", "Some Western Balkans time series repeat across climate years, per the publisher.", "Separate upstream results record is not downloaded in this batch."],
+      "packaging": "original_files_with_notice",
+      "asset_name": "JRC-Dispa-SET-EnVarClim-inputs-v1.zip",
+      "archive_inventory": true,
+      "required_member_basenames": ["EnVarClim-inputs-dispa-set.zip", "EnVarClim.yml", "README.md"],
+      "files": [
+        {"filename": "EnVarClim-inputs-dispa-set.zip", "url": "https://zenodo.org/records/3775569/files/EnVarClim-inputs-dispa-set.zip?download=1", "upstream_size": 184657976, "upstream_md5_as_reported": "8ec74621f3a6a825046d0348ba034420"},
+        {"filename": "EnVarClim.yml", "url": "https://zenodo.org/records/3775569/files/EnVarClim.yml?download=1", "upstream_md5_as_reported": "2a30c0033c20cd3c0338757a6d479365"},
+        {"filename": "README.md", "url": "https://zenodo.org/records/3775569/files/README.md?download=1", "upstream_md5_as_reported": "ba36e006374b2abf601bba568a5e7587"}
+      ]
+    },
+    {
+      "source_id": "dispa_set_sector_coupling",
+      "title": "The potential of sector coupling in future European energy systems soft linking between the Dispa-SET and JRC-EU-TIMES models - Dataset",
+      "source_url": "https://zenodo.org/records/3627259",
+      "metadata_url": "https://api.datacite.org/dois/10.5281/zenodo.3627259",
+      "version": "v1, published 2020-01-24",
+      "doi": "10.5281/zenodo.3627259",
+      "license": "CC BY 4.0 dataset; preserve any bundled model software notices without relicensing them",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "Zenodo record and DataCite DOI metadata both identify CC BY 4.0.",
+      "citation": "Matija Pavičević; Andrea Mangipinto; Francesco Lombardi; Konstantinos Kavvadias; Juan Pablo Jiménez Navarro; Emanuela Colombo; Sylvain Quoilin (2020), The potential of sector coupling in future European energy systems soft linking between the Dispa-SET and JRC-EU-TIMES models - Dataset, Zenodo v1, DOI 10.5281/zenodo.3627259.",
+      "institutional_affiliations": ["KU Leuven", "Politecnico di Milano", "European Commission"],
+      "model_scope": "Author-published supporting dataset and matching Dispa-SET version for European sector-coupling research. Official keywords include electric vehicles, thermal storage and hydropower. Not asserted to be a standalone thermal UC or a validated emissions-cap benchmark.",
+      "packaging": "unchanged_archive",
+      "asset_name": "Dispa-SET-sector-coupling-zenodo-v1.7z",
+      "archive_inventory": false,
+      "files": [
+        {"filename": "The potential of sector coupling in future European energy systems soft linking between the Dispa-SET and JRC-EU-TIMES models.7z", "url": "https://zenodo.org/records/3627259/files/The%20potential%20of%20sector%20coupling%20in%20future%20European%20energy%20systems%20soft%20linking%20between%20the%20Dispa-SET%20and%20JRC-EU-TIMES%20models.7z?download=1", "upstream_md5_as_reported": "0352587733ccac630543d784cffff4b7"}
+      ]
+    },
+    {
+      "source_id": "tugraz_lego",
+      "title": "LEGO - Low-carbon Expansion Generation Optimization: official model and prepared case studies",
+      "source_url": "https://github.com/IEE-TUGraz/LEGO",
+      "version": "Official repository snapshot 2026-10-16",
+      "commit": "eb0cb5d478305bfd97c2f2ae952c01fcf87db743",
+      "doi": "10.1016/j.softx.2022.101141",
+      "license": "MIT repository license; retain complete upstream LICENSE and notices",
+      "license_url": "https://github.com/IEE-TUGraz/LEGO/blob/eb0cb5d478305bfd97c2f2ae952c01fcf87db743/LICENSE",
+      "citation": "S. Wogrin, D. Tejada-Arango, R. Gaugl, T. Klatzer, U. Bachhiesl (2022), LEGO: The open-source Low-carbon Expansion Generation Optimization model, SoftwareX 19, 101141, DOI 10.1016/j.softx.2022.101141. Copyright (c) 2022 IEE-TUGraz; preserve MIT LICENSE.",
+      "institutional_affiliations": ["Institute of Electricity Economics and Energy Innovation, Graz University of Technology"],
+      "model_scope": "Official prepared stylized-system examples plus GAMS model. Current root has 1LRP, 7LRP and Hourly case ZIPs. README identifies seven representative days and chronological full-year variants; model supports optional UC, storage, demand-side management, inertia, hydrogen and expansion planning. Capabilities are not certification that every supplied case activates every module.",
+      "upstream_caveats": ["PreviousData/EnStOpInvMo-7LRP-kmeans-net.xlsm belongs to an older model and is explicitly incompatible with the current LEGO.gms, per README.", "Three time-representation packages are not three independent physical systems.", "Original macro-enabled workbooks and GAMS files are preserved, never executed here."],
+      "packaging": "unchanged_archive",
+      "asset_name": "TU-Graz-LEGO-eb0cb5d4.zip",
+      "archive_inventory": true,
+      "required_member_basenames": ["LICENSE", "LEGO.gms", "LEGO-Base-Case-Study-1LRP.zip", "LEGO-Base-Case-Study-7LRP.zip", "LEGO-Base-Case-Study-Hourly.zip"],
+      "files": [
+        {"filename": "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743.zip", "url": "https://codeload.github.com/IEE-TUGraz/LEGO/zip/eb0cb5d478305bfd97c2f2ae952c01fcf87db743"}
+      ]
+    }
+  ]
+}
