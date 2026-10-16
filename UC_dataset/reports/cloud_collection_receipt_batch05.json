@@ -1,0 +1,151 @@
+{
+  "release_tag": "official-data-2026-10-16-batch05",
+  "collection_only": true,
+  "source_count": 2,
+  "original_file_count": 2,
+  "sources": [
+    {
+      "source_id": "hust_hydropower_uc",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5996229/",
+      "asset_name": "HUST-hydropower-UC-PMC5996229-supplement.zip",
+      "asset_bytes": 1016404,
+      "asset_sha256": "1690957d09514f55ac2056abd04137a8fd942db3a246a3ecd2bc7cae0bbb0eab",
+      "status": "collected_and_packaged_for_release",
+      "original_files": [
+        {
+          "filename": "PMC5996229_SupplementaryFiles.zip",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5996229/supplementaryFiles",
+          "expected_content_types": [
+            "application/zip",
+            "application/octet-stream"
+          ],
+          "status": "downloaded",
+          "bytes": 1016404,
+          "sha256": "1690957d09514f55ac2056abd04137a8fd942db3a246a3ecd2bc7cae0bbb0eab",
+          "md5": "aef532cffe2e4bb99a31e58e8c01d5d7",
+          "content_type": "application/zip",
+          "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5996229/supplementaryFiles",
+          "last_modified": null,
+          "collected_at_utc": "2026-10-16T02:49:57.960931+00:00",
+          "parameter_validation": "not_run",
+          "solve_status": "not_run"
+        }
+      ],
+      "parameter_validation": "not_run",
+      "solve_status": "not_run",
+      "archive_directory": {
+        "inspection": "ZIP central directory only; no parameter files parsed",
+        "file_count": 6,
+        "uncompressed_bytes": 1235420,
+        "folders": [
+          ""
+        ],
+        "folder_list_truncated": false,
+        "first_20_members": [
+          "gr2.gif",
+          "mmc2.xlsx",
+          "gr2.jpg",
+          "mmc1.jpg",
+          "gr1.gif",
+          "gr1.jpg"
+        ],
+        "required_attachments": [
+          {
+            "path": "mmc2.xlsx",
+            "bytes": 140647,
+            "crc32": "42821d30"
+          }
+        ]
+      }
+    },
+    {
+      "source_id": "rpglab_spatiotemporal_scuc",
+      "source_url": "https://figshare.com/articles/dataset/Spatio-Temporal_Deep_Learning-Assisted_Reduced_Security-Constrained_Unit_Commitment/24116394/2",
+      "asset_name": "RPG-Lab-Spatio-Temporal-SCUC-figshare-v2.zip",
+      "asset_bytes": 1152197046,
+      "asset_sha256": "3fbfa3421e9e330278d954e0fb137b204693b8675230de87e2205e0db1b6d622",
+      "status": "collected_and_packaged_for_release",
+      "original_files": [
+        {
+          "filename": "Spatio-TemporalUCAcceleration_GNNLSTM.zip",
+          "url": "https://ndownloader.figshare.com/files/42307935",
+          "upstream_file_id": 42307935,
+          "upstream_size": 1152197046,
+          "upstream_md5_as_reported": "62c1278a8389520fd9004ee3923a6d8a",
+          "status": "downloaded",
+          "bytes": 1152197046,
+          "sha256": "3fbfa3421e9e330278d954e0fb137b204693b8675230de87e2205e0db1b6d622",
+          "md5": "62c1278a8389520fd9004ee3923a6d8a",
+          "content_type": "application/zip",
+          "final_url": "https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/42307935/SpatioTemporalUCAcceleration_GNNLSTM.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIYCQYOYV5JSSROOA/20261016/eu-west-1/s3/aws4_request&X-Amz-Date=20261016T024958Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=38ed39d7c395e5dc9cdeaea61cc620298f5333bd327c2c0ad617be45ce131c3a",
+          "last_modified": "Mon, 11 Sep 2023 02:17:18 GMT",
+          "collected_at_utc": "2026-10-16T02:50:36.300119+00:00",
+          "parameter_validation": "not_run",
+          "solve_status": "not_run"
+        }
+      ],
+      "parameter_validation": "not_run",
+      "solve_status": "not_run",
+      "archive_directory": {
+        "inspection": "ZIP central directory only; no parameter files parsed",
+        "file_count": 14087,
+        "uncompressed_bytes": 2749170621,
+        "folders": [
+          "Spatio-TemporalUCAcceleration_GNNLSTM",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/.ipynb_checkpoints",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/DataCollectionOptimization(BaseSCUC)",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/Spatio-Temporal_EdgePrediction_118Bus_GeneratedGraphs",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/Spatio-Temporal_EdgePrediction_118Bus_SavedModel",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/Spatio-Temporal_EdgePrediction_118Bus_SavedModel/variables",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/Spatio-Temporal_NodePrediction_118Bus_GeneratedGraphs",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/Spatio-Temporal_NodePrediction_118Bus_SavedModel",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/Spatio-Temporal_NodePrediction_118Bus_SavedModel/variables",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE24Bus/DataCollectionOptimization(BaseSCUC)",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE24Bus/DataCollectionOptimization(BaseSCUC)/Unused",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE24Bus/Spatio-Temporal_EdgePrediction_24Bus_GeneratedGraphs",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE24Bus/Spatio-Temporal_EdgePrediction_24Bus_SavedModel",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE24Bus/Spatio-Temporal_EdgePrediction_24Bus_SavedModel/variables",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE24Bus/Spatio-Temporal_NodePrediction_24Bus_GeneratedGraphs",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE24Bus/Spatio-Temporal_NodePrediction_24Bus_SavedModel",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE24Bus/Spatio-Temporal_NodePrediction_24Bus_SavedModel/variables",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE500Bus/DataCollectionOptimization(BaseSCUC)",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE500Bus/Spatio-Temporal_EdgePrediction_500Bus_GeneratedGraphs",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE500Bus/Spatio-Temporal_EdgePrediction_500Bus_SavedModel",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE500Bus/Spatio-Temporal_EdgePrediction_500Bus_SavedModel/variables",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE500Bus/Spatio-Temporal_NodePrediction_500Bus_GeneratedGraphs",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE500Bus/Spatio-Temporal_NodePrediction_500Bus_SavedModel",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE500Bus/Spatio-Temporal_NodePrediction_500Bus_SavedModel/variables",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE73Bus/DataCollectionOptimization(BaseSCUC)",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE73Bus/SpatioTemporal_EdgePrediction_73Bus_GeneratedGraphs",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE73Bus/SpatioTemporal_NodePrediction_73Bus_GeneratedGraphs",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/modelGNNLSTMEP",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/modelGNNLSTMEP/variables"
+        ],
+        "folder_list_truncated": false,
+        "first_20_members": [
+          "Spatio-TemporalUCAcceleration_GNNLSTM/.ipynb_checkpoints/Spatio_Temporal_UC_Acceleration_Process-checkpoint.ipynb",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/20230905_ST_RSCUC_Journal_FinalSubmission.pdf",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/DataCollectionOptimization(BaseSCUC)/bangle118BusWBCorr24Prd.txt",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/DataCollectionOptimization(BaseSCUC)/BaseMsg118BusWBCorr.txt",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/DataCollectionOptimization(BaseSCUC)/case118modifiedtomatchTXusedForPTDF.m",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/DataCollectionOptimization(BaseSCUC)/commitment118BusWBCorr24Prd.txt",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/DataCollectionOptimization(BaseSCUC)/congestion118BusWBCorr24Prd.txt",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/DataCollectionOptimization(BaseSCUC)/cost118BusWBCorr24Prd.txt",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/DataCollectionOptimization(BaseSCUC)/dataFile118BusAll_newGenInfoWithMinUpNMinDn.dat",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/DataCollectionOptimization(BaseSCUC)/dataFile118BusTxInfo.dat",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/DataCollectionOptimization(BaseSCUC)/demand118BusWBCorr24Prd.txt",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/DataCollectionOptimization(BaseSCUC)/dispatch118BusWBCorr24Prd.txt",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/DataCollectionOptimization(BaseSCUC)/flows118BusWBCorr24Prd.txt",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/DataCollectionOptimization(BaseSCUC)/GenData_1GPerBus_118Bus.dat",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/DataCollectionOptimization(BaseSCUC)/PTDF_Matrix.csv",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/DataCollectionOptimization(BaseSCUC)/reserve118BusWBCorr24Prd.txt",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/DataCollectionOptimization(BaseSCUC)/startup118BusWBCorr24Prd.txt",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/Spatio-Temporal_EdgePrediction_118Bus_GeneratedGraphs/GNN_0.npz",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/Spatio-Temporal_EdgePrediction_118Bus_GeneratedGraphs/GNN_1.npz",
+          "Spatio-TemporalUCAcceleration_GNNLSTM/Data/IEEE118Bus/Spatio-Temporal_EdgePrediction_118Bus_GeneratedGraphs/GNN_10.npz"
+        ],
+        "required_attachments": []
+      }
+    }
+  ]
+}

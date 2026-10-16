@@ -1,10 +1,10 @@
 # UC 官方现成算例库
 
-先收集基准项目、原作者和研究机构已经整理好的 UC 文件，保留原格式、版本、许可与引用。**GitHub 是主要保存位置；参数校验、格式转换和求解暂缓。** 后续本机求解器使用 COPT。
+先收集基准项目、原作者和研究机构已经整理好的 UC 文件，保留原格式、版本、许可与引用。**GitHub 是主要保存位置；参数校验、格式转换和求解暂缓。** 当前本机主求解器为 COPT，Gurobi 为用户明确的后续兼容目标，尚未完成适配。
 
 ## 获取数据
 
-**大型完整包请到 [GitHub Releases](https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-15-batch04) 下载。** 本批由 GitHub 云端直接采集，用户电脑无需先下载再上传。
+**完整原包请到 [GitHub Releases](https://github.com/djxxju/UC_datas_codex/releases) 下载。** [第 05 批](https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-16-batch05)新增 HUST 水电 UC 与 RPG Lab SCUC；[第 04 批](https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-15-batch04)保留 RTS、Tejada、随机 UC 和 Monash 包。均由 GitHub 云端直接采集，用户电脑无需先下载再上传。
 
 | 来源 | 已归档范围 | 主要保存位置 |
 |---|---|---|
@@ -13,19 +13,23 @@
 | RTS-GMLC v0.2.3 | 完整官方 ZIP，84.5 MB，含预制工具格式及原始时序 | Releases |
 | Stochastic UC data files | 新增：7 个高比例光伏随机 UC 的 JSON/HDF5 原文件 | Releases，CC BY 4.0 |
 | Monash 扩展规划 UC | 新增：6 个包含 UC、网络及储能规划参数的原始工作簿 | Releases，CC BY 4.0 |
+| 华中科技大学水电 UC | 新增：官方补充材料含 mmc2.xlsx，九组 15 分钟水电 UC 的作者数据及结果 | 第 05 批 Releases，CC BY 4.0，原包约 1 MB |
+| 休斯顿大学 RPG Lab SCUC | 新增：Figshare V2 完整研究包，IEEE24/73/118 和合成 500 节点；含图样本和作者结果 | 第 05 批 Releases，CC BY 4.0，原包约 1.15 GB |
 | UnitCommitment.jl | 已有 OR-LIB 42、Tejada19 49、MATPOWER 代表日 26，共 117 文件 | 本仓库提供索引与官方获取脚本；旧原件本地保留 |
 | CommaLAB | 已有 RCUC、RCUC2、118_UC、System_46buses 四个官方原包 | 本仓库提供下载入口；旧原包本地保留 |
 
-UC.jl 外部实例和 CommaLAB 的独立再分发条款尚未明确，当前不做公开镜像。来源有转换和派生重叠，不把文件数直接相加为独立系统数。Monash 是含 UC 的扩展规划数据，保留其原始用途与 XLSX 格式，当前未统一成 JSON。
+已有九个来源的原件：七个来源已在 GitHub 归档，UC.jl 外部实例和 CommaLAB 的独立再分发条款尚未明确，当前保留旧本地原件及官方入口。另有 REAL Lab 与 CUC-data 两项仅登记入口。来源有转换和派生重叠，不把文件数直接相加为独立系统数。Monash 是含 UC 的扩展规划数据；HUST 为水电 UC；RPG 包中的图样本也不单独算作 UC 系统。
 
 - [官方现成库总清单](UC_dataset/官方现成算例库清单.md)
-- [本批新增来源与发布说明](UC_dataset/reports/cloud_sources_batch04.md)
+- [第 05 批新增来源与发布说明](UC_dataset/reports/cloud_sources_batch05.md)
+- [第 04 批来源与发布说明](UC_dataset/reports/cloud_sources_batch04.md)
+- [仅登记入口的候选来源](UC_dataset/reports/official_candidates_batch05.md)
 - [许可与引用](THIRD_PARTY_NOTICES.md)
 - [来源登记](UC_dataset/sources/source_registry.json)
 
 ## 云端采集与本地恢复
 
-[采集工作流](.github/workflows/collect-official-data.yml)在 GitHub 托管运行器上下载官方原文件、记录来源与文件摘要并发布 Releases。当前批次已经成功，重新触发时会跳过已发布批次；增加新数据应创建新批次标签，不覆盖现有原件。
+[第 05 批采集工作流](.github/workflows/collect-official-data-batch05.yml)与[第 04 批工作流](.github/workflows/collect-official-data.yml)在 GitHub 托管运行器上下载官方原文件、记录来源与文件摘要并发布 Releases。两批已成功，重新触发时会跳过已发布批次；增加新数据应创建新批次标签，不覆盖现有原件。
 
 原始文件没有做参数校验或模型求解；脚本中的传输长度检查和文件哈希仅用于识别文件与确认传输。上游结果文件只标为作者参考结果，不作为本项目复现结果。
 
@@ -42,4 +46,4 @@ PGLIB 的[上一轮基础检查记录](UC_dataset/reports/pglib_integrity.json)�
 
 ## 项目管理
 
-每次开始前阅读[计划书](项目计划书.md)、[项目进度](项目进度.md)和最新[工作日志](工作日志/)；结束时追加总结并更新进度。约定见 [AGENTS.md](AGENTS.md)。当前计划 v0.4：官方现成库优先、GitHub 主要保存、验证与求解暂缓。
+每次开始前阅读[计划书](项目计划书.md)、[项目进度](项目进度.md)和最新[工作日志](工作日志/)；结束时追加总结并更新进度。约定见 [AGENTS.md](AGENTS.md)。当前计划 v0.5：官方现成库优先、GitHub 主要保存、COPT 主用与 Gurobi 后续兼容、验证与求解暂缓。

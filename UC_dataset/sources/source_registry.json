@@ -1,5 +1,5 @@
 {
-  "updated_date": "2026-10-15",
+  "updated_date": "2026-10-16",
   "primary_local_solver": "COPT",
   "sources": [
     {
@@ -277,14 +277,111 @@
       "collection_receipt": "../reports/cloud_collection_receipt_batch04.json",
       "data_validation": "not_run",
       "solve_status": "not_run"
+    },
+    {
+      "source_id": "hust_hydropower_uc",
+      "title": "Dataset for case studies of hydropower unit commitment",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5996229/",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5996229/fullTextXML",
+      "version": "2018 article supplementary material; Europe PMC snapshot 2026-10-16",
+      "doi": "10.1016/j.dib.2018.03.015",
+      "license": "CC BY 4.0; article and accompanying supplementary material, no separate exclusion found",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "Europe PMC JATS permissions: copyright 2018 The Authors, CC BY 4.0; supplementary-material lists mmc2.xlsx. No separate credit line or restriction is present in that record.",
+      "citation": "Jinwen Wang, Hao Zheng, Yan Li, Teng Ma (2018), Dataset for case studies of hydropower unit commitment, Data in Brief 18, 139-143. DOI: 10.1016/j.dib.2018.03.015. Copyright 2018 The Authors.",
+      "institutional_affiliations": [
+        "Huazhong University of Science and Technology, Wuhan, China"
+      ],
+      "model_scope": "Author-described nine hydropower UC cases with 96 quarter-hour periods, water-head/discharge and operating-zone data plus upstream reference results. Not a conventional thermal UC cost benchmark. Workbook contents not parsed by this project.",
+      "packaging": "unchanged_archive",
+      "asset_name": "HUST-hydropower-UC-PMC5996229-supplement.zip",
+      "archive_inventory": true,
+      "required_member_basenames": [
+        "mmc2.xlsx"
+      ],
+      "files": [
+        {
+          "filename": "PMC5996229_SupplementaryFiles.zip",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5996229/supplementaryFiles",
+          "expected_content_types": [
+            "application/zip",
+            "application/octet-stream"
+          ]
+        }
+      ],
+      "status": "official_original_archive_collected_on_github_and_published",
+      "github_release_asset": {
+        "id": 645924634,
+        "name": "HUST-hydropower-UC-PMC5996229-supplement.zip",
+        "bytes": 1016404,
+        "digest": "sha256:1690957d09514f55ac2056abd04137a8fd942db3a246a3ecd2bc7cae0bbb0eab",
+        "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-16-batch05/HUST-hydropower-UC-PMC5996229-supplement.zip",
+        "state": "uploaded"
+      },
+      "local_originals_present": false,
+      "collection_location": "GitHub-hosted runner",
+      "source_note": "../reports/cloud_sources_batch05.md",
+      "collection_receipt": "../reports/cloud_collection_receipt_batch05.json",
+      "archive_file_count": 6,
+      "data_validation": "not_run",
+      "solve_status": "not_run",
+      "upstream_results_status": "author_reference_only_not_reproduced"
+    },
+    {
+      "source_id": "rpglab_spatiotemporal_scuc",
+      "title": "Spatio-Temporal Deep Learning-Assisted Reduced Security-Constrained Unit Commitment",
+      "source_url": "https://figshare.com/articles/dataset/Spatio-Temporal_Deep_Learning-Assisted_Reduced_Security-Constrained_Unit_Commitment/24116394/2",
+      "metadata_url": "https://api.figshare.com/v2/articles/24116394/versions/2",
+      "author_repository": "https://github.com/rpglab/GNN-LSTM_C-V-R-SCUC",
+      "author_repository_commit_observed": "d9fb2a1c92c86b9d16c8fa30372b74cd3c86d89e",
+      "paper_url": "https://rpglab.github.io/papers/ArunR_ST-C-V_R-SCUC/",
+      "version": 2,
+      "doi": "10.6084/m9.figshare.24116394.v2",
+      "paper_doi": "10.1109/TPWRS.2023.3313430",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "citation": "Arun Venkatesh Ramesh and Xingpeng Li, Spatio-Temporal Deep Learning-Assisted Reduced Security-Constrained Unit Commitment, Figshare dataset V2, DOI 10.6084/m9.figshare.24116394.v2; associated IEEE Transactions on Power Systems paper 39(2), 4735-4746 (2024), DOI 10.1109/TPWRS.2023.3313430.",
+      "institutional_affiliations": [
+        "Renewable Power Grid Lab, University of Houston"
+      ],
+      "model_scope": "Author-published SCUC and machine-learning research data. Paper reports IEEE 24/73/118-bus and synthetic South-Carolina 500-bus systems. Includes prepared data and generated graph samples; graphs are not independent UC systems. Upstream Pyomo CPLEX/Gurobi usage is not this project's solver compatibility certification.",
+      "packaging": "unchanged_archive",
+      "asset_name": "RPG-Lab-Spatio-Temporal-SCUC-figshare-v2.zip",
+      "archive_inventory": true,
+      "files": [
+        {
+          "filename": "Spatio-TemporalUCAcceleration_GNNLSTM.zip",
+          "url": "https://ndownloader.figshare.com/files/42307935",
+          "upstream_file_id": 42307935,
+          "upstream_size": 1152197046,
+          "upstream_md5_as_reported": "62c1278a8389520fd9004ee3923a6d8a"
+        }
+      ],
+      "status": "official_original_archive_collected_on_github_and_published",
+      "github_release_asset": {
+        "id": 645924637,
+        "name": "RPG-Lab-Spatio-Temporal-SCUC-figshare-v2.zip",
+        "bytes": 1152197046,
+        "digest": "sha256:3fbfa3421e9e330278d954e0fb137b204693b8675230de87e2205e0db1b6d622",
+        "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-16-batch05/RPG-Lab-Spatio-Temporal-SCUC-figshare-v2.zip",
+        "state": "uploaded"
+      },
+      "local_originals_present": false,
+      "collection_location": "GitHub-hosted runner",
+      "source_note": "../reports/cloud_sources_batch05.md",
+      "collection_receipt": "../reports/cloud_collection_receipt_batch05.json",
+      "archive_file_count": 14087,
+      "data_validation": "not_run",
+      "solve_status": "not_run",
+      "upstream_results_status": "author_reference_only_not_reproduced"
     }
   ],
   "current_priority": "collect_official_ready_made_data_only",
   "current_validation_policy": "deferred_by_user_2026-10-15",
-  "current_solve_policy": "deferred; COPT remains future local solver",
-  "latest_collection_publication_commit": "f451177ea96f4eff856789163ecbb1a0ac21de46",
+  "current_solve_policy": "deferred_by_user; COPT is primary local solver; Gurobi is an explicit future compatibility target",
+  "latest_collection_publication_commit": "dc4f3645cc7ae8190ad7dc4de632c84637045679",
   "storage_policy": "GitHub repository and Releases are primary; new large data collected on GitHub runners; local duplicate cleanup requires a verified remote identity and restore URL",
-  "latest_release": "https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-15-batch04",
+  "latest_release": "https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-16-batch05",
   "cataloged_only_candidates": [
     {
       "source_id": "cuc_data",
@@ -292,22 +389,50 @@
       "commit": "624abbbdc9f83095c02b34174e52c76f77ddfa36",
       "scope": "Two clustered UC case studies, modified IEEE39 and IEEE118",
       "status": "official_entry_cataloged_not_collected",
-      "license_status": "no_root_license_found"
+      "license_status": "no_root_license_or_readme_permission; code_text_search_no_license_found",
+      "last_reviewed_date": "2026-10-16",
+      "source_note": "../reports/official_candidates_batch05.md"
     },
     {
       "source_id": "real_lab_uc_uncertainty",
       "source_url": "https://labs.ece.uw.edu/real/gams_code.html",
       "scope": "Official GAMS deterministic, interval, robust and stochastic UC models and data; RTS96 with wind",
-      "status": "official_entry_cataloged_not_collected",
-      "license_status": "not_cleared"
+      "status": "official_page_and_attachment_HEAD_checked_not_archived",
+      "license_status": "page_and_deterministic_code_no_explicit_redistribution_license_found",
+      "last_reviewed_date": "2026-10-16",
+      "source_note": "../reports/official_candidates_batch05.md",
+      "official_files": [
+        {
+          "filename": "input_UC_ii.xlsx",
+          "url": "https://labs.ece.uw.edu/real/Library/Code/input_UC_ii.xlsx",
+          "http_head_status": 200,
+          "head_content_length": 10249059
+        },
+        {
+          "filename": "UC_schedule.zip",
+          "url": "https://labs.ece.uw.edu/real/Library/Code/UC_schedule.zip",
+          "http_head_status": 200,
+          "head_content_length": 4861337
+        }
+      ]
+    }
+  ],
+  "future_solver_targets": [
+    {
+      "name": "Gurobi",
+      "priority": "explicit_future_user_target_2026-10-16",
+      "adapter_status": "not_implemented",
+      "solver_validation": "not_run"
     },
     {
-      "source_id": "hust_hydropower_uc",
-      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5996229/",
-      "doi": "10.1016/j.dib.2018.03.015",
-      "scope": "Dataset for case studies of hydropower unit commitment; mmc2.xlsx listed as supplementary data",
-      "status": "author_record_found_attachment_not_collected",
-      "license_status": "article_CC_BY_4.0; attachment_access_pending"
+      "name": "CPLEX",
+      "priority": "candidate",
+      "adapter_status": "not_implemented"
+    },
+    {
+      "name": "UnitCommitment.jl",
+      "priority": "version_pinned_candidate",
+      "adapter_status": "not_implemented"
     }
   ]
 }

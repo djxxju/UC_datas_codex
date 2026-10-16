@@ -54,4 +54,20 @@ Semini Wijekoon; Ariel Liebman; Simon Dunstall (2019), “Data Set for Capacity 
 
 The official metadata states CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ . All six original XLSX files are included unchanged in the Release ZIP, with added notice and source metadata. This is capacity-expansion data containing UC parameters, not a conversion into this project's schema. No spreadsheet values were edited or analyzed.
 
+## HUST hydropower UC (new in batch 05)
+
+Jinwen Wang, Hao Zheng, Yan Li, Teng Ma (2018), “Dataset for case studies of hydropower unit commitment”, Data in Brief 18, 139–143, DOI https://doi.org/10.1016/j.dib.2018.03.015 . Official article: https://pmc.ncbi.nlm.nih.gov/articles/PMC5996229/ . Copyright © 2018 The Authors. Affiliation: Huazhong University of Science and Technology.
+
+The Europe PMC JATS record states CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) and lists the accompanying `mmc2.xlsx` supplementary material without a separate restriction or credit-line exception. The original supplementary-files ZIP was downloaded from the Europe PMC public API and mirrored byte-for-byte in Release `official-data-2026-10-16-batch05`; the archive includes the workbook, transparency image and article figures. Attribution and the source manifest accompany the Release. Metadata evidence: [permissions and attachment record](UC_dataset/reports/hust_hydropower_metadata_batch05.json).
+
+This project has not opened the workbook or changed its contents. Nine hydropower UC cases and upstream outcomes are described by the paper, not independently reproduced here. The original ZIP filename is recorded in the receipt; the Release asset uses a descriptive outer filename.
+
+## RPG Lab SCUC research dataset (new in batch 05)
+
+Arun Venkatesh Ramesh and Xingpeng Li, “Spatio-Temporal Deep Learning-Assisted Reduced Security-Constrained Unit Commitment”, Figshare V2, DOI https://doi.org/10.6084/m9.figshare.24116394.v2 . Associated paper: IEEE Transactions on Power Systems 39(2), 4735–4746 (2024), DOI https://doi.org/10.1109/TPWRS.2023.3313430 . Institutional page: https://rpglab.github.io/papers/ArunR_ST-C-V_R-SCUC/ .
+
+The official Figshare V2 metadata explicitly states CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The complete original ZIP is preserved unchanged in Release `official-data-2026-10-16-batch05`, with external attribution, manifest and download receipt. No upstream code, model, generated graph sample or reference result was executed or modified. The matching upstream MD5 and local-on-runner SHA-256 identify the archived bytes only; they do not establish solver correctness. `IEEE500Bus` is an upstream folder name for the paper's synthetic South-Carolina 500-bus system.
+
+REAL Lab and CUC-data remain factual link entries only; no license is inferred from a citation request, another repository by the same author, or an upstream solver name. See [source-access notes](UC_dataset/reports/official_candidates_batch05.md).
+
 This repository does not relicense upstream materials as a single new dataset license.

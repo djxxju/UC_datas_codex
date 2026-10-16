@@ -1,0 +1,50 @@
+{
+  "release_tag": "official-data-2026-10-16-batch05",
+  "release_url": "https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-16-batch05",
+  "draft": false,
+  "published_at": "2026-10-16T02:51:16Z",
+  "workflow_run_url": "https://github.com/djxxju/UC_datas_codex/actions/runs/38842320204",
+  "workflow_commit": "dc4f3645cc7ae8190ad7dc4de632c84637045679",
+  "assets": [
+    {
+      "id": 645924638,
+      "name": "ATTRIBUTION.md",
+      "bytes": 1866,
+      "digest": "sha256:e0fc042f4416cee0f5e1f6d72101e14b2c75434a00c14e8e3e25289e1b0d8693",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-16-batch05/ATTRIBUTION.md",
+      "state": "uploaded"
+    },
+    {
+      "id": 645924631,
+      "name": "collection_receipt.json",
+      "bytes": 9921,
+      "digest": "sha256:f2647eb4f3546b233094d8c06cb5bf70cf5f1ddf27e079a0b0b603dfbbd4bfd2",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-16-batch05/collection_receipt.json",
+      "state": "uploaded"
+    },
+    {
+      "id": 645924634,
+      "name": "HUST-hydropower-UC-PMC5996229-supplement.zip",
+      "bytes": 1016404,
+      "digest": "sha256:1690957d09514f55ac2056abd04137a8fd942db3a246a3ecd2bc7cae0bbb0eab",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-16-batch05/HUST-hydropower-UC-PMC5996229-supplement.zip",
+      "state": "uploaded"
+    },
+    {
+      "id": 645924637,
+      "name": "RPG-Lab-Spatio-Temporal-SCUC-figshare-v2.zip",
+      "bytes": 1152197046,
+      "digest": "sha256:3fbfa3421e9e330278d954e0fb137b204693b8675230de87e2205e0db1b6d622",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-16-batch05/RPG-Lab-Spatio-Temporal-SCUC-figshare-v2.zip",
+      "state": "uploaded"
+    },
+    {
+      "id": 645924639,
+      "name": "source_manifest.json",
+      "bytes": 4181,
+      "digest": "sha256:1a6d9784e3e3259c2539aff6fd7e2d4e564b7aff9f7ed22745ac920acc8138a8",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-16-batch05/source_manifest.json",
+      "state": "uploaded"
+    }
+  ]
+}
