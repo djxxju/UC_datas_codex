@@ -90,4 +90,21 @@ Cite S. Wogrin, D. Tejada-Arango, R. Gaugl, T. Klatzer and U. Bachhiesl (2022), 
 
 The Federalized Power Market UC record (DOI 10.17632/nr547fv6mw.1, Payal Mitra, CC BY 4.0) is currently a factual link entry only; its attachment list has not been obtained and no originals are mirrored.
 
+## Comillas IIT openSDUC (new in batch 07)
+
+Official source: https://github.com/IIT-EnergySystemModels/openSDUC , pinned commit `951369aad1615fc6c2281d7bd350ded393096f3a`. Institutional contact: Andrés Ramos, Universidad Pontificia Comillas, IIT. No separate dataset DOI was confirmed.
+
+The complete unmodified source archive, including the documented 16-generator example, is mirrored in Release `official-data-2026-10-17-batch07`. Root LICENSE is GNU Affero General Public License v3.0 (https://www.gnu.org/licenses/agpl-3.0.html), consistent with the README and official download documentation. The pyproject.toml classifier instead says GPLv3+; this upstream metadata discrepancy is preserved and disclosed, not silently resolved by relicensing. Keep the complete original source, copyright notices and LICENSE together. No code or CSV values were executed or modified. Evidence: [fixed source metadata](UC_dataset/reports/opensduc_metadata_batch07.json).
+
+## OPTIT / University of Bologna CHP–CHCP testing materials (new in batch 07)
+
+The following two complementary version-specific records are grouped as one source family, with attribution retained separately:
+
+- Valerio Di Felice, Luca Giuliani and Angelo Gordini (2024), “Dataset for testing unit commitment models of CHCP plants”, Zenodo, published 2024-03-26, DOI https://doi.org/10.5281/zenodo.10875471 . Authors affiliated with OPTIT s.r.l. and University of Bologna.
+- Valerio Di Felice, Caterina Tamburini and Angelo Gordini (2024), “Block-oriented description of a fictional CHP generation plant for unit commitment testing”, Zenodo, published 2024-03-26, DOI https://doi.org/10.5281/zenodo.10875998 . Authors affiliated with OPTIT s.r.l.
+
+Both official Zenodo records and DataCite registrations explicitly state Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Original data.zip and base_instance.zip are preserved byte-for-byte inside one outer Release ZIP, with added source metadata and attribution. No inner parameter files were parsed, converted or solved. The plant description explicitly links to the daily-input record. These materials are not presented as 365 independent grids or as a locally validated model.
+
+TAMU DemandResponse and PyPSA-stochUC are factual candidate links only in this collection. TAMU redistribution terms remain unresolved; the PyPSA-stochUC README identifies paper-specific district heat-demand data as unpublished. No candidate original archive is mirrored. See [batch 07 source report](UC_dataset/reports/cloud_sources_batch07.md).
+
 This repository does not relicense upstream materials as a single new dataset license.

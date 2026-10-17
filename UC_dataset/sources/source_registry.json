@@ -1,5 +1,5 @@
 {
-  "updated_date": "2026-10-16",
+  "updated_date": "2026-10-17",
   "primary_local_solver": "COPT",
   "sources": [
     {
@@ -537,14 +537,137 @@
       "solve_status": "not_run",
       "upstream_results_status": "not_reproduced",
       "archive_file_count": 14
+    },
+    {
+      "source_id": "comillas_opensduc",
+      "title": "Comillas IIT openSDUC: official 16-generator example and model source",
+      "source_url": "https://github.com/IIT-EnergySystemModels/openSDUC",
+      "version": "Official repository snapshot 2026-10-17",
+      "commit": "951369aad1615fc6c2281d7bd350ded393096f3a",
+      "doi": null,
+      "license": "AGPL-3.0 repository LICENSE; preserve complete source, original LICENSE and notices",
+      "license_url": "https://github.com/IIT-EnergySystemModels/openSDUC/blob/951369aad1615fc6c2281d7bd350ded393096f3a/LICENSE",
+      "license_evidence": "Root LICENSE, README badge and official Download documentation identify AGPL v3. pyproject.toml has a conflicting GPLv3+ classifier; preserved and disclosed, not silently corrected.",
+      "citation": "IIT-EnergySystemModels; institutional contact Andres Ramos, Universidad Pontificia Comillas. Open Stochastic Daily Unit Commitment of Thermal and ESS Units (openSDUC), official repository snapshot 951369aad1615fc6c2281d7bd350ded393096f3a, accessed 2026-10-17. No dataset-specific DOI confirmed.",
+      "institutional_affiliations": [
+        "Instituto de Investigacion Tecnologica (IIT), Universidad Pontificia Comillas"
+      ],
+      "model_scope": "Official documented 16-generator case in openSDUC/16g with 17 CSV input/dictionary files, bundled Python/Pyomo model and documentation. Model describes stochastic UC, operating reserves, renewable/demand scenarios and energy storage including pumped hydro and batteries; day/week time representations. Classification follows publisher documentation, not independent data inspection.",
+      "upstream_caveats": [
+        "Emission reporting or CO2-cost input must not be relabeled as an emissions-cap constraint.",
+        "Upstream solver examples including Gurobi do not certify this project's COPT/Gurobi integration.",
+        "Package metadata GPLv3+ classifier differs from root AGPLv3 LICENSE; keep original source and license together.",
+        "No CSV parameter content was parsed and no upstream program was executed."
+      ],
+      "packaging": "unchanged_archive",
+      "asset_name": "Comillas-openSDUC-951369aa.zip",
+      "archive_inventory": true,
+      "required_member_basenames": [
+        "LICENSE",
+        "README.md",
+        "openSDUC_main.py",
+        "oUC_Data_Generation_16g.csv",
+        "oUC_Data_Scenario_16g.csv",
+        "oUC_Data_Demand_16g.csv"
+      ],
+      "files": [
+        {
+          "filename": "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a.zip",
+          "url": "https://codeload.github.com/IIT-EnergySystemModels/openSDUC/zip/951369aad1615fc6c2281d7bd350ded393096f3a"
+        }
+      ],
+      "status": "official_original_files_collected_on_github_and_published",
+      "github_release_asset": {
+        "id": 649546903,
+        "name": "Comillas-openSDUC-951369aa.zip",
+        "bytes": 439164,
+        "digest": "sha256:5f4cbf4d41d598e907f59b118f470d5e3b49e4566fd3328d7cd15c2b0fb32d8d",
+        "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-17-batch07/Comillas-openSDUC-951369aa.zip",
+        "state": "uploaded"
+      },
+      "local_originals_present": false,
+      "collection_location": "GitHub-hosted runner",
+      "source_note": "../reports/cloud_sources_batch07.md",
+      "collection_receipt": "../reports/cloud_collection_receipt_batch07.json",
+      "archive_file_count": 45,
+      "data_validation": "not_run",
+      "solve_status": "not_run",
+      "upstream_results_status": "not_reproduced"
+    },
+    {
+      "source_id": "optit_chp_uc",
+      "title": "OPTIT / University of Bologna CHP-CHCP UC testing materials: paired plant description and 2022 daily inputs",
+      "source_url": "https://zenodo.org/records/10875471",
+      "related_source_urls": [
+        "https://zenodo.org/records/10875998"
+      ],
+      "metadata_urls": [
+        "https://zenodo.org/api/records/10875471",
+        "https://zenodo.org/api/records/10875998"
+      ],
+      "version": "Two pinned version-specific Zenodo records, both published 2024-03-26",
+      "doi": "10.5281/zenodo.10875471",
+      "companion_doi": "10.5281/zenodo.10875998",
+      "license": "CC BY 4.0 for both official records",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "Both Zenodo records and both DataCite registrations explicitly identify cc-by-4.0, retrieved 2026-10-17.",
+      "citation": "Valerio Di Felice, Luca Giuliani, Angelo Gordini (2024), Dataset for testing unit commitment models of CHCP plants, DOI 10.5281/zenodo.10875471. Valerio Di Felice, Caterina Tamburini, Angelo Gordini (2024), Block-oriented description of a fictional CHP generation plant for unit commitment testing, DOI 10.5281/zenodo.10875998. Both Zenodo, published 2024-03-26.",
+      "institutional_affiliations": [
+        "OPTIT s.r.l.",
+        "University of Bologna (daily-input dataset coauthor)"
+      ],
+      "model_scope": "Author-prepared fictional but realistic combined heat, power and cooling inputs, described as 365 JSON files for 2022, together with a separately published block-oriented CHP plant description that explicitly links to these inputs. Heat/cooling demand and electricity buy/sell and gas prices are documented. Two complementary records grouped as one source family, not two independent grids or 365 independent plants.",
+      "upstream_caveats": [
+        "The daily time-series archive alone is not a complete standalone electric-grid UC benchmark; use with the companion plant description.",
+        "Completeness of plant parameters, time-step resolution, model import and feasibility are not verified in this collection stage.",
+        "Retain upstream CHP and CHCP naming distinction; no assumption that all device modules are active."
+      ],
+      "packaging": "original_files_with_notice",
+      "asset_name": "OPTIT-CHP-CHCP-UC-2024.zip",
+      "archive_inventory": true,
+      "required_member_basenames": [
+        "data.zip",
+        "base_instance.zip"
+      ],
+      "files": [
+        {
+          "filename": "data.zip",
+          "url": "https://zenodo.org/api/records/10875471/files/data.zip/content",
+          "upstream_size": 484359,
+          "upstream_md5_as_reported": "af61344477462f4f1668674b063deaac"
+        },
+        {
+          "filename": "base_instance.zip",
+          "url": "https://zenodo.org/api/records/10875998/files/base_instance.zip/content",
+          "upstream_size": 8678,
+          "upstream_md5_as_reported": "38983cd77ebd99443efbcae1b2d94e7a"
+        }
+      ],
+      "status": "official_original_files_collected_on_github_and_published",
+      "github_release_asset": {
+        "id": 649546915,
+        "name": "OPTIT-CHP-CHCP-UC-2024.zip",
+        "bytes": 455222,
+        "digest": "sha256:08e4e32499d9d920980a33778c09a37efd571ac7d7dd668be5122617f4285ef1",
+        "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-17-batch07/OPTIT-CHP-CHCP-UC-2024.zip",
+        "state": "uploaded"
+      },
+      "local_originals_present": false,
+      "collection_location": "GitHub-hosted runner",
+      "source_note": "../reports/cloud_sources_batch07.md",
+      "collection_receipt": "../reports/cloud_collection_receipt_batch07.json",
+      "archive_file_count": 4,
+      "data_validation": "not_run",
+      "solve_status": "not_run",
+      "upstream_results_status": "not_reproduced"
     }
   ],
   "current_priority": "collect_official_ready_made_data_only",
   "current_validation_policy": "deferred_by_user_2026-10-15",
   "current_solve_policy": "deferred_by_user; COPT is primary local solver; Gurobi is an explicit future compatibility target",
-  "latest_collection_publication_commit": "d504e13dfdfe6da831ad7580f1e0b39a946a5a49",
+  "latest_collection_publication_commit": "33729253739df0a945efcad423d2f33e14470592",
   "storage_policy": "GitHub repository and Releases are primary; new large data collected on GitHub runners; local duplicate cleanup requires a verified remote identity and restore URL",
-  "latest_release": "https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-16-batch06",
+  "latest_release": "https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-17-batch07",
   "cataloged_only_candidates": [
     {
       "source_id": "cuc_data",
@@ -591,6 +714,28 @@
       "access_issue": "Mendeley public API returned HTTP 403; public record page accessible but file list absent in retrieved HTML.",
       "last_reviewed_date": "2026-10-16",
       "source_note": "../reports/cloud_sources_batch06.md"
+    },
+    {
+      "source_id": "tamu_demand_response",
+      "source_url": "https://github.com/tamu-engineering-research/DemandResponse",
+      "commit": "5e305d2462cbb87adb778fdaaf05502766f92c81",
+      "scope": "Author-described synthetic ERCOT, 2020 profiles and SCUC/SCED/demand-response code; completeness unverified",
+      "status": "official_entry_cataloged_not_collected",
+      "license_status": "No LICENSE/COPYING/NOTICE path in recursive tree; README has no explicit redistribution grant; GitHub license null",
+      "doi": null,
+      "last_reviewed_date": "2026-10-17",
+      "source_note": "../reports/cloud_sources_batch07.md"
+    },
+    {
+      "source_id": "pypsa_stochuc",
+      "source_url": "https://github.com/PPGS-Tools/PyPSA-stochUC",
+      "commit": "783a04c10e95ca3ed7bc4c1926f66f3e2b610c2a",
+      "paper_doi": "10.1016/j.ifacol.2024.07.485",
+      "scope": "Author stochastic UC tool for waste-to-energy, heat storage and BESS",
+      "status": "official_tool_entry_cataloged_paper_data_incomplete_not_collected",
+      "missing_material": "README explicitly withholds internal district heat-demand data used in paper; substituting generic data would be a derived case",
+      "last_reviewed_date": "2026-10-17",
+      "source_note": "../reports/cloud_sources_batch07.md"
     }
   ],
   "future_solver_targets": [
@@ -612,11 +757,11 @@
     }
   ],
   "collection_summary": {
-    "collected_source_records": 12,
-    "sources_with_github_originals": 10,
+    "collected_source_records": 14,
+    "sources_with_github_originals": 12,
     "sources_with_local_only_originals": 2,
-    "cataloged_only_candidates": 3,
-    "counting_note": "Source records are distinct releases/datasets, not unique grids, case counts or independent software packages. Two Dispa-SET studies share a model family."
+    "cataloged_only_candidates": 5,
+    "counting_note": "Source groups are not independent grids, daily scenarios or software libraries. The paired OPTIT Zenodo records are counted as one source family; the two Dispa-SET studies share a model family."
   },
   "last_github_access_audit_date": "2026-10-17",
   "access_guide": "../访问指南.md"

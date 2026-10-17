@@ -1,0 +1,55 @@
+{
+  "checked_date": "2026-10-17",
+  "id": 415584822,
+  "tag_name": "official-data-2026-10-17-batch07",
+  "html_url": "https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-17-batch07",
+  "draft": false,
+  "prerelease": false,
+  "published_at": "2026-10-17T04:36:45Z",
+  "target_commitish": "33729253739df0a945efcad423d2f33e14470592",
+  "workflow_run_id": 39003204769,
+  "workflow_conclusion": "success",
+  "workflow_commit": "33729253739df0a945efcad423d2f33e14470592",
+  "assets": [
+    {
+      "id": 649546910,
+      "name": "ATTRIBUTION.md",
+      "bytes": 2143,
+      "digest": "sha256:bcaf1f79f9861508ee2b75a69aac83d12962fb039cd25936f27bae8eaaa43ee2",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-17-batch07/ATTRIBUTION.md",
+      "state": "uploaded"
+    },
+    {
+      "id": 649546908,
+      "name": "collection_receipt.json",
+      "bytes": 7568,
+      "digest": "sha256:d5871627f4c69a0eaa6b385e209a3f433a2327857783395d6e5759a44ac06bb1",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-17-batch07/collection_receipt.json",
+      "state": "uploaded"
+    },
+    {
+      "id": 649546903,
+      "name": "Comillas-openSDUC-951369aa.zip",
+      "bytes": 439164,
+      "digest": "sha256:5f4cbf4d41d598e907f59b118f470d5e3b49e4566fd3328d7cd15c2b0fb32d8d",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-17-batch07/Comillas-openSDUC-951369aa.zip",
+      "state": "uploaded"
+    },
+    {
+      "id": 649546915,
+      "name": "OPTIT-CHP-CHCP-UC-2024.zip",
+      "bytes": 455222,
+      "digest": "sha256:08e4e32499d9d920980a33778c09a37efd571ac7d7dd668be5122617f4285ef1",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-17-batch07/OPTIT-CHP-CHCP-UC-2024.zip",
+      "state": "uploaded"
+    },
+    {
+      "id": 649546907,
+      "name": "source_manifest.json",
+      "bytes": 6015,
+      "digest": "sha256:aab80fc61dbe3d49e40da0c22b360fdb18cb24b9bd3321a673802376690b4619",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-17-batch07/source_manifest.json",
+      "state": "uploaded"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "release_tag": "official-data-2026-10-17-batch07",
+  "collection_only": true,
+  "source_count": 2,
+  "original_file_count": 3,
+  "sources": [
+    {
+      "source_id": "comillas_opensduc",
+      "source_url": "https://github.com/IIT-EnergySystemModels/openSDUC",
+      "asset_name": "Comillas-openSDUC-951369aa.zip",
+      "asset_bytes": 439164,
+      "asset_sha256": "5f4cbf4d41d598e907f59b118f470d5e3b49e4566fd3328d7cd15c2b0fb32d8d",
+      "status": "collected_and_packaged_for_release",
+      "original_files": [
+        {
+          "filename": "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a.zip",
+          "url": "https://codeload.github.com/IIT-EnergySystemModels/openSDUC/zip/951369aad1615fc6c2281d7bd350ded393096f3a",
+          "status": "downloaded",
+          "bytes": 439164,
+          "sha256": "5f4cbf4d41d598e907f59b118f470d5e3b49e4566fd3328d7cd15c2b0fb32d8d",
+          "md5": "7607c2e55a95533953a244453e644bb6",
+          "content_type": "application/zip",
+          "final_url": "https://codeload.github.com/IIT-EnergySystemModels/openSDUC/zip/951369aad1615fc6c2281d7bd350ded393096f3a",
+          "last_modified": null,
+          "collected_at_utc": "2026-10-17T04:36:40.861602+00:00",
+          "parameter_validation": "not_run",
+          "solve_status": "not_run"
+        }
+      ],
+      "parameter_validation": "not_run",
+      "solve_status": "not_run",
+      "archive_directory": {
+        "inspection": "ZIP central directory only; no parameter files parsed",
+        "file_count": 45,
+        "uncompressed_bytes": 770345,
+        "folders": [
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/doc/img",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/doc/md",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/openSDUC",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/openSDUC/16g"
+        ],
+        "folder_list_truncated": false,
+        "first_20_members": [
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/.gitignore",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/.readthedocs.yaml",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/LICENSE",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/README.md",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/doc/img/ColabPP.jpg",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/doc/img/ColabPP.png",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/doc/img/Escudo.png",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/doc/img/IIT40.png",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/doc/img/Misiones.jpg",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/doc/img/iit_old.gif",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/doc/img/logoIIT.gif",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/doc/img/logoIIT.png",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/doc/img/oUC_SRMC_16g.png",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/doc/img/oUC_TechnologyOutput_scen1_16g.png",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/doc/img/openSDUC.jpg",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/doc/md/ContactUs.md",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/doc/md/Download.md",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/doc/md/InputData.md",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/doc/md/Introduction.md",
+          "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/doc/md/MathematicalFormulation.md"
+        ],
+        "required_attachments": [
+          {
+            "path": "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/LICENSE",
+            "bytes": 34523,
+            "crc32": "f5dfc0dc"
+          },
+          {
+            "path": "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/README.md",
+            "bytes": 7325,
+            "crc32": "c924eff6"
+          },
+          {
+            "path": "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/openSDUC/16g/oUC_Data_Demand_16g.csv",
+            "bytes": 23469,
+            "crc32": "fb8d2147"
+          },
+          {
+            "path": "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/openSDUC/16g/oUC_Data_Generation_16g.csv",
+            "bytes": 1473,
+            "crc32": "bd54dcf2"
+          },
+          {
+            "path": "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/openSDUC/16g/oUC_Data_Scenario_16g.csv",
+            "bytes": 50,
+            "crc32": "9af95624"
+          },
+          {
+            "path": "openSDUC-951369aad1615fc6c2281d7bd350ded393096f3a/openSDUC/openSDUC_main.py",
+            "bytes": 83248,
+            "crc32": "14cee90c"
+          }
+        ]
+      }
+    },
+    {
+      "source_id": "optit_chp_uc",
+      "source_url": "https://zenodo.org/records/10875471",
+      "asset_name": "OPTIT-CHP-CHCP-UC-2024.zip",
+      "asset_bytes": 455222,
+      "asset_sha256": "08e4e32499d9d920980a33778c09a37efd571ac7d7dd668be5122617f4285ef1",
+      "status": "collected_and_packaged_for_release",
+      "original_files": [
+        {
+          "filename": "data.zip",
+          "url": "https://zenodo.org/api/records/10875471/files/data.zip/content",
+          "upstream_size": 484359,
+          "upstream_md5_as_reported": "af61344477462f4f1668674b063deaac",
+          "status": "downloaded",
+          "bytes": 484359,
+          "sha256": "bf1891d575a3db8aa239add1fd76afa3d0b343e4d3a2f86dfca388351e78fb62",
+          "md5": "af61344477462f4f1668674b063deaac",
+          "content_type": "application/octet-stream",
+          "final_url": "https://zenodo.org/api/records/10875471/files/data.zip/content",
+          "last_modified": null,
+          "collected_at_utc": "2026-10-17T04:36:42.371414+00:00",
+          "parameter_validation": "not_run",
+          "solve_status": "not_run"
+        },
+        {
+          "filename": "base_instance.zip",
+          "url": "https://zenodo.org/api/records/10875998/files/base_instance.zip/content",
+          "upstream_size": 8678,
+          "upstream_md5_as_reported": "38983cd77ebd99443efbcae1b2d94e7a",
+          "status": "downloaded",
+          "bytes": 8678,
+          "sha256": "edd7b16b842a386c5a3f364d7ae31d3f27780c5c7892bffc0791263cf1130db8",
+          "md5": "38983cd77ebd99443efbcae1b2d94e7a",
+          "content_type": "application/octet-stream",
+          "final_url": "https://zenodo.org/api/records/10875998/files/base_instance.zip/content",
+          "last_modified": null,
+          "collected_at_utc": "2026-10-17T04:36:41.342370+00:00",
+          "parameter_validation": "not_run",
+          "solve_status": "not_run"
+        }
+      ],
+      "parameter_validation": "not_run",
+      "solve_status": "not_run",
+      "archive_directory": {
+        "inspection": "ZIP central directory only; no parameter files parsed",
+        "file_count": 4,
+        "uncompressed_bytes": 496936,
+        "folders": [
+          ""
+        ],
+        "folder_list_truncated": false,
+        "first_20_members": [
+          "SOURCE_METADATA.json",
+          "SOURCE_NOTICE.md",
+          "base_instance.zip",
+          "data.zip"
+        ],
+        "required_attachments": [
+          {
+            "path": "base_instance.zip",
+            "bytes": 8678,
+            "crc32": "f7cf8a3d"
+          },
+          {
+            "path": "data.zip",
+            "bytes": 484359,
+            "crc32": "e1cf8462"
+          }
+        ]
+      }
+    }
+  ]
+}
