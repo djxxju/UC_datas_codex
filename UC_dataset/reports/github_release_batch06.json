@@ -1,0 +1,58 @@
+{
+  "release_tag": "official-data-2026-10-16-batch06",
+  "release_url": "https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-16-batch06",
+  "draft": false,
+  "published_at": "2026-10-16T03:16:14Z",
+  "workflow_run_url": "https://github.com/djxxju/UC_datas_codex/actions/runs/38844531693",
+  "workflow_commit": "d504e13dfdfe6da831ad7580f1e0b39a946a5a49",
+  "assets": [
+    {
+      "id": 645978732,
+      "name": "ATTRIBUTION.md",
+      "bytes": 2989,
+      "digest": "sha256:06e4a1854e18b0fffc063c691acad360da39706ff4fb34d06d673b701af4c6a7",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-16-batch06/ATTRIBUTION.md",
+      "state": "uploaded"
+    },
+    {
+      "id": 645978730,
+      "name": "collection_receipt.json",
+      "bytes": 9257,
+      "digest": "sha256:f783cb21c078a637e0d9a51c49ed73f005a3c5c4b0325a5aa6e6688c0a340c72",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-16-batch06/collection_receipt.json",
+      "state": "uploaded"
+    },
+    {
+      "id": 645978739,
+      "name": "Dispa-SET-sector-coupling-zenodo-v1.7z",
+      "bytes": 18326639,
+      "digest": "sha256:d71638e21bf27b9cdb77918dc52ddd9761f268e2923e6790b578f2a5a527355e",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-16-batch06/Dispa-SET-sector-coupling-zenodo-v1.7z",
+      "state": "uploaded"
+    },
+    {
+      "id": 645978738,
+      "name": "JRC-Dispa-SET-EnVarClim-inputs-v1.zip",
+      "bytes": 151002846,
+      "digest": "sha256:26e36e8a62258548516ee19690f69cefb9ef11dfdeed831f8261866d09a556ec",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-16-batch06/JRC-Dispa-SET-EnVarClim-inputs-v1.zip",
+      "state": "uploaded"
+    },
+    {
+      "id": 645978755,
+      "name": "source_manifest.json",
+      "bytes": 7267,
+      "digest": "sha256:570a4a783dddc72b86459a25aa1fe1b2aec0cb0d135dde25b9242fda3c9fe63f",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-16-batch06/source_manifest.json",
+      "state": "uploaded"
+    },
+    {
+      "id": 645978734,
+      "name": "TU-Graz-LEGO-eb0cb5d4.zip",
+      "bytes": 60778171,
+      "digest": "sha256:c4363bf5da2464f3472052cc0073d51294e5633d8042a4031b39ef5bf7dc4875",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-16-batch06/TU-Graz-LEGO-eb0cb5d4.zip",
+      "state": "uploaded"
+    }
+  ]
+}

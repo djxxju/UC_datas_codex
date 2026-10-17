@@ -1,0 +1,206 @@
+{
+  "release_tag": "official-data-2026-10-16-batch06",
+  "collection_only": true,
+  "source_count": 3,
+  "original_file_count": 5,
+  "sources": [
+    {
+      "source_id": "jrc_dispa_set_envarclim",
+      "source_url": "https://zenodo.org/records/3775569",
+      "asset_name": "JRC-Dispa-SET-EnVarClim-inputs-v1.zip",
+      "asset_bytes": 151002846,
+      "asset_sha256": "26e36e8a62258548516ee19690f69cefb9ef11dfdeed831f8261866d09a556ec",
+      "status": "collected_and_packaged_for_release",
+      "original_files": [
+        {
+          "filename": "EnVarClim-inputs-dispa-set.zip",
+          "url": "https://zenodo.org/records/3775569/files/EnVarClim-inputs-dispa-set.zip?download=1",
+          "upstream_size": 184657976,
+          "upstream_md5_as_reported": "8ec74621f3a6a825046d0348ba034420",
+          "status": "downloaded",
+          "bytes": 184657976,
+          "sha256": "da16eefbf804c34dfb0f51699b1a76198be2c62020bac751103edab2ade549f1",
+          "md5": "8ec74621f3a6a825046d0348ba034420",
+          "content_type": "application/octet-stream",
+          "final_url": "https://zenodo.org/records/3775569/files/EnVarClim-inputs-dispa-set.zip?download=1",
+          "last_modified": null,
+          "collected_at_utc": "2026-10-16T03:15:13.191380+00:00",
+          "parameter_validation": "not_run",
+          "solve_status": "not_run"
+        },
+        {
+          "filename": "EnVarClim.yml",
+          "url": "https://zenodo.org/records/3775569/files/EnVarClim.yml?download=1",
+          "upstream_md5_as_reported": "2a30c0033c20cd3c0338757a6d479365",
+          "status": "downloaded",
+          "bytes": 2605,
+          "sha256": "a303726cf60320739d5793bb822ec195fc3471af50d338efb09697758810aec6",
+          "md5": "2a30c0033c20cd3c0338757a6d479365",
+          "content_type": "application/octet-stream",
+          "final_url": "https://zenodo.org/records/3775569/files/EnVarClim.yml?download=1",
+          "last_modified": null,
+          "collected_at_utc": "2026-10-16T03:15:05.815140+00:00",
+          "parameter_validation": "not_run",
+          "solve_status": "not_run"
+        },
+        {
+          "filename": "README.md",
+          "url": "https://zenodo.org/records/3775569/files/README.md?download=1",
+          "upstream_md5_as_reported": "ba36e006374b2abf601bba568a5e7587",
+          "status": "downloaded",
+          "bytes": 3782,
+          "sha256": "9b9786eb48955f2e0c40a8422a58c64ce051be0cecb21cdab37b543a6110430c",
+          "md5": "ba36e006374b2abf601bba568a5e7587",
+          "content_type": "application/octet-stream",
+          "final_url": "https://zenodo.org/records/3775569/files/README.md?download=1",
+          "last_modified": null,
+          "collected_at_utc": "2026-10-16T03:15:05.766192+00:00",
+          "parameter_validation": "not_run",
+          "solve_status": "not_run"
+        }
+      ],
+      "parameter_validation": "not_run",
+      "solve_status": "not_run",
+      "archive_directory": {
+        "inspection": "ZIP central directory only; no parameter files parsed",
+        "file_count": 5,
+        "uncompressed_bytes": 184668031,
+        "folders": [
+          ""
+        ],
+        "folder_list_truncated": false,
+        "first_20_members": [
+          "EnVarClim-inputs-dispa-set.zip",
+          "EnVarClim.yml",
+          "README.md",
+          "SOURCE_METADATA.json",
+          "SOURCE_NOTICE.md"
+        ],
+        "required_attachments": [
+          {
+            "path": "EnVarClim-inputs-dispa-set.zip",
+            "bytes": 184657976,
+            "crc32": "711ef3da"
+          },
+          {
+            "path": "EnVarClim.yml",
+            "bytes": 2605,
+            "crc32": "3bd696ba"
+          },
+          {
+            "path": "README.md",
+            "bytes": 3782,
+            "crc32": "a4096789"
+          }
+        ]
+      }
+    },
+    {
+      "source_id": "dispa_set_sector_coupling",
+      "source_url": "https://zenodo.org/records/3627259",
+      "asset_name": "Dispa-SET-sector-coupling-zenodo-v1.7z",
+      "asset_bytes": 18326639,
+      "asset_sha256": "d71638e21bf27b9cdb77918dc52ddd9761f268e2923e6790b578f2a5a527355e",
+      "status": "collected_and_packaged_for_release",
+      "original_files": [
+        {
+          "filename": "The potential of sector coupling in future European energy systems soft linking between the Dispa-SET and JRC-EU-TIMES models.7z",
+          "url": "https://zenodo.org/records/3627259/files/The%20potential%20of%20sector%20coupling%20in%20future%20European%20energy%20systems%20soft%20linking%20between%20the%20Dispa-SET%20and%20JRC-EU-TIMES%20models.7z?download=1",
+          "upstream_md5_as_reported": "0352587733ccac630543d784cffff4b7",
+          "status": "downloaded",
+          "bytes": 18326639,
+          "sha256": "d71638e21bf27b9cdb77918dc52ddd9761f268e2923e6790b578f2a5a527355e",
+          "md5": "0352587733ccac630543d784cffff4b7",
+          "content_type": "application/octet-stream",
+          "final_url": "https://zenodo.org/records/3627259/files/The%20potential%20of%20sector%20coupling%20in%20future%20European%20energy%20systems%20soft%20linking%20between%20the%20Dispa-SET%20and%20JRC-EU-TIMES%20models.7z?download=1",
+          "last_modified": null,
+          "collected_at_utc": "2026-10-16T03:16:03.833954+00:00",
+          "parameter_validation": "not_run",
+          "solve_status": "not_run"
+        }
+      ],
+      "parameter_validation": "not_run",
+      "solve_status": "not_run"
+    },
+    {
+      "source_id": "tugraz_lego",
+      "source_url": "https://github.com/IEE-TUGraz/LEGO",
+      "asset_name": "TU-Graz-LEGO-eb0cb5d4.zip",
+      "asset_bytes": 60778171,
+      "asset_sha256": "c4363bf5da2464f3472052cc0073d51294e5633d8042a4031b39ef5bf7dc4875",
+      "status": "collected_and_packaged_for_release",
+      "original_files": [
+        {
+          "filename": "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743.zip",
+          "url": "https://codeload.github.com/IEE-TUGraz/LEGO/zip/eb0cb5d478305bfd97c2f2ae952c01fcf87db743",
+          "status": "downloaded",
+          "bytes": 60778171,
+          "sha256": "c4363bf5da2464f3472052cc0073d51294e5633d8042a4031b39ef5bf7dc4875",
+          "md5": "dcc413102b61da8e485deb9d16e51ad8",
+          "content_type": "application/zip",
+          "final_url": "https://codeload.github.com/IEE-TUGraz/LEGO/zip/eb0cb5d478305bfd97c2f2ae952c01fcf87db743",
+          "last_modified": null,
+          "collected_at_utc": "2026-10-16T03:16:06.537421+00:00",
+          "parameter_validation": "not_run",
+          "solve_status": "not_run"
+        }
+      ],
+      "parameter_validation": "not_run",
+      "solve_status": "not_run",
+      "archive_directory": {
+        "inspection": "ZIP central directory only; no parameter files parsed",
+        "file_count": 14,
+        "uncompressed_bytes": 81470733,
+        "folders": [
+          "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743",
+          "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/Figures",
+          "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/PreviousData"
+        ],
+        "folder_list_truncated": false,
+        "first_20_members": [
+          "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/Figures/LEGO_InputSheets.png",
+          "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/Figures/LEGO_Logo.png",
+          "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/Figures/LEGO_Logo_DarkMode.png",
+          "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/Figures/LEGO_Module.png",
+          "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/Figures/LEGO_SoftwareArchitecture.png",
+          "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/Figures/LEGO_SoftwareArchitecture_DarkMode.png",
+          "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/LEGO-Base-Case-Study-1LRP.zip",
+          "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/LEGO-Base-Case-Study-7LRP.zip",
+          "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/LEGO-Base-Case-Study-Hourly.zip",
+          "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/LEGO.gms",
+          "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/LEGO_User_Manual.pdf",
+          "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/LICENSE",
+          "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/PreviousData/EnStOpInvMo-7LRP-kmeans-net.xlsm",
+          "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/README.md"
+        ],
+        "required_attachments": [
+          {
+            "path": "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/LEGO-Base-Case-Study-1LRP.zip",
+            "bytes": 5188634,
+            "crc32": "20d1d4ea"
+          },
+          {
+            "path": "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/LEGO-Base-Case-Study-7LRP.zip",
+            "bytes": 6137129,
+            "crc32": "36b1d421"
+          },
+          {
+            "path": "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/LEGO-Base-Case-Study-Hourly.zip",
+            "bytes": 17333003,
+            "crc32": "a1e5e520"
+          },
+          {
+            "path": "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/LEGO.gms",
+            "bytes": 118857,
+            "crc32": "8837e02d"
+          },
+          {
+            "path": "LEGO-eb0cb5d478305bfd97c2f2ae952c01fcf87db743/LICENSE",
+            "bytes": 1067,
+            "crc32": "2a3f4bb9"
+          }
+        ]
+      }
+    }
+  ]
+}

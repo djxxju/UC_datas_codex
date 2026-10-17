@@ -70,4 +70,24 @@ The official Figshare V2 metadata explicitly states CC BY 4.0 (https://creativec
 
 REAL Lab and CUC-data remain factual link entries only; no license is inferred from a citation request, another repository by the same author, or an upstream solver name. See [source-access notes](UC_dataset/reports/official_candidates_batch05.md).
 
+## JRC Dispa-SET EnVarClim inputs (new in batch 06)
+
+Matteo De Felice (2020), “Input files for Dispa-SET for the JRC report Power System Flexibility in a variable climate”, Zenodo v1, DOI https://doi.org/10.5281/zenodo.3775569 . Associated JRC report: De Felice, M.; Busch, S.; Kanellopoulos, K.; Kavvadias, K.; Hidalgo Gonzalez, I., EUR 30184 EN, JRC120338, DOI https://doi.org/10.2760/75312 .
+
+The DOI's DataCite registration explicitly identifies CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ . All three original files (input ZIP, configuration YAML, README) are preserved byte-for-byte inside a new outer ZIP with project source metadata and notice. The upstream configuration template and documented cross-border row caveat remain unchanged. No model was executed or data parameters validated.
+
+## Dispa-SET European sector-coupling study (new in batch 06)
+
+Matija Pavičević; Andrea Mangipinto; Francesco Lombardi; Konstantinos Kavvadias; Juan Pablo Jiménez Navarro; Emanuela Colombo; Sylvain Quoilin (2020), “The potential of sector coupling in future European energy systems soft linking between the Dispa-SET and JRC-EU-TIMES models - Dataset”, Zenodo v1, DOI https://doi.org/10.5281/zenodo.3627259 .
+
+The official dataset and DOI registration state CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ . The original 7z is mirrored unchanged under a shorter Release asset name, with attribution outside the archive. The archive is described by its authors as data plus the model version used in their study. Bundled software retains its original notices; this project does not replace those with the dataset license. The 7z was not unpacked or executed.
+
+## TU Graz LEGO (new in batch 06)
+
+Official repository https://github.com/IEE-TUGraz/LEGO , commit `eb0cb5d478305bfd97c2f2ae952c01fcf87db743`. Copyright (c) 2022 IEE-TUGraz. The repository root MIT LICENSE and all original files are included unchanged in the official repository archive mirrored in Release `official-data-2026-10-16-batch06`.
+
+Cite S. Wogrin, D. Tejada-Arango, R. Gaugl, T. Klatzer and U. Bachhiesl (2022), “LEGO: The open-source Low-carbon Expansion Generation Optimization model”, SoftwareX 19, 101141, DOI https://doi.org/10.1016/j.softx.2022.101141 . Preserve the original README and LICENSE when reusing the package. The old workbook in PreviousData is retained with the upstream incompatibility note; no workbook macro, GAMS model or other upstream program was run.
+
+The Federalized Power Market UC record (DOI 10.17632/nr547fv6mw.1, Payal Mitra, CC BY 4.0) is currently a factual link entry only; its attachment list has not been obtained and no originals are mirrored.
+
 This repository does not relicense upstream materials as a single new dataset license.
