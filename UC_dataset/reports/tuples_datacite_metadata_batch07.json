@@ -1,0 +1,542 @@
+[
+  {
+    "url": "https://api.datacite.org/dois/10.5281/zenodo.10875471",
+    "data": {
+      "data": {
+        "id": "10.5281/zenodo.10875471",
+        "type": "dois",
+        "attributes": {
+          "doi": "10.5281/zenodo.10875471",
+          "prefix": "10.5281",
+          "suffix": "zenodo.10875471",
+          "identifiers": [
+            {
+              "identifier": "oai:zenodo.org:10875471",
+              "identifierType": "oai"
+            }
+          ],
+          "alternateIdentifiers": [
+            {
+              "alternateIdentifierType": "oai",
+              "alternateIdentifier": "oai:zenodo.org:10875471"
+            }
+          ],
+          "creators": [
+            {
+              "name": "Di Felice, Valerio",
+              "nameType": "Personal",
+              "givenName": "Valerio",
+              "familyName": "Di Felice",
+              "affiliation": [
+                "OPTIT s.r.l."
+              ],
+              "nameIdentifiers": [
+                {
+                  "nameIdentifier": "0000-0001-5947-791X",
+                  "nameIdentifierScheme": "ORCID"
+                }
+              ]
+            },
+            {
+              "name": "Giuliani, Luca",
+              "nameType": "Personal",
+              "givenName": "Luca",
+              "familyName": "Giuliani",
+              "affiliation": [
+                "University of Bologna"
+              ],
+              "nameIdentifiers": [
+                {
+                  "nameIdentifier": "0000-0002-9120-6949",
+                  "nameIdentifierScheme": "ORCID"
+                }
+              ]
+            },
+            {
+              "name": "Gordini, Angelo",
+              "nameType": "Personal",
+              "givenName": "Angelo",
+              "familyName": "Gordini",
+              "affiliation": [
+                "OPTIT s.r.l."
+              ],
+              "nameIdentifiers": [
+                {
+                  "nameIdentifier": "0000-0001-8823-9339",
+                  "nameIdentifierScheme": "ORCID"
+                }
+              ]
+            }
+          ],
+          "titles": [
+            {
+              "title": "Dataset for testing unit commitment models of CHCP plants"
+            }
+          ],
+          "publisher": "Zenodo",
+          "container": {},
+          "publicationYear": 2024,
+          "subjects": [],
+          "contributors": [],
+          "dates": [
+            {
+              "date": "2024-03-26",
+              "dateType": "Issued"
+            }
+          ],
+          "language": null,
+          "types": {
+            "ris": "DATA",
+            "bibtex": "misc",
+            "citeproc": "dataset",
+            "schemaOrg": "Dataset",
+            "resourceType": "",
+            "resourceTypeGeneral": "Dataset"
+          },
+          "relatedIdentifiers": [
+            {
+              "relationType": "IsVersionOf",
+              "relatedIdentifier": "10.5281/zenodo.10875470",
+              "relatedIdentifierType": "DOI"
+            }
+          ],
+          "relatedItems": [],
+          "sizes": [],
+          "formats": [],
+          "version": null,
+          "rightsList": [
+            {
+              "rights": "Creative Commons Attribution 4.0 International",
+              "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+              "schemeUri": "https://spdx.org/licenses/",
+              "rightsIdentifier": "cc-by-4.0",
+              "rightsIdentifierScheme": "SPDX"
+            }
+          ],
+          "descriptions": [
+            {
+              "description": "Zipped set of 365 JSON files, one for each day of year 2022, containing fictional but realistic data for a combined heat, power and cooling generation plant:\n\n\n\nheat_demand: heat demand in kWh\n\ncooling_demand: cooling demand in kWh\n\nelectricity_purchase: price for purchasing electricity in €/MWh\n\nelectricity_selling: price for selling electricity in €/MWh\n\ngas_purchase: price for natural gas in €/MWh\n\n\n ",
+              "descriptionType": "Abstract"
+            }
+          ],
+          "geoLocations": [],
+          "fundingReferences": [],
+          "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuNTI4MS9aRU5PRE8uMTA4NzU0NzE8L2lkZW50aWZpZXI+CiAgPGNyZWF0b3JzPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPkRpIEZlbGljZSwgVmFsZXJpbzwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+VmFsZXJpbzwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5EaSBGZWxpY2U8L2ZhbWlseU5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iT1JDSUQiIHNjaGVtZVVSST0iIj4wMDAwLTAwMDEtNTk0Ny03OTFYPC9uYW1lSWRlbnRpZmllcj4KICAgICAgPGFmZmlsaWF0aW9uPk9QVElUIHMuci5sLjwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+R2l1bGlhbmksIEx1Y2E8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkx1Y2E8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+R2l1bGlhbmk8L2ZhbWlseU5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iT1JDSUQiIHNjaGVtZVVSST0iIj4wMDAwLTAwMDItOTEyMC02OTQ5PC9uYW1lSWRlbnRpZmllcj4KICAgICAgPGFmZmlsaWF0aW9uIGFmZmlsaWF0aW9uSWRlbnRpZmllcj0iaHR0cHM6Ly9yb3Iub3JnLzAxMTExcm4zNiIgYWZmaWxpYXRpb25JZGVudGlmaWVyU2NoZW1lPSJST1IiPlVuaXZlcnNpdHkgb2YgQm9sb2duYTwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+R29yZGluaSwgQW5nZWxvPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5BbmdlbG88L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+R29yZGluaTwvZmFtaWx5TmFtZT4KICAgICAgPG5hbWVJZGVudGlmaWVyIG5hbWVJZGVudGlmaWVyU2NoZW1lPSJPUkNJRCIgc2NoZW1lVVJJPSIiPjAwMDAtMDAwMS04ODIzLTkzMzk8L25hbWVJZGVudGlmaWVyPgogICAgICA8YWZmaWxpYXRpb24+T1BUSVQgcy5yLmwuPC9hZmZpbGlhdGlvbj4KICAgIDwvY3JlYXRvcj4KICA8L2NyZWF0b3JzPgogIDx0aXRsZXM+CiAgICA8dGl0bGU+RGF0YXNldCBmb3IgdGVzdGluZyB1bml0IGNvbW1pdG1lbnQgbW9kZWxzIG9mIENIQ1AgcGxhbnRzPC90aXRsZT4KICA8L3RpdGxlcz4KICA8cHVibGlzaGVyPlplbm9kbzwvcHVibGlzaGVyPgogIDxwdWJsaWNhdGlvblllYXI+MjAyNDwvcHVibGljYXRpb25ZZWFyPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iRGF0YXNldCIvPgogIDxkYXRlcz4KICAgIDxkYXRlIGRhdGVUeXBlPSJJc3N1ZWQiPjIwMjQtMDMtMjY8L2RhdGU+CiAgPC9kYXRlcz4KICA8YWx0ZXJuYXRlSWRlbnRpZmllcnM+CiAgICA8YWx0ZXJuYXRlSWRlbnRpZmllciBhbHRlcm5hdGVJZGVudGlmaWVyVHlwZT0ib2FpIj5vYWk6emVub2RvLm9yZzoxMDg3NTQ3MTwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICA8L2FsdGVybmF0ZUlkZW50aWZpZXJzPgogIDxyZWxhdGVkSWRlbnRpZmllcnM+CiAgICA8cmVsYXRlZElkZW50aWZpZXIgcmVsYXRlZElkZW50aWZpZXJUeXBlPSJET0kiIHJlbGF0aW9uVHlwZT0iSXNWZXJzaW9uT2YiPjEwLjUyODEvemVub2RvLjEwODc1NDcwPC9yZWxhdGVkSWRlbnRpZmllcj4KICA8L3JlbGF0ZWRJZGVudGlmaWVycz4KICA8c2l6ZXMvPgogIDxmb3JtYXRzLz4KICA8dmVyc2lvbi8+CiAgPHJpZ2h0c0xpc3Q+CiAgICA8cmlnaHRzIHJpZ2h0c1VSST0iaHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LzQuMC9sZWdhbGNvZGUiIHJpZ2h0c0lkZW50aWZpZXI9ImNjLWJ5LTQuMCIgcmlnaHRzSWRlbnRpZmllclNjaGVtZT0ic3BkeCI+Q3JlYXRpdmUgQ29tbW9ucyBBdHRyaWJ1dGlvbiA0LjAgSW50ZXJuYXRpb25hbDwvcmlnaHRzPgogIDwvcmlnaHRzTGlzdD4KICA8ZGVzY3JpcHRpb25zPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iQWJzdHJhY3QiPlppcHBlZCBzZXQgb2YgMzY1IEpTT04gZmlsZXMsIG9uZSBmb3IgZWFjaCBkYXkgb2YgeWVhciAyMDIyLCBjb250YWluaW5nIGZpY3Rpb25hbCBidXQgcmVhbGlzdGljIGRhdGEgZm9yIGEgY29tYmluZWQgaGVhdCwgcG93ZXIgYW5kIGNvb2xpbmcgZ2VuZXJhdGlvbiBwbGFudDoKCgoKaGVhdF9kZW1hbmQ6IGhlYXQgZGVtYW5kIGluIGtXaAoKY29vbGluZ19kZW1hbmQ6IGNvb2xpbmcgZGVtYW5kIGluIGtXaAoKZWxlY3RyaWNpdHlfcHVyY2hhc2U6IHByaWNlIGZvciBwdXJjaGFzaW5nIGVsZWN0cmljaXR5IGluIOKCrC9NV2gKCmVsZWN0cmljaXR5X3NlbGxpbmc6IHByaWNlIGZvciBzZWxsaW5nIGVsZWN0cmljaXR5IGluIOKCrC9NV2gKCmdhc19wdXJjaGFzZTogcHJpY2UgZm9yIG5hdHVyYWwgZ2FzIGluIOKCrC9NV2gKCgrCoDwvZGVzY3JpcHRpb24+CiAgPC9kZXNjcmlwdGlvbnM+CjwvcmVzb3VyY2U+Cg==",
+          "url": "https://zenodo.org/doi/10.5281/zenodo.10875471",
+          "contentUrl": null,
+          "metadataVersion": 2,
+          "schemaVersion": "http://datacite.org/schema/kernel-4",
+          "source": "api",
+          "isActive": true,
+          "state": "findable",
+          "reason": null,
+          "viewCount": 0,
+          "viewsOverTime": [],
+          "downloadCount": 0,
+          "downloadsOverTime": [],
+          "referenceCount": 0,
+          "citationCount": 0,
+          "citationsOverTime": [],
+          "partCount": 0,
+          "partOfCount": 0,
+          "versionCount": 0,
+          "versionOfCount": 1,
+          "created": "2024-03-26T09:09:35.000Z",
+          "registered": "2024-03-26T09:09:35.000Z",
+          "published": "2024",
+          "updated": "2024-03-26T09:22:09.000Z"
+        },
+        "relationships": {
+          "client": {
+            "data": {
+              "id": "cern.zenodo",
+              "type": "clients"
+            }
+          },
+          "provider": {
+            "data": {
+              "id": "cern",
+              "type": "providers"
+            }
+          },
+          "media": {
+            "data": {
+              "id": "10.5281/zenodo.10875471",
+              "type": "media"
+            }
+          },
+          "references": {
+            "data": []
+          },
+          "citations": {
+            "data": []
+          },
+          "parts": {
+            "data": []
+          },
+          "partOf": {
+            "data": []
+          },
+          "versions": {
+            "data": []
+          },
+          "versionOf": {
+            "data": [
+              {
+                "id": "10.5281/zenodo.10875470",
+                "type": "dois"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "summary": {
+      "titles": [
+        {
+          "title": "Dataset for testing unit commitment models of CHCP plants"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Di Felice, Valerio",
+          "nameType": "Personal",
+          "givenName": "Valerio",
+          "familyName": "Di Felice",
+          "affiliation": [
+            "OPTIT s.r.l."
+          ],
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "0000-0001-5947-791X",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        },
+        {
+          "name": "Giuliani, Luca",
+          "nameType": "Personal",
+          "givenName": "Luca",
+          "familyName": "Giuliani",
+          "affiliation": [
+            "University of Bologna"
+          ],
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "0000-0002-9120-6949",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        },
+        {
+          "name": "Gordini, Angelo",
+          "nameType": "Personal",
+          "givenName": "Angelo",
+          "familyName": "Gordini",
+          "affiliation": [
+            "OPTIT s.r.l."
+          ],
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "0000-0001-8823-9339",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Zipped set of 365 JSON files, one for each day of year 2022, containing fictional but realistic data for a combined heat, power and cooling generation plant:\n\n\n\nheat_demand: heat demand in kWh\n\ncooling_demand: cooling demand in kWh\n\nelectricity_purchase: price for purchasing electricity in €/MWh\n\nelectricity_selling: price for selling electricity in €/MWh\n\ngas_purchase: price for natural gas in €/MWh\n\n\n ",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "rights": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "related": [
+        {
+          "relationType": "IsVersionOf",
+          "relatedIdentifier": "10.5281/zenodo.10875470",
+          "relatedIdentifierType": "DOI"
+        }
+      ],
+      "version": null
+    }
+  },
+  {
+    "url": "https://api.datacite.org/dois/10.5281/zenodo.10875998",
+    "data": {
+      "data": {
+        "id": "10.5281/zenodo.10875998",
+        "type": "dois",
+        "attributes": {
+          "doi": "10.5281/zenodo.10875998",
+          "prefix": "10.5281",
+          "suffix": "zenodo.10875998",
+          "identifiers": [
+            {
+              "identifier": "oai:zenodo.org:10875998",
+              "identifierType": "oai"
+            }
+          ],
+          "alternateIdentifiers": [
+            {
+              "alternateIdentifierType": "oai",
+              "alternateIdentifier": "oai:zenodo.org:10875998"
+            }
+          ],
+          "creators": [
+            {
+              "name": "Di Felice, Valerio",
+              "nameType": "Personal",
+              "givenName": "Valerio",
+              "familyName": "Di Felice",
+              "affiliation": [
+                "OPTIT s.r.l."
+              ],
+              "nameIdentifiers": [
+                {
+                  "nameIdentifier": "0000-0001-5947-791X",
+                  "nameIdentifierScheme": "ORCID"
+                }
+              ]
+            },
+            {
+              "name": "Tamburini, Caterina",
+              "nameType": "Personal",
+              "givenName": "Caterina",
+              "familyName": "Tamburini",
+              "affiliation": [
+                "OPTIT s.r.l."
+              ],
+              "nameIdentifiers": [
+                {
+                  "nameIdentifier": "0000-0002-7725-2711",
+                  "nameIdentifierScheme": "ORCID"
+                }
+              ]
+            },
+            {
+              "name": "Gordini, Angelo",
+              "nameType": "Personal",
+              "givenName": "Angelo",
+              "familyName": "Gordini",
+              "affiliation": [
+                "OPTIT s.r.l."
+              ],
+              "nameIdentifiers": [
+                {
+                  "nameIdentifier": "0000-0001-8823-9339",
+                  "nameIdentifierScheme": "ORCID"
+                }
+              ]
+            }
+          ],
+          "titles": [
+            {
+              "title": "Block-oriented description of a fictional CHP generation plant for unit commitment testing"
+            }
+          ],
+          "publisher": "Zenodo",
+          "container": {},
+          "publicationYear": 2024,
+          "subjects": [],
+          "contributors": [],
+          "dates": [
+            {
+              "date": "2024-03-26",
+              "dateType": "Issued"
+            }
+          ],
+          "language": null,
+          "types": {
+            "ris": "DATA",
+            "bibtex": "misc",
+            "citeproc": "dataset",
+            "schemaOrg": "Dataset",
+            "resourceType": "",
+            "resourceTypeGeneral": "Dataset"
+          },
+          "relatedIdentifiers": [
+            {
+              "relationType": "IsVersionOf",
+              "relatedIdentifier": "10.5281/zenodo.10875997",
+              "relatedIdentifierType": "DOI"
+            }
+          ],
+          "relatedItems": [],
+          "sizes": [],
+          "formats": [],
+          "version": null,
+          "rightsList": [
+            {
+              "rights": "Creative Commons Attribution 4.0 International",
+              "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+              "schemeUri": "https://spdx.org/licenses/",
+              "rightsIdentifier": "cc-by-4.0",
+              "rightsIdentifierScheme": "SPDX"
+            }
+          ],
+          "descriptions": [
+            {
+              "description": "Block-oriented description of a fictional combined heat&power generation plant for unit commitment testing.\n\nExample input data is available at: https://doi.org/10.5281/zenodo.10875471",
+              "descriptionType": "Abstract"
+            }
+          ],
+          "geoLocations": [],
+          "fundingReferences": [],
+          "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuNTI4MS9aRU5PRE8uMTA4NzU5OTg8L2lkZW50aWZpZXI+CiAgPGNyZWF0b3JzPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPkRpIEZlbGljZSwgVmFsZXJpbzwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+VmFsZXJpbzwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5EaSBGZWxpY2U8L2ZhbWlseU5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iT1JDSUQiIHNjaGVtZVVSST0iIj4wMDAwLTAwMDEtNTk0Ny03OTFYPC9uYW1lSWRlbnRpZmllcj4KICAgICAgPGFmZmlsaWF0aW9uPk9QVElUIHMuci5sLjwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+VGFtYnVyaW5pLCBDYXRlcmluYTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+Q2F0ZXJpbmE8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+VGFtYnVyaW5pPC9mYW1pbHlOYW1lPgogICAgICA8bmFtZUlkZW50aWZpZXIgbmFtZUlkZW50aWZpZXJTY2hlbWU9Ik9SQ0lEIiBzY2hlbWVVUkk9IiI+MDAwMC0wMDAyLTc3MjUtMjcxMTwvbmFtZUlkZW50aWZpZXI+CiAgICAgIDxhZmZpbGlhdGlvbj5PUFRJVCBzLnIubC48L2FmZmlsaWF0aW9uPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPkdvcmRpbmksIEFuZ2VsbzwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+QW5nZWxvPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkdvcmRpbmk8L2ZhbWlseU5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iT1JDSUQiIHNjaGVtZVVSST0iIj4wMDAwLTAwMDEtODgyMy05MzM5PC9uYW1lSWRlbnRpZmllcj4KICAgICAgPGFmZmlsaWF0aW9uPk9QVElUIHMuci5sLjwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgPC9jcmVhdG9ycz4KICA8dGl0bGVzPgogICAgPHRpdGxlPkJsb2NrLW9yaWVudGVkIGRlc2NyaXB0aW9uIG9mIGEgZmljdGlvbmFsIENIUCBnZW5lcmF0aW9uIHBsYW50IGZvciB1bml0IGNvbW1pdG1lbnQgdGVzdGluZzwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPHB1Ymxpc2hlcj5aZW5vZG88L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjQ8L3B1YmxpY2F0aW9uWWVhcj4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9IkRhdGFzZXQiLz4KICA8ZGF0ZXM+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iSXNzdWVkIj4yMDI0LTAzLTI2PC9kYXRlPgogIDwvZGF0ZXM+CiAgPGFsdGVybmF0ZUlkZW50aWZpZXJzPgogICAgPGFsdGVybmF0ZUlkZW50aWZpZXIgYWx0ZXJuYXRlSWRlbnRpZmllclR5cGU9Im9haSI+b2FpOnplbm9kby5vcmc6MTA4NzU5OTg8L2FsdGVybmF0ZUlkZW50aWZpZXI+CiAgPC9hbHRlcm5hdGVJZGVudGlmaWVycz4KICA8cmVsYXRlZElkZW50aWZpZXJzPgogICAgPHJlbGF0ZWRJZGVudGlmaWVyIHJlbGF0ZWRJZGVudGlmaWVyVHlwZT0iRE9JIiByZWxhdGlvblR5cGU9IklzVmVyc2lvbk9mIj4xMC41MjgxL3plbm9kby4xMDg3NTk5NzwvcmVsYXRlZElkZW50aWZpZXI+CiAgPC9yZWxhdGVkSWRlbnRpZmllcnM+CiAgPHNpemVzLz4KICA8Zm9ybWF0cy8+CiAgPHZlcnNpb24vPgogIDxyaWdodHNMaXN0PgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHBzOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9ieS80LjAvbGVnYWxjb2RlIiByaWdodHNJZGVudGlmaWVyPSJjYy1ieS00LjAiIHJpZ2h0c0lkZW50aWZpZXJTY2hlbWU9InNwZHgiPkNyZWF0aXZlIENvbW1vbnMgQXR0cmlidXRpb24gNC4wIEludGVybmF0aW9uYWw8L3JpZ2h0cz4KICA8L3JpZ2h0c0xpc3Q+CiAgPGRlc2NyaXB0aW9ucz4KICAgIDxkZXNjcmlwdGlvbiBkZXNjcmlwdGlvblR5cGU9IkFic3RyYWN0Ij5CbG9jay1vcmllbnRlZCBkZXNjcmlwdGlvbiBvZiBhIGZpY3Rpb25hbCBjb21iaW5lZCBoZWF0JmFtcDtwb3dlciBnZW5lcmF0aW9uIHBsYW50IGZvciB1bml0IGNvbW1pdG1lbnQgdGVzdGluZy4KCkV4YW1wbGUgaW5wdXQgZGF0YSBpcyBhdmFpbGFibGUgYXQ6IGh0dHBzOi8vZG9pLm9yZy8xMC41MjgxL3plbm9kby4xMDg3NTQ3MTwvZGVzY3JpcHRpb24+CiAgPC9kZXNjcmlwdGlvbnM+CjwvcmVzb3VyY2U+Cg==",
+          "url": "https://zenodo.org/doi/10.5281/zenodo.10875998",
+          "contentUrl": null,
+          "metadataVersion": 3,
+          "schemaVersion": "http://datacite.org/schema/kernel-4",
+          "source": "api",
+          "isActive": true,
+          "state": "findable",
+          "reason": null,
+          "viewCount": 0,
+          "viewsOverTime": [],
+          "downloadCount": 0,
+          "downloadsOverTime": [],
+          "referenceCount": 0,
+          "citationCount": 0,
+          "citationsOverTime": [],
+          "partCount": 0,
+          "partOfCount": 0,
+          "versionCount": 0,
+          "versionOfCount": 1,
+          "created": "2024-03-26T10:07:04.000Z",
+          "registered": "2024-03-26T10:07:04.000Z",
+          "published": "2024",
+          "updated": "2024-03-26T10:21:47.000Z"
+        },
+        "relationships": {
+          "client": {
+            "data": {
+              "id": "cern.zenodo",
+              "type": "clients"
+            }
+          },
+          "provider": {
+            "data": {
+              "id": "cern",
+              "type": "providers"
+            }
+          },
+          "media": {
+            "data": {
+              "id": "10.5281/zenodo.10875998",
+              "type": "media"
+            }
+          },
+          "references": {
+            "data": []
+          },
+          "citations": {
+            "data": []
+          },
+          "parts": {
+            "data": []
+          },
+          "partOf": {
+            "data": []
+          },
+          "versions": {
+            "data": []
+          },
+          "versionOf": {
+            "data": [
+              {
+                "id": "10.5281/zenodo.10875997",
+                "type": "dois"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "summary": {
+      "titles": [
+        {
+          "title": "Block-oriented description of a fictional CHP generation plant for unit commitment testing"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Di Felice, Valerio",
+          "nameType": "Personal",
+          "givenName": "Valerio",
+          "familyName": "Di Felice",
+          "affiliation": [
+            "OPTIT s.r.l."
+          ],
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "0000-0001-5947-791X",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        },
+        {
+          "name": "Tamburini, Caterina",
+          "nameType": "Personal",
+          "givenName": "Caterina",
+          "familyName": "Tamburini",
+          "affiliation": [
+            "OPTIT s.r.l."
+          ],
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "0000-0002-7725-2711",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        },
+        {
+          "name": "Gordini, Angelo",
+          "nameType": "Personal",
+          "givenName": "Angelo",
+          "familyName": "Gordini",
+          "affiliation": [
+            "OPTIT s.r.l."
+          ],
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "0000-0001-8823-9339",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Block-oriented description of a fictional combined heat&power generation plant for unit commitment testing.\n\nExample input data is available at: https://doi.org/10.5281/zenodo.10875471",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "rights": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "related": [
+        {
+          "relationType": "IsVersionOf",
+          "relatedIdentifier": "10.5281/zenodo.10875997",
+          "relatedIdentifierType": "DOI"
+        }
+      ],
+      "version": null
+    }
+  }
+]

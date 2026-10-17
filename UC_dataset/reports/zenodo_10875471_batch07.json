@@ -1,0 +1,118 @@
+{
+  "created": "2024-03-26T09:09:34.458924+00:00",
+  "modified": "2024-03-26T09:15:30.505377+00:00",
+  "id": 10875471,
+  "conceptrecid": "10875470",
+  "doi": "10.5281/zenodo.10875471",
+  "conceptdoi": "10.5281/zenodo.10875470",
+  "doi_url": "https://doi.org/10.5281/zenodo.10875471",
+  "metadata": {
+    "title": "Dataset for testing unit commitment models of CHCP plants",
+    "doi": "10.5281/zenodo.10875471",
+    "publication_date": "2024-03-26",
+    "description": "<p>Zipped set of 365 JSON files, one for each day of year 2022, containing fictional but realistic data for a combined heat, power and cooling generation plant:</p>\n<ul>\n<li>heat_demand: heat demand in kWh</li>\n<li>cooling_demand: cooling demand in kWh</li>\n<li>electricity_purchase: price for purchasing electricity in &euro;/MWh</li>\n<li>electricity_selling: price for selling electricity in &euro;/MWh</li>\n<li>gas_purchase: price for natural gas in &euro;/MWh</li>\n</ul>\n<p>&nbsp;</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Di Felice, Valerio",
+        "affiliation": "OPTIT s.r.l.",
+        "orcid": "0000-0001-5947-791X"
+      },
+      {
+        "name": "Giuliani, Luca",
+        "affiliation": "University of Bologna",
+        "orcid": "0000-0002-9120-6949"
+      },
+      {
+        "name": "Gordini, Angelo",
+        "affiliation": "OPTIT s.r.l.",
+        "orcid": "0000-0001-8823-9339"
+      }
+    ],
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "10875470"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Dataset for testing unit commitment models of CHCP plants",
+  "links": {
+    "self": "https://zenodo.org/api/records/10875471",
+    "self_html": "https://zenodo.org/records/10875471",
+    "preview_html": "https://zenodo.org/records/10875471?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.10875471",
+    "self_doi": "https://doi.org/10.5281/zenodo.10875471",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10875471",
+    "reserve_doi": "https://zenodo.org/api/records/10875471/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/10875470",
+    "parent_html": "https://zenodo.org/records/10875470",
+    "parent_doi": "https://doi.org/10.5281/zenodo.10875470",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10875470",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10875471/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10875471/sequence/default",
+    "files": "https://zenodo.org/api/records/10875471/files",
+    "media_files": "https://zenodo.org/api/records/10875471/media-files",
+    "latest": "https://zenodo.org/api/records/10875471/versions/latest",
+    "latest_html": "https://zenodo.org/records/10875471/latest",
+    "versions": "https://zenodo.org/api/records/10875471/versions",
+    "draft": "https://zenodo.org/api/records/10875471/draft",
+    "access_links": "https://zenodo.org/api/records/10875471/access/links",
+    "access_grants": "https://zenodo.org/api/records/10875471/access/grants",
+    "access_users": "https://zenodo.org/api/records/10875471/access/users",
+    "access_request": "https://zenodo.org/api/records/10875471/access/request",
+    "access": "https://zenodo.org/api/records/10875471/access",
+    "communities": "https://zenodo.org/api/records/10875471/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/10875471/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/10875471/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/10875471/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/10875471/quota-increase",
+    "requests": "https://zenodo.org/api/records/10875471/requests"
+  },
+  "updated": "2024-03-26T09:15:30.505377+00:00",
+  "recid": "10875471",
+  "revision": 8,
+  "files": [
+    {
+      "id": "36fb95c2-672d-46b5-8291-7b40da1ee147",
+      "key": "data.zip",
+      "size": 484359,
+      "checksum": "md5:af61344477462f4f1668674b063deaac",
+      "links": {
+        "self": "https://zenodo.org/api/records/10875471/files/data.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1088777"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 26,
+    "unique_downloads": 26,
+    "views": 220,
+    "unique_views": 210,
+    "version_downloads": 26,
+    "version_unique_downloads": 26,
+    "version_unique_views": 210,
+    "version_views": 220
+  },
+  "state": "done",
+  "submitted": true
+}

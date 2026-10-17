@@ -1,0 +1,247 @@
+{
+  "retrieved_date": "2026-10-17",
+  "source_url": "https://github.com/IIT-EnergySystemModels/openSDUC",
+  "commit": "951369aad1615fc6c2281d7bd350ded393096f3a",
+  "tree_sha": "5a7ba0e94929886edca19d3815a97c07ce209044",
+  "license": {
+    "key": "agpl-3.0",
+    "name": "GNU Affero General Public License v3.0",
+    "spdx_id": "AGPL-3.0",
+    "url": "https://api.github.com/licenses/agpl-3.0",
+    "node_id": "MDc6TGljZW5zZTE="
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 1857,
+      "sha": "61a18fb9d113ed9ae6ab8c80f5a9ea967ebf50a1"
+    },
+    {
+      "path": ".readthedocs.yaml",
+      "size": 810,
+      "sha": "ad3d01deefd6a3eb3259bfe91f711162d7d2e09f"
+    },
+    {
+      "path": "LICENSE",
+      "size": 34523,
+      "sha": "be3f7b28e564e7dd05eaf59d64adba1a4065ac0e"
+    },
+    {
+      "path": "README.md",
+      "size": 7325,
+      "sha": "d5a0521ee1d1c33bf3f861c9b1f9bbc4ffb8d3fa"
+    },
+    {
+      "path": "doc/img/ColabPP.jpg",
+      "size": 66057,
+      "sha": "56997f5e7aeaf02dfdc83fd4f66ed826982eec51"
+    },
+    {
+      "path": "doc/img/ColabPP.png",
+      "size": 75018,
+      "sha": "8bcdbb114926c2421a42cb7ae7b5a19f29147221"
+    },
+    {
+      "path": "doc/img/Escudo.png",
+      "size": 17148,
+      "sha": "e676a574547e1b135a365b69c7863cf6f4a7e0c2"
+    },
+    {
+      "path": "doc/img/IIT40.png",
+      "size": 10981,
+      "sha": "41e8110514327665852cd3859bd067c521939cc8"
+    },
+    {
+      "path": "doc/img/Misiones.jpg",
+      "size": 52337,
+      "sha": "8ac848a015d63dd8d31bc9e92d7bc7686f2a8522"
+    },
+    {
+      "path": "doc/img/iit_old.gif",
+      "size": 2030,
+      "sha": "da4cf7f4c11f4b51946cb23003d7c3b0f8df7349"
+    },
+    {
+      "path": "doc/img/logoIIT.gif",
+      "size": 285,
+      "sha": "8d54a25df185d0b22b7a304d2222b8e4a5c63d5f"
+    },
+    {
+      "path": "doc/img/logoIIT.png",
+      "size": 12225,
+      "sha": "56c592b866020bcd2978b9e6d80b1437ce780faa"
+    },
+    {
+      "path": "doc/img/oUC_SRMC_16g.png",
+      "size": 47619,
+      "sha": "d42bfcd8ddad149de5b8819eedbce2d0267dc982"
+    },
+    {
+      "path": "doc/img/oUC_TechnologyOutput_scen1_16g.png",
+      "size": 53991,
+      "sha": "35b33f82cbe588e2cf8b144f3ed50c1889eee7e4"
+    },
+    {
+      "path": "doc/img/openSDUC.jpg",
+      "size": 34134,
+      "sha": "ee09ff81db51854deac5eb5d4cdb7632bd4578ba"
+    },
+    {
+      "path": "doc/md/ContactUs.md",
+      "size": 381,
+      "sha": "5d6c26832891e76375621194fcd3e3389775b39d"
+    },
+    {
+      "path": "doc/md/Download.md",
+      "size": 2049,
+      "sha": "4996c48cd6515661a78a6cc74f5fba89bd52f228"
+    },
+    {
+      "path": "doc/md/InputData.md",
+      "size": 12328,
+      "sha": "8e8e60d1f0c69824d8062dbc1e9e327362169e6a"
+    },
+    {
+      "path": "doc/md/Introduction.md",
+      "size": 1647,
+      "sha": "c89611226b8e7417d8106457d2011c70ac786891"
+    },
+    {
+      "path": "doc/md/MathematicalFormulation.md",
+      "size": 10792,
+      "sha": "ef9639da19e3d6bbb4557d4601748a5ee0cc3871"
+    },
+    {
+      "path": "doc/md/OutputResults.md",
+      "size": 8430,
+      "sha": "058f4cebdc4404eead5025cacbfd3b0b22dec179"
+    },
+    {
+      "path": "doc/md/conf.py",
+      "size": 3116,
+      "sha": "84095bf637c593630876e92966c3d8e5d1c5d793"
+    },
+    {
+      "path": "doc/md/index.md",
+      "size": 709,
+      "sha": "a765dcb1a8d3388eb6d7b86599e179d9bc29ca35"
+    },
+    {
+      "path": "doc/md/requirements.txt",
+      "size": 58,
+      "sha": "ffa31cdb7ffa3521f6863d780ea7f50a489c3116"
+    },
+    {
+      "path": "environment.yaml",
+      "size": 426,
+      "sha": "0816d5cd1030fc146b871f6fe472ef331eb89de0"
+    },
+    {
+      "path": "openSDUC/16g/oUC_Data_Demand_16g.csv",
+      "size": 23469,
+      "sha": "42345285d477c4783da494a9d396088c1d6dc38b"
+    },
+    {
+      "path": "openSDUC/16g/oUC_Data_Duration_16g.csv",
+      "size": 3874,
+      "sha": "8c34c5c102c990b6d72c3a343606a3b3abf3f36c"
+    },
+    {
+      "path": "openSDUC/16g/oUC_Data_EnergyInflows_16g.csv",
+      "size": 31744,
+      "sha": "edb55e9c49cfa26f4815088c6375eb88861451f9"
+    },
+    {
+      "path": "openSDUC/16g/oUC_Data_Generation_16g.csv",
+      "size": 1473,
+      "sha": "cd01cdf02d1d01e79f2fafcb901aead773ab6b13"
+    },
+    {
+      "path": "openSDUC/16g/oUC_Data_MaximumGeneration_16g.csv",
+      "size": 56880,
+      "sha": "572420633f0f33a8d350b6654ff871a502c74a19"
+    },
+    {
+      "path": "openSDUC/16g/oUC_Data_MaximumStorage_16g.csv",
+      "size": 29728,
+      "sha": "be43fd09153cec31dfd784c1f813ccf53c38c384"
+    },
+    {
+      "path": "openSDUC/16g/oUC_Data_MinimumGeneration_16g.csv",
+      "size": 29728,
+      "sha": "be43fd09153cec31dfd784c1f813ccf53c38c384"
+    },
+    {
+      "path": "openSDUC/16g/oUC_Data_MinimumStorage_16g.csv",
+      "size": 29728,
+      "sha": "be43fd09153cec31dfd784c1f813ccf53c38c384"
+    },
+    {
+      "path": "openSDUC/16g/oUC_Data_OperatingReserve_16g.csv",
+      "size": 18826,
+      "sha": "d1bada3b13b657192a6b0facd14d73793e799821"
+    },
+    {
+      "path": "openSDUC/16g/oUC_Data_Parameter_16g.csv",
+      "size": 48,
+      "sha": "f7365b019d4f13c3c679fb71ed6ced170b46dbaf"
+    },
+    {
+      "path": "openSDUC/16g/oUC_Data_Scenario_16g.csv",
+      "size": 50,
+      "sha": "53e0002d1466db38d076ff8427abc0d1affdb66d"
+    },
+    {
+      "path": "openSDUC/16g/oUC_Dict_Company_16g.csv",
+      "size": 53,
+      "sha": "b704c4dbd0d05f55483730388c55f31d431017ee"
+    },
+    {
+      "path": "openSDUC/16g/oUC_Dict_Generation_16g.csv",
+      "size": 168,
+      "sha": "e2196bbe16c265f25374cfd7862e72e041d62dd3"
+    },
+    {
+      "path": "openSDUC/16g/oUC_Dict_LoadLevel_16g.csv",
+      "size": 3538,
+      "sha": "d42bdf425853d3ce9a35fe09ebd974687bf4e0d7"
+    },
+    {
+      "path": "openSDUC/16g/oUC_Dict_Scenario_16g.csv",
+      "size": 29,
+      "sha": "4bfa75d3d51b0f80b7525058099d561981664067"
+    },
+    {
+      "path": "openSDUC/16g/oUC_Dict_Storage_16g.csv",
+      "size": 25,
+      "sha": "1d38ee4525fa8c877e6e4d2088e0ed27e944c925"
+    },
+    {
+      "path": "openSDUC/16g/oUC_Dict_Technology_16g.csv",
+      "size": 81,
+      "sha": "1a3877645cd69cec650d0e6e1ecc23326aa8343a"
+    },
+    {
+      "path": "openSDUC/__init__.py",
+      "size": 601,
+      "sha": "fa1f560c8018aef9cdf4df056c8bdd8a94b67a41"
+    },
+    {
+      "path": "openSDUC/openSDUC_main.py",
+      "size": 83248,
+      "sha": "f9323d4c6e15f9597637449bceacfa6cd4cad33d"
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 778,
+      "sha": "178543e468beb4a70c0f7ca5fd274db0c25fd594"
+    }
+  ],
+  "readme": "\n[![openSDUC](doc/img/openSDUC.jpg)](https://opensduc.readthedocs.io/en/latest/index.html)\n\n[![PyPI](https://badge.fury.io/py/openSDUC.svg)](https://badge.fury.io/py/openSDUC)\n[![versions](https://img.shields.io/pypi/pyversions/openSDUC.svg)](https://pypi.python.org/pypi/openSDUC)\n[![docs](https://img.shields.io/readthedocs/opensduc)](https://opensduc.readthedocs.io/en/latest/index.html)\n[![AGPL](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://github.com/IIT-EnergySystemModels/openSDUC/blob/master/LICENSE)\n[![pepy](https://static.pepy.tech/badge/openSDUC)](https://pepy.tech/project/openSDUC)\n\n**Open Stochastic Daily Unit Commitment of Thermal and ESS Units (openSDUC)**\n\nIt determines the system operation to supply the demand at minimum cost.\n\nThe **openSDUC** model presents a decision support system for defining the generation operation of a large-scale electric system.\n\nThe scope of the model corresponds to one day or one week, divided into load levels: 01-01 00:00:00+01:00 to 01-07 23:00:00+01:00.\nThe time division allows a flexible representation of the periods for evaluating the system operation, for example, as 84 two-hour periods or as the 168 hours\nof the week.\n\nIt considers stochastic short-term uncertainties (scenarios) related to the system operation. The operation scenarios are associated with renewable energy\nsources and electricity demand.\n\nThe model formulates an optimization problem that includes binary and continuous operation decisions.\n\nThe **unit commitment (UC)** model is based on a **tight and compact** formulation that includes operating reserves. It considers different **energy storage\nsystems (ESS)**, e.g., pumped-storage hydro and batteries.\n\nThe main results of the model can be structured into these topics:\n\n- **Operation**: the output of different units and technologies (thermal, storage hydro, pumped-storage hydro, RES), RES curtailment\n- **Emissions**: CO2\n- **Marginal**: Short-Run Marginal Costs (SRMC)\n\nA careful implementation has been carried out to avoid numerical problems by scaling parameters, variables, and equations of the optimization problem, allowing\nthe model to be used for large-scale cases.\n\n# Installation\n\nThere are two ways to get all the required packages under Windows. We recommend using the Python distribution Miniconda. If you don't want to use it or already\nhave an existing Python (version 3.11) installation, you can also download the required packages on your own.\n\n## Miniconda (recommended)\n\n1. [Miniconda](https://docs.conda.io/en/latest/miniconda.html). Choose the 64-bit installer if possible.\n\n   1. During the installation procedure, keep both checkboxes \"modify the PATH\" and \"register Python\" selected! If only higher Python versions are available,\n      you can switch to a specific Python version by typing `conda install python=<version>`\n   2. **Remark:** if Anaconda or Miniconda was installed previously, please check that Python is registered in the environment variables.\n\n2. **Packages and Solver**:\n\n   1. Launch a new command prompt (Windows: Win+R, type \"cmd\", Enter)\n   2. [HiGHS](https://ergo-code.github.io/HiGHS/dev/installation/#Precompiled-Binaries) is our recommendation if you want a free and open-source solver.\n   3. Install openSDUC via pip by running `pip install openSDUC`\n\n# Solvers\n\n## HiGHS\n\nThe [HiGHS solver](https://ergo-code.github.io/HiGHS/dev/interfaces/python/#python-getting-started) can also be used. It can be installed using: `pip install\nhighspy`.\nThis solver is activated by calling the openSDUC model with the solver name 'appsi_highs'.\n\n## Gurobi\n\nAnother recommendation is the use of the [Gurobi solver](https://www.gurobi.com/). It is a commercial solver, but it is more powerful than open-source solvers\nfor large-scale problems.\nAs a commercial solver, it needs a license that is free of charge for academic use by signing up on the [Gurobi\nwebsite](https://pages.gurobi.com/registration/). You can also ask for a 30-day [evaluation\nlicense](https://www.gurobi.com/downloads/request-an-evaluation-license/) to test the solver.\nIt can be installed using: `conda install -c gurobi gurobi`, and then you can request an academic or commercial license. Activate the license on your computer\nusing the `grbgetkey` command (you need to be in a university internet domain if you are installing an academic license).\n\n## GLPK\n\nAs an easy option for installation, we have the free and open-source [GLPK solver](https://www.gnu.org/software/glpk/). However, it can be very slow for\nlarge-scale problems. It can be installed using: `conda install glpk`.\n\n## CBC\n\nThe [CBC solver](https://github.com/coin-or/Cbc) is another free and open-source solver. For Windows users, the easiest way to install the CBC solver is to\ndownload the binaries from this [site](https://www.coin-or.org/download/binary/Cbc/), copy the *cbc.exe* file into the \"bin\" directory of your Anaconda or\nMiniconda environment (which is on the PATH). Under Linux, it can be installed using: `conda install -c conda-forge coincbc`.\n\n## Mosek\n\nAnother alternative is the [Mosek solver](https://www.mosek.com/). Note that it is a commercial solver, and you need a license for it. Mosek is a good\nalternative to deal with QP, SOCP, and SDP problems. You only need to run `conda install -c mosek mosek` for installation and then request a license (academic\nor commercial). You can apply for an academic license [here](https://www.mosek.com/products/academic-licenses/).\nMosek also provides a [license guide](https://docs.mosek.com/9.2/licensing/index.html). If you request an academic license, you will receive it by email and\nonly need to place it in the path `C:\\Users\\<username>\\mosek` on your computer.\n\n## Users\n\nIf you are not planning on developing, please follow the instructions in the [Installation](#installation) section.\n\nOnce installation is complete, [openSDUC](https://github.com/IIT-EnergySystemModels/openSDUC/tree/master) can be executed in test mode from a command prompt.\nIn the directory of your choice, open and execute the openSDUC_run.py script by using the following on the command prompt (Windows) or terminal (Linux).\n(Depending on your default Python version, you might need to call `python3` instead of `python`.):\n\n> `openSDUC_Main`\n\nYou will then be asked for three parameters (case, dir, and solver).\n\n**Remark:** at this step, just press Enter for each input, and openSDUC will be executed with the default parameters.\n\nAfter this, in a directory of your choice, make a copy of the [16g](https://github.com/IIT-EnergySystemModels/openSDUC/tree/master/openSDUC/16g) case to create\na new case of your choice, keeping the current format of the CSV files.\nYou can then run `openSDUC_Main` properly by entering the new case and the directory of your choice. Note that the solver is **glpk** by default, but it can be\nchanged to any other solver that Pyomo supports (e.g., gurobi, mosek).\n\nThen, the **results** are written to the folder named after the case. The results contain plots and summary spreadsheets for multiple optimized scenarios and\nload levels.\n\n**Note that** there is an alternative way to run the model: create a new script **script.py** and write the following:\n\n> `from openSDUC.openSDUC_main import openSDUC_run`\n>\n> `openSDUC_run(<dir>, <case>, <solver>)`\n",
+  "documentation_download": "% openSDUC documentation master file, created by Andres Ramos\n\n# Download & Installation\n\nThe **openSDUC** model has been tested using the latest versions of [Python 3.14.7](https://www.python.org/) and [Pyomo 6.10.1](https://pyomo.readthedocs.io/en/stable/), and it uses [Gurobi 13.0.3](https://www.gurobi.com/products/gurobi-optimizer/)\nas a commercial MIP solver, for which a free academic license is available. It uses Pyomo so that it is independent of the preferred solver.\nAlternatively, you can use one of the free solvers [HiGHS 1.15.1](https://pypi.org/project/highspy/), [SCIP 10.0.2](https://www.scipopt.org/index.php#download), [GLPK 5.0](https://www.gnu.org/software/glpk/), or [CBC 2.10.13](https://github.com/coin-or/Cbc/releases).\nYou can list the serial solver interfaces available under Pyomo with this call:\n\n```\npyomo help -s\n```\n\nThe Gurobi, HiGHS, SCIP, and GLPK solvers can be installed as packages:\n\n```\nconda install -c gurobi      gurobi\npip   install                highspy\nconda install -c conda-forge pyscipopt\nconda install                glpk\n```\n\nIt also requires the following packages:\n\n- [Pandas](https://pandas.pydata.org/) for reading input data and writing results\n- [Matplotlib](https://matplotlib.org/) for plotting some results\n\n## Cases\n\nHere are the input files for a small case study of [16 generators](https://github.com/IIT-EnergySystemModels/openSDUC/tree/main/openSDUC/16g).\n\n## Code\n\nThe **openSDUC** code is provided under the [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html):\n\n- the code cannot become part of a closed-source commercial software product\n- any future changes and improvements to the code remain free and open\n\nThe source code can be downloaded from [GitHub](https://github.com/IIT-EnergySystemModels/openSDUC) or installed with [pip](https://pypi.org/project/openSDUC/).\n\nThis model is a work in progress and will be updated accordingly. If you want to subscribe to **openSDUC** model updates, send an email to\n<mailto:andres.ramos@comillas.edu>.\n",
+  "documentation_contact": "% openSDUC documentation master file, created by Andres Ramos\n\n# Contact Us\n\n```{image} /../img/Escudo.png\n:align: right\n:scale: 66%\n```\n\n```{image} /../img/logoIIT.gif\n:align: right\n:scale: 100%\n```\n\n[Andrés Ramos](https://pascua.iit.comillas.edu/aramos/Ramos_CV.htm)\n\n<mailto:andres.ramos@comillas.edu>\n\nUniversidad Pontificia Comillas\n\nAlberto Aguilera 23\n\n28015 Madrid, Spain\n",
+  "license_evidence": "Root LICENSE is GNU Affero General Public License v3.0. README badge and Download.md agree; pyproject.toml classifier instead says GPLv3+, an upstream metadata inconsistency. Preserve all originals and do not relicense.",
+  "pyproject": "[build-system]\nrequires = [\"flit_core >=2,<4\"]\nbuild-backend = \"flit_core.buildapi\"\n\n[tool.flit.metadata]\nmodule = \"openSDUC\"\ndist-name = \"openSDUC\"\nauthor = \"IIT-EnergySystemModels\"\nauthor-email = \"andres.ramos@comillas.edu\"\nhome-page = \"https://pascua.iit.comillas.edu/aramos/openSDUC/index.html\"\nclassifiers = [\n  \"Development Status :: 5 - Production/Stable\",\"Intended Audience :: Science/Research\",\n  \"License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)\",\n  \"Operating System :: OS Independent\",\n  \"Programming Language :: Python :: 3.13\",]\nrequires-python = \">=3.11\"\ndescription-file = \"README.md\"\nrequires = [\n  \"matplotlib>=3.10.0\",\n  \"pandas>=2.2.2\",\n  \"psutil>=5.9.5\",\n  \"pyomo>=6.10.0\",\n  ]\n\n[tool.flit.scripts]\nopenSDUC_Main = \"openSDUC:main\"\n",
+  "parameter_validation": "not_run",
+  "solve_status": "not_run"
+}

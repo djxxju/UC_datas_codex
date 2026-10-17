@@ -1,0 +1,79 @@
+{
+  "retrieved_date": "2026-10-17",
+  "source_url": "https://github.com/tamu-engineering-research/DemandResponse",
+  "ref": "5e305d2462cbb87adb778fdaaf05502766f92c81",
+  "github_license": null,
+  "files": [
+    {
+      "path": "Code/DR.m",
+      "size": 3552,
+      "sha": "7c4eb1c57e9cc8a3272c6aad317997c00f9e92d0"
+    },
+    {
+      "path": "Code/case2000_PWL.m",
+      "size": 668181,
+      "sha": "c0c9898f7eeb95180a542d4e39f3b98b4189be3f"
+    },
+    {
+      "path": "Code/daily_SCEDR.m",
+      "size": 4067,
+      "sha": "20f7c1efbc30d29a33f8918bbd733c6bad920248"
+    },
+    {
+      "path": "Code/daily_SCUD_SCED.m",
+      "size": 4108,
+      "sha": "897b765d5c96cd8b83b976b36a55cb3f9efb0a78"
+    },
+    {
+      "path": "Code/run_SCEDR.m",
+      "size": 3927,
+      "sha": "09e4a45adab97bfb4e01c293e92910f67b16b4d7"
+    },
+    {
+      "path": "Code/run_SCUC.m",
+      "size": 2346,
+      "sha": "6011c9d573fdf71bcbfb2c7a2847acd47a18fa1e"
+    },
+    {
+      "path": "Code/xgd_case2000.m",
+      "size": 1618,
+      "sha": "8b10a48c609fb1095b167b0a9402c10e6702d68f"
+    },
+    {
+      "path": "Data/gendata_case2000.mat",
+      "size": 406,
+      "sha": "442e0b21844c7332e8482b0d565d9474c70083b6"
+    },
+    {
+      "path": "Data/nodal_load_hourly.mat",
+      "size": 74042983,
+      "sha": "9ee1ab148f56749991f4c57cbd3616c4f6ed08be"
+    },
+    {
+      "path": "Data/texas_2020_demand.mat",
+      "size": 525874,
+      "sha": "74ca831ecb2cb850c5762b021bb5f2e54d3e8c7c"
+    },
+    {
+      "path": "Data/texas_2020_hydro.mat",
+      "size": 868234,
+      "sha": "e2ff233ae608e17ed6d47044e71d65984e801094"
+    },
+    {
+      "path": "Data/texas_2020_solar.mat",
+      "size": 1103521,
+      "sha": "b820ba548f88f1a90abe5795b457407a6daa44b0"
+    },
+    {
+      "path": "Data/texas_2020_wind.mat",
+      "size": 7718663,
+      "sha": "8b5751564699b2d7dba0fd153f39fc83fb51c6a3"
+    },
+    {
+      "path": "readme.md",
+      "size": 1766,
+      "sha": "6f772be7285864bd588b473e1a063932c1668e0e"
+    }
+  ],
+  "status": "catalog_only_license_unresolved"
+}

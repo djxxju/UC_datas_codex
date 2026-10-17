@@ -1,0 +1,57 @@
+name: Collect official UC packages batch 07
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/collect-official-data-batch07.yml'
+      - 'UC_dataset/sources/cloud_collection_2026-10-17_batch07.json'
+      - 'UC_dataset/sources/collect_on_github.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: official-uc-collection-batch07
+  cancel-in-progress: false
+
+jobs:
+  collect-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      RELEASE_TAG: official-data-2026-10-17-batch07
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Check whether this immutable batch is already published
+        id: existing
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "$RELEASE_TAG" --json isDraft > "$RUNNER_TEMP/release.json" 2>/dev/null; then
+            if python -c 'import json,sys; sys.exit(json.load(open(sys.argv[1]))["isDraft"])' "$RUNNER_TEMP/release.json"; then
+              echo 'published=true' >> "$GITHUB_OUTPUT"
+            fi
+          fi
+      - name: Collect original data without parameter checks or solving
+        if: steps.existing.outputs.published != 'true'
+        run: |
+          python UC_dataset/sources/collect_on_github.py \
+            --manifest UC_dataset/sources/cloud_collection_2026-10-17_batch07.json \
+            --output "$RUNNER_TEMP/uc-release"
+      - name: Upload original packages and provenance to repository Release
+        if: steps.existing.outputs.published != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ! gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            gh release create "$RELEASE_TAG" --target "$GITHUB_SHA" --draft \
+              --title '官方 UC 原始数据包：2026-10-17 批次 07' \
+              --notes-file UC_dataset/sources/cloud_release_notes_batch07.md
+          fi
+          gh release upload "$RELEASE_TAG" "$RUNNER_TEMP/uc-release/"* --clobber
+          gh release edit "$RELEASE_TAG" --draft=false --latest=false

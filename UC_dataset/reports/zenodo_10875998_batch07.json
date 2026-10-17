@@ -1,0 +1,118 @@
+{
+  "created": "2024-03-26T10:07:03.562116+00:00",
+  "modified": "2024-03-26T10:21:46.155564+00:00",
+  "id": 10875998,
+  "conceptrecid": "10875997",
+  "doi": "10.5281/zenodo.10875998",
+  "conceptdoi": "10.5281/zenodo.10875997",
+  "doi_url": "https://doi.org/10.5281/zenodo.10875998",
+  "metadata": {
+    "title": "Block-oriented description of a fictional CHP generation plant for unit commitment testing",
+    "doi": "10.5281/zenodo.10875998",
+    "publication_date": "2024-03-26",
+    "description": "<p>Block-oriented description of a fictional combined heat&amp;power generation plant for unit commitment testing.</p>\n<p>Example input data is available at: https://doi.org/10.5281/zenodo.10875471</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Di Felice, Valerio",
+        "affiliation": "OPTIT s.r.l.",
+        "orcid": "0000-0001-5947-791X"
+      },
+      {
+        "name": "Tamburini, Caterina",
+        "affiliation": "OPTIT s.r.l.",
+        "orcid": "0000-0002-7725-2711"
+      },
+      {
+        "name": "Gordini, Angelo",
+        "affiliation": "OPTIT s.r.l.",
+        "orcid": "0000-0001-8823-9339"
+      }
+    ],
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "10875997"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Block-oriented description of a fictional CHP generation plant for unit commitment testing",
+  "links": {
+    "self": "https://zenodo.org/api/records/10875998",
+    "self_html": "https://zenodo.org/records/10875998",
+    "preview_html": "https://zenodo.org/records/10875998?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.10875998",
+    "self_doi": "https://doi.org/10.5281/zenodo.10875998",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10875998",
+    "reserve_doi": "https://zenodo.org/api/records/10875998/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/10875997",
+    "parent_html": "https://zenodo.org/records/10875997",
+    "parent_doi": "https://doi.org/10.5281/zenodo.10875997",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10875997",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10875998/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10875998/sequence/default",
+    "files": "https://zenodo.org/api/records/10875998/files",
+    "media_files": "https://zenodo.org/api/records/10875998/media-files",
+    "latest": "https://zenodo.org/api/records/10875998/versions/latest",
+    "latest_html": "https://zenodo.org/records/10875998/latest",
+    "versions": "https://zenodo.org/api/records/10875998/versions",
+    "draft": "https://zenodo.org/api/records/10875998/draft",
+    "access_links": "https://zenodo.org/api/records/10875998/access/links",
+    "access_grants": "https://zenodo.org/api/records/10875998/access/grants",
+    "access_users": "https://zenodo.org/api/records/10875998/access/users",
+    "access_request": "https://zenodo.org/api/records/10875998/access/request",
+    "access": "https://zenodo.org/api/records/10875998/access",
+    "communities": "https://zenodo.org/api/records/10875998/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/10875998/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/10875998/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/10875998/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/10875998/quota-increase",
+    "requests": "https://zenodo.org/api/records/10875998/requests"
+  },
+  "updated": "2024-03-26T10:21:46.155564+00:00",
+  "recid": "10875998",
+  "revision": 12,
+  "files": [
+    {
+      "id": "538e5ff0-3f3b-447c-b697-818f3be02522",
+      "key": "base_instance.zip",
+      "size": 8678,
+      "checksum": "md5:38983cd77ebd99443efbcae1b2d94e7a",
+      "links": {
+        "self": "https://zenodo.org/api/records/10875998/files/base_instance.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1088777"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 14,
+    "unique_downloads": 13,
+    "views": 110,
+    "unique_views": 95,
+    "version_downloads": 14,
+    "version_unique_downloads": 13,
+    "version_unique_views": 95,
+    "version_views": 110
+  },
+  "state": "done",
+  "submitted": true
+}
