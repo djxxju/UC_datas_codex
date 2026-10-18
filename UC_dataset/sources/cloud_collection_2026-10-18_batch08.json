@@ -1,0 +1,104 @@
+{
+  "release_tag": "official-data-2026-10-18-batch08",
+  "prepared_date": "2026-10-18",
+  "collection_only": true,
+  "storage_policy": "Original payloads are collected only on GitHub-hosted runners; local storage holds metadata and documents.",
+  "sources": [
+    {
+      "source_id": "comillas_opentepes",
+      "title": "Comillas IIT openTEPES: official reference cases and study-specific datasets",
+      "source_url": "https://github.com/IIT-EnergySystemModels/openTEPES",
+      "version": "Official repository snapshot 2026-10-18",
+      "commit": "5c0187063874cca4bc7af8ff97b19c6c316dd7a5",
+      "doi": "10.1016/j.softx.2022.101070",
+      "doi_scope": "Model paper; not a dataset-specific DOI",
+      "license": "AGPL-3.0 repository LICENSE; preserve full unchanged source and notices",
+      "license_url": "https://github.com/IIT-EnergySystemModels/openTEPES/blob/5c0187063874cca4bc7af8ff97b19c6c316dd7a5/LICENSE",
+      "license_evidence": "Root LICENSE and README license badge identify AGPL v3. Full repository archive retained; no separate license file was found in bundled case directories.",
+      "citation": "Andres Ramos, Erik Quispe, Sara Lumbreras (2022). openTEPES: Open-source Transmission and Generation Expansion Planning. SoftwareX 18, 101070. DOI 10.1016/j.softx.2022.101070. IIT, Universidad Pontificia Comillas. Repository snapshot 5c0187063874cca4bc7af8ff97b19c6c316dd7a5.",
+      "institutional_affiliations": [
+        "Instituto de Investigacion Tecnologica, Universidad Pontificia Comillas"
+      ],
+      "model_scope": "Capacity expansion and operation with network-constrained UC. Official README documents reserves, storage, demand flexibility, maximum CO2 emissions and optional hydrogen/heat. Pinned Git tree contains 17 bundled case directories (737 files), plus two study-specific case directories. Files include demand, generation, networks, reserves and emission inputs; parameter contents and activation have not been checked.",
+      "upstream_caveats": [
+        "17 directories are variants and representations, not 17 independent UC benchmark systems. 9n_duckdb is an alternate storage representation.",
+        "RTS24 and RTS-GMLC variants overlap known test-system families already collected; keep model-specific inputs but do not count as new underlying grids.",
+        "Network-constrained UC does not establish N-1 security; no such claim is made.",
+        "Model capability and an Emission CSV do not establish that a finite binding emissions cap or demand response is active in every case.",
+        "Case studies are distinct from bundled reference cases and are not in upstream CI, according to case_studies/README.md.",
+        "No CSV data parsed, model executed, solver adapter tested, or independent baseline produced."
+      ],
+      "packaging": "unchanged_archive",
+      "asset_name": "Comillas-openTEPES-5c018706.zip",
+      "archive_inventory": true,
+      "required_member_basenames": [
+        "LICENSE",
+        "README.md",
+        "oT_Data_Generation_9n.csv",
+        "oT_Data_Demand_9n.csv",
+        "oT_Data_Network_9n.csv",
+        "oT_Data_Emission_9n.csv",
+        "oT_Data_Generation_RTS24.csv"
+      ],
+      "files": [
+        {
+          "filename": "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5.zip",
+          "url": "https://codeload.github.com/IIT-EnergySystemModels/openTEPES/zip/5c0187063874cca4bc7af8ff97b19c6c316dd7a5",
+          "expected_content_types": [
+            "application/zip"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "genx_official_examples",
+      "title": "GenX official example systems: UC-aware capacity expansion, storage and carbon-policy examples",
+      "source_url": "https://github.com/GenXProject/GenX.jl",
+      "version": "Official repository snapshot 2026-10-18",
+      "commit": "3d9596ad9ce69e66ed0404754e58250059bf612b",
+      "doi": null,
+      "related_software_concept_doi": "10.5281/zenodo.10846069",
+      "license": "GPL-2.0 repository LICENSE; preserve full unchanged source and notices",
+      "license_url": "https://github.com/GenXProject/GenX.jl/blob/3d9596ad9ce69e66ed0404754e58250059bf612b/LICENSE",
+      "license_evidence": "Root LICENSE identifies GPL version 2; official documentation also identifies GPL-2.0. Complete source archive retained; no separate example-system license file found.",
+      "citation": "MIT Energy Initiative and Princeton University ZERO Lab. GenX: a configurable power system capacity expansion model for studying low-carbon energy futures. Official GenXProject/GenX.jl snapshot 3d9596ad9ce69e66ed0404754e58250059bf612b, accessed 2026-10-18. README names maintainers at Princeton, MIT, NYU and Binghamton.",
+      "institutional_affiliations": [
+        "MIT Energy Initiative",
+        "Princeton University ZERO Lab",
+        "New York University",
+        "Binghamton University"
+      ],
+      "model_scope": "Official example_systems contains 11 example directories and 240 files in the pinned Git tree. Includes three-zone annual examples with thermal, renewable and storage resources, CO2-policy input, CO2 capture, multistage planning, colocated resources, retrofit and a DC-OPF example. Classified as UC-related capacity-expansion research inputs, not a collection of 11 pure integer UC benchmarks.",
+      "upstream_caveats": [
+        "The CO2-capture example README explicitly describes linear clustering UC (UCommit=2); retain this distinction from integer UC.",
+        "Policies-slack example intentionally permits penalized constraint violations, including CO2 policy; not a verified hard-cap benchmark.",
+        "CO2-capture README labels a cap mass-based while giving gCO2/kWh units; upstream wording is preserved and the cap type must be resolved before conversion.",
+        "The 9-bus example is documented as DC OPF; do not label every example directory as a UC problem.",
+        "The old GitHub path GenXProject/GenX redirects to GenXProject/GenX.jl. Snapshot uses the current official repository.",
+        "Software concept DOI does not identify this pinned dataset snapshot. No CSV parameter values read, optimization run or solver adaptation tested."
+      ],
+      "packaging": "unchanged_archive",
+      "asset_name": "GenX-official-examples-3d9596ad.zip",
+      "archive_inventory": true,
+      "required_member_basenames": [
+        "LICENSE",
+        "README.md",
+        "Run.jl",
+        "Thermal.csv",
+        "Demand_data.csv",
+        "Network.csv",
+        "CO2_cap.csv",
+        "genx_settings.yml"
+      ],
+      "files": [
+        {
+          "filename": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b.zip",
+          "url": "https://codeload.github.com/GenXProject/GenX.jl/zip/3d9596ad9ce69e66ed0404754e58250059bf612b",
+          "expected_content_types": [
+            "application/zip"
+          ]
+        }
+      ]
+    }
+  ]
+}

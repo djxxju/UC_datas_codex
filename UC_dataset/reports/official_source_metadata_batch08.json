@@ -1,0 +1,67 @@
+{
+  "reviewed_date": "2026-10-18",
+  "method": "Pinned GitHub repository/commit/tree metadata, LICENSE and README only; no parameter values parsed",
+  "sources": [
+    {
+      "source_id": "comillas_opentepes",
+      "commit": "5c0187063874cca4bc7af8ff97b19c6c316dd7a5",
+      "tree_sha": "5c0187063874cca4bc7af8ff97b19c6c316dd7a5",
+      "total": 1050,
+      "total_bytes": 833931449,
+      "case_files": 737,
+      "case_directories": {
+        "9n": 44,
+        "9n7y": 44,
+        "9nH2": 46,
+        "9nH2x": 46,
+        "9n_AC": 46,
+        "9n_ELZ": 44,
+        "9n_PTDF": 47,
+        "9n_duckdb": 2,
+        "9n_heat": 47,
+        "NG2030": 44,
+        "RTS-GMLC": 44,
+        "RTS-GMLC_6y": 44,
+        "RTS-GMLC_AC": 46,
+        "RTS-GMLC_AC_Oper": 46,
+        "RTS-GMLC_Oper": 44,
+        "RTS24": 44,
+        "sSEP": 59
+      },
+      "case_directory_definition": "Immediate children of openTEPES/cases",
+      "git_tree_truncated": false,
+      "has_submodules": false,
+      "lfs_filter_in_root_gitattributes": false,
+      "license_url": "https://github.com/IIT-EnergySystemModels/openTEPES/blob/5c0187063874cca4bc7af8ff97b19c6c316dd7a5/LICENSE",
+      "readme_url": "https://github.com/IIT-EnergySystemModels/openTEPES/blob/5c0187063874cca4bc7af8ff97b19c6c316dd7a5/README.md"
+    },
+    {
+      "source_id": "genx_official_examples",
+      "commit": "3d9596ad9ce69e66ed0404754e58250059bf612b",
+      "tree_sha": "3d9596ad9ce69e66ed0404754e58250059bf612b",
+      "truncated": false,
+      "total": 936,
+      "total_bytes": 24888678,
+      "case_files": 240,
+      "case_directories": {
+        "10_IEEE_9_bus_DC_OPF": 12,
+        "11_three_zones_w_allam_cycle_lox": 17,
+        "1_three_zones": 18,
+        "2_three_zones_w_electrolyzer": 22,
+        "3_three_zones_w_co2_capture": 18,
+        "4_three_zones_w_policies_slack": 27,
+        "5_three_zones_w_piecewise_fuel": 19,
+        "6_three_zones_w_multistage": 36,
+        "7_three_zones_w_colocated_VRE_storage": 24,
+        "8_three_zones_w_colocated_VRE_storage_electrolyzers": 27,
+        "9_three_zones_w_retrofit": 20
+      },
+      "case_directory_definition": "Immediate children of example_systems",
+      "git_tree_truncated": false,
+      "has_submodules": false,
+      "lfs_filter_in_root_gitattributes": false,
+      "license_url": "https://github.com/GenXProject/GenX.jl/blob/3d9596ad9ce69e66ed0404754e58250059bf612b/LICENSE",
+      "readme_url": "https://github.com/GenXProject/GenX.jl/blob/3d9596ad9ce69e66ed0404754e58250059bf612b/README.md"
+    }
+  ]
+}
