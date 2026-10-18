@@ -21,9 +21,13 @@ Official code and instance documentation: https://github.com/ANL-CEEESA/UnitComm
 Code commit: `e4cc95dae16d9b8bccbfcd95ccf754b307d66c4a`  
 Official server used by this code version: https://axavier.org/UnitCommitment.jl/0.4/instances/ .
 
-The code's modified BSD license identifies the software as UnitCommitment.jl and retains the UChicago Argonne copyright. This project does not infer an independent redistribution license for external benchmark files from that software license. The public repository includes factual instance identifiers, official links and an independently written download helper. Locally downloaded external instances are excluded from Git until their redistribution terms are confirmed.
+The code's modified BSD license identifies the software as UnitCommitment.jl and retains the UChicago Argonne copyright. This project does not infer an independent redistribution license for external benchmark files from that software license. Batch 10 mirrors 42 OR-LIB and 49 Tejada19 files based on the complete MIT license embedded in each selected original JSON, not on the code license. The 26 selected MATPOWER representative-day files have no embedded LICENSE and remain unmirrored pending confirmation of redistribution terms. Official links and the fetch helper remain available.
 
 When using downloaded data in research, cite UnitCommitment.jl (https://doi.org/10.5281/zenodo.4269874) and the original case references given by the official instance documentation. OR-LIB and Tejada19 entries are preconverted instances offered by UC.jl, not newly extracted or newly generated cases from this project.
+
+Batch 10 preserves all 91 official .json.gz files unchanged, including their LICENSE and SOURCE fields. Full exact notices are also retained in [OR-LIB license](UC_dataset/sources/licenses/ucjl_0.4/ORLIB_LICENSE.txt), [Tejada19 license](UC_dataset/sources/licenses/ucjl_0.4/Tejada19_LICENSE.txt), and each package's SOURCE_METADATA.json. OR-LIB: Copyright (c) (2010) (J E Beasley}, reproduced verbatim, including the upstream punctuation. Tejada19: Copyright (c) 2018 Diego Alejandro Tejada Arango. The OR-Library [official legal page](https://people.brunel.ac.uk/~mastjjb/jeb/orlib/legal.html) independently states that MIT applies to its materials.
+
+Citations embedded in OR-LIB files: J. E. Beasley (1990), DOI https://doi.org/10.2307/2582903 ; A. Frangioni and C. Gentile (2006), DOI https://doi.org/10.1287/opre.1060.0309 . Tejada19: D. A. Tejada-Arango, S. Lumbreras, P. Sanchez-Martin and A. Ramos, Which Unit-Commitment Formulation is Best? A Systematic Comparison, DOI https://doi.org/10.1109/TPWRS.2019.2962024 . No numeric UC fields or models were validated. See the [per-file license audit](UC_dataset/reports/ucjl_license_audit_batch10.json) and [batch 10 report](UC_dataset/reports/cloud_sources_batch10.md).
 
 ## Tejada author UC-data
 

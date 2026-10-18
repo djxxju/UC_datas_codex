@@ -1,0 +1,55 @@
+{
+  "checked_date": "2026-10-18",
+  "id": 416350717,
+  "tag_name": "official-data-2026-10-18-batch10",
+  "html_url": "https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-18-batch10",
+  "draft": false,
+  "prerelease": false,
+  "published_at": "2026-10-18T09:23:25Z",
+  "target_commitish": "0363a43af2107606a2658373f16a2469fe61d96b",
+  "workflow_run_id": 39115108285,
+  "workflow_conclusion": "success",
+  "workflow_commit": "0363a43af2107606a2658373f16a2469fe61d96b",
+  "assets": [
+    {
+      "id": 653056835,
+      "name": "ATTRIBUTION.md",
+      "bytes": 2575,
+      "digest": "sha256:658ba0c19a171eb6ef1646cb7236f4c5cd823674949f19dc43c7f43ce8110de0",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/ATTRIBUTION.md",
+      "state": "uploaded"
+    },
+    {
+      "id": 653056840,
+      "name": "collection_receipt.json",
+      "bytes": 94578,
+      "digest": "sha256:267c5da6eb48b72fa97034e64530fa47b685f7dbbb83538e8c6841aecfba4036",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/collection_receipt.json",
+      "state": "uploaded"
+    },
+    {
+      "id": 653056852,
+      "name": "source_manifest.json",
+      "bytes": 47959,
+      "digest": "sha256:133a228317c78ccb27149e71670a4c5e33d1a00d8b3f2ef10159308515972d97",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/source_manifest.json",
+      "state": "uploaded"
+    },
+    {
+      "id": 653056834,
+      "name": "UCjl-v0.4-ORLIB-42-instances.zip",
+      "bytes": 450953,
+      "digest": "sha256:73874826b2ca211af5329b93ee3b36150cdb06e12d495ef09aefb03e434d39bf",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "state": "uploaded"
+    },
+    {
+      "id": 653056843,
+      "name": "UCjl-v0.4-Tejada19-49-instances.zip",
+      "bytes": 2804575,
+      "digest": "sha256:bde9ec27b090f0e14f5c9efceb0ac61a5b1c186eb9389a4523eae3566fae94c4",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "state": "uploaded"
+    }
+  ]
+}

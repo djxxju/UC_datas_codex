@@ -6,7 +6,7 @@
 
 第一次访问可直接看 [算例访问指南](UC_dataset/访问指南.md)：列出全部已镜像来源、直接下载地址，以及仅提供官方入口的来源。
 
-**完整原包请到 [GitHub Releases](https://github.com/djxxju/UC_datas_codex/releases) 下载。** [第 09 批](https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-18-batch09)新增 Plan4Res / EDF 欧洲系统参考情景及配套说明；[第 08 批](https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-18-batch08)保存 openTEPES 与 GenX 官方模型/示例整包；[第 07 批](https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-17-batch07)保存 openSDUC 与 OPTIT 冷热电联供测试材料；[第 06 批](https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-16-batch06)保存 JRC 区域输入、欧洲部门耦合和 LEGO；[第 05 批](https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-16-batch05)保存 HUST 水电 UC 与 RPG Lab SCUC；[第 04 批](https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-15-batch04)保存 RTS、Tejada、随机 UC 和 Monash 包。均由 GitHub 云端直接采集，用户电脑无需先下载再上传。
+**完整原包请到 [GitHub Releases](https://github.com/djxxju/UC_datas_codex/releases) 下载。** [第 10 批](https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-18-batch10)新增 UC.jl 中许可已确认的 OR-LIB 42 文件与 Tejada19 49 文件；[第 09 批](https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-18-batch09)新增 Plan4Res / EDF 欧洲系统参考情景及配套说明；[第 08 批](https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-18-batch08)保存 openTEPES 与 GenX 官方模型/示例整包；[第 07 批](https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-17-batch07)保存 openSDUC 与 OPTIT 冷热电联供测试材料；[第 06 批](https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-16-batch06)保存 JRC 区域输入、欧洲部门耦合和 LEGO；[第 05 批](https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-16-batch05)保存 HUST 水电 UC 与 RPG Lab SCUC；[第 04 批](https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-15-batch04)保存 RTS、Tejada、随机 UC 和 Monash 包。均由 GitHub 云端直接采集，用户电脑无需先下载再上传。
 
 | 来源 | 已归档范围 | 主要保存位置 |
 |---|---|---|
@@ -25,14 +25,15 @@
 | Comillas IIT openTEPES | 17 个随包示例目录及论文配套目录；网络约束 UC 与运行/扩展规划原件 | 第 08 批 Releases，AGPLv3，约 160.8 MB |
 | GenX 官方示例 | 11 个示例目录；UC 相关规划、储能及碳政策，含线性松弛/政策罚项/DC OPF 差异 | 第 08 批 Releases，GPLv2，约 7.3 MB |
 | Plan4Res / EDF CS3 | V2.1 欧洲系统公开参考情景数据与 D4.5 V4.2 文档；不含全部气候情景 | 第 09 批 Releases，CC BY 4.0，约 73.2 MB |
-| UnitCommitment.jl | 已有 OR-LIB 42、Tejada19 49、MATPOWER 代表日 26，共 117 文件 | 本仓库提供索引与官方获取脚本；旧原件本地保留 |
+| UnitCommitment.jl | 已有 117 文件；其中 OR-LIB 42、Tejada19 49 已镜像，MATPOWER 代表日 26 待确认许可 | 第 10 批两个 Release 包；[逐文件索引](UC_dataset/sources/ucjl_available_instances.json) |
 | CommaLAB | 已有 RCUC、RCUC2、118_UC、System_46buses 四个官方原包 | 本仓库提供下载入口；旧原包本地保留 |
 
-已有十七个来源组的原件：十五个已在 GitHub 归档，UC.jl 外部实例和 CommaLAB 的独立再分发条款尚未明确，当前保留旧本地原件及官方入口。另有 REAL Lab、CUC-data、Federalized Power Market、TAMU DemandResponse、PyPSA-stochUC、DyGTCN UC、Closed-Loop NCUC 七项仅登记入口。OPTIT 两份配套记录按一个来源组统计；不同 Dispa-SET 研究包共享模型体系。来源数、文件数与日场景数均不等于独立电网数。openTEPES/GenX 的示例目录含同系统变体、松弛模型及其他类型，不按目录数量增加独立 UC 系统数。
+已有十七个来源组的原件：十六个已有 GitHub 原件，其中 UC.jl 为部分镜像；UC.jl 的 26 个 MATPOWER 代表日文件及 CommaLAB 四包仍待确认再分发许可，保留旧本地原件和官方入口。GitHub 现有 PGLIB 原件目录及 16 个 Release 数据附件。另有 REAL Lab、CUC-data、Federalized Power Market、TAMU DemandResponse、PyPSA-stochUC、DyGTCN UC、Closed-Loop NCUC 七项仅登记入口。OPTIT 两份配套记录按一个来源组统计；不同 Dispa-SET 研究包共享模型体系。来源数、文件数与日场景数均不等于独立电网数。openTEPES/GenX 的示例目录含同系统变体、松弛模型及其他类型，不按目录数量增加独立 UC 系统数。
 
 按用途选择材料见 [分类索引](UC_dataset/官方来源分类索引.md)。LEGO 旧版数据与当前模型不兼容，已保留原件和说明。模型支持某种功能不表示默认算例已启用；CO2 价格输入也不能等同碳排放总量约束。
 
 - [官方现成库总清单](UC_dataset/官方现成算例库清单.md)
+- [第 10 批许可核查与 91 个原件下载](UC_dataset/reports/cloud_sources_batch10.md)
 - [第 09 批数据、文档与候选补查](UC_dataset/reports/cloud_sources_batch09.md)
 - [第 08 批来源、下载说明与分类边界](UC_dataset/reports/cloud_sources_batch08.md)
 - [第 07 批来源、下载说明与候选缺口](UC_dataset/reports/cloud_sources_batch07.md)
@@ -45,9 +46,9 @@
 
 ## 云端采集与本地恢复
 
-[第 09 批采集工作流](.github/workflows/collect-official-data-batch09.yml)、[第 08 批采集工作流](.github/workflows/collect-official-data-batch08.yml)、[第 07 批采集工作流](.github/workflows/collect-official-data-batch07.yml)、[第 06 批](.github/workflows/collect-official-data-batch06.yml)、[第 05 批](.github/workflows/collect-official-data-batch05.yml)与[第 04 批](.github/workflows/collect-official-data.yml)在 GitHub 托管运行器上下载官方原文件、记录来源与文件摘要并发布 Releases。六批已成功，重新触发时会跳过已发布批次；增加新数据应创建新批次标签，不覆盖现有原件。
+[第 10 批采集工作流](.github/workflows/collect-official-data-batch10.yml)、[第 09 批采集工作流](.github/workflows/collect-official-data-batch09.yml)、[第 08 批采集工作流](.github/workflows/collect-official-data-batch08.yml)、[第 07 批采集工作流](.github/workflows/collect-official-data-batch07.yml)、[第 06 批](.github/workflows/collect-official-data-batch06.yml)、[第 05 批](.github/workflows/collect-official-data-batch05.yml)与[第 04 批](.github/workflows/collect-official-data.yml)在 GitHub 托管运行器上下载官方原文件、记录来源与文件摘要并发布 Releases。七批已成功，重新触发时会跳过已发布批次；增加新数据应创建新批次标签，不覆盖现有原件。
 
-原始文件没有做参数校验或模型求解；脚本中的传输长度检查和文件哈希仅用于识别文件与确认传输。上游结果文件只标为作者参考结果，不作为本项目复现结果。
+第 10 批只读取旧 UC.jl 原件中的许可与引用元字段，并在云端核对原件字节；未检查 UC 参数。原始文件没有做参数校验或模型求解；脚本中的传输长度检查和文件哈希仅用于识别文件与确认传输。上游结果文件只标为作者参考结果，不作为本项目复现结果。
 
 为减少本地存储，已清理 70 个有远端副本的重复文件，约 112.3 MB。GitHub 中的原件仍保留。需要本地使用时按 [清理记录的 restore_url](UC_dataset/reports/local_cleanup_completed_batch04.json)或 Releases 恢复即可；不要把本机 raw 目录为空解释为远端数据已删除。未镜像的旧资料仍保留本地。
 

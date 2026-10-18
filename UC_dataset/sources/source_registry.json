@@ -26,7 +26,7 @@
       "code_version": "v0.4.2",
       "code_commit": "e4cc95dae16d9b8bccbfcd95ccf754b307d66c4a",
       "official_instance_server": "https://axavier.org/UnitCommitment.jl/0.4/instances/",
-      "status": "117_selected_official_files_collected_locally_without_new_validation",
+      "status": "117_selected_files_collected;91_MIT_files_published;26_matpower_files_local_pending_license",
       "documented_entries": 173,
       "documented_families": {
         "matpower": 26,
@@ -35,9 +35,9 @@
         "tejada19": 49
       },
       "overlap_note": "The 56 pglib-uc entries are converted versions of the PGLIB collection, not independent systems.",
-      "data_license": null,
-      "license_status": "external_instance_redistribution_not_cleared",
-      "public_redistribution": "index_and_fetch_helper_only",
+      "data_license": "MIT for 42 OR-LIB and 49 Tejada19 files; unconfirmed for 26 MATPOWER representative-day files",
+      "license_status": "partially_cleared_by_embedded_per_file_LICENSE",
+      "public_redistribution": "91_unchanged_original_files_on_GitHub_Release;26_matpower_files_not_mirrored",
       "server_immutability": "versioned_url_but_no_upstream_git_commit_for_data; pin_downloaded_bytes_with_sha256",
       "local_samples": [
         "or-lib/10_0_1_w",
@@ -52,7 +52,37 @@
         "tejada19": 49,
         "matpower_representative_days": 26
       },
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "github_mirrored_count": 91,
+      "github_mirrored_families": {
+        "or-lib": 42,
+        "tejada19": 49
+      },
+      "local_only_pending_license_count": 26,
+      "local_only_pending_license_family": "matpower_representative_days",
+      "github_release_assets": [
+        {
+          "id": 653056834,
+          "name": "UCjl-v0.4-ORLIB-42-instances.zip",
+          "bytes": 450953,
+          "digest": "sha256:73874826b2ca211af5329b93ee3b36150cdb06e12d495ef09aefb03e434d39bf",
+          "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+          "state": "uploaded"
+        },
+        {
+          "id": 653056843,
+          "name": "UCjl-v0.4-Tejada19-49-instances.zip",
+          "bytes": 2804575,
+          "digest": "sha256:bde9ec27b090f0e14f5c9efceb0ac61a5b1c186eb9389a4523eae3566fae94c4",
+          "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+          "state": "uploaded"
+        }
+      ],
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json",
+      "source_note": "../reports/cloud_sources_batch10.md",
+      "data_validation": "not_run",
+      "collection_location": "Existing local originals retained; new public mirror collected on GitHub-hosted runner"
     },
     {
       "source_id": "rts_gmlc",
@@ -874,9 +904,9 @@
   "current_priority": "collect_official_ready_made_data_only; reaffirmed_by_user_2026-10-18_after_format_review",
   "current_validation_policy": "deferred_by_user_2026-10-15",
   "current_solve_policy": "deferred_by_user; COPT is primary local solver; Gurobi is an explicit future compatibility target",
-  "latest_collection_publication_commit": "f7500213012dedeb89ddd18cadbb88f6001a7763",
+  "latest_collection_publication_commit": "0363a43af2107606a2658373f16a2469fe61d96b",
   "storage_policy": "GitHub repository and Releases are primary; new large data collected on GitHub runners; local duplicate cleanup requires a verified remote identity and restore URL",
-  "latest_release": "https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-18-batch09",
+  "latest_release": "https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-18-batch10",
   "cataloged_only_candidates": [
     {
       "source_id": "cuc_data",
@@ -991,10 +1021,13 @@
   ],
   "collection_summary": {
     "collected_source_records": 17,
-    "sources_with_github_originals": 15,
-    "sources_with_local_only_originals": 2,
+    "sources_with_github_originals": 16,
+    "sources_with_local_only_originals": 1,
     "cataloged_only_candidates": 7,
-    "counting_note": "Source groups are not independent grids, daily scenarios or software libraries. The paired OPTIT Zenodo records are counted as one source family; the two Dispa-SET studies share a model family. openTEPES and GenX are UC-related model/data families; example folders, RTS derivatives, alternate representations and linear-relaxation/OPF examples are not counted as independent integer UC systems. Plan4Res CS3 data and D4.5 documentation are one source group; bibliography-only cross-references and unlicensed alternative toy data are not collected sources."
+    "counting_note": "Source groups are not independent grids, daily scenarios or software libraries. The paired OPTIT Zenodo records are counted as one source family; the two Dispa-SET studies share a model family. openTEPES and GenX are UC-related model/data families; example folders, RTS derivatives, alternate representations and linear-relaxation/OPF examples are not counted as independent integer UC systems. Plan4Res CS3 data and D4.5 documentation are one source group; bibliography-only cross-references and unlicensed alternative toy data are not collected sources. Batch 10 mirrors 91 files within the existing UnitCommitment.jl source group, not two new sources. Among 16 sources with any GitHub originals, UC.jl is partial: 26 selected MATPOWER files remain local pending license; CommaLAB is the sole entirely local-only collected source.",
+    "sources_with_partial_github_originals": 1,
+    "sources_with_complete_selected_github_originals": 15,
+    "github_release_data_asset_count": 16
   },
   "last_github_access_audit_date": "2026-10-18",
   "access_guide": "../访问指南.md"

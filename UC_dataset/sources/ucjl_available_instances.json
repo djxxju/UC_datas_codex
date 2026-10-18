@@ -3,8 +3,8 @@
   "code_version": "v0.4.2",
   "code_commit": "e4cc95dae16d9b8bccbfcd95ccf754b307d66c4a",
   "server_version": "0.4",
-  "checked_date": "2026-10-15",
-  "note": "Official-documentation index of 173 entries. 117 selected files are locally collected; the 56 overlapping PGLIB conversion entries are not collected here. MATPOWER names represent one day per system, not the whole year. No new parameter checks or solving were performed.",
+  "checked_date": "2026-10-18",
+  "note": "Official-documentation index of 173 entries. 117 selected files are collected; 91 unchanged MIT-licensed OR-LIB/Tejada19 files are mirrored in batch 10, while 26 MATPOWER representative days remain local pending license. The 56 overlapping PGLIB conversion entries are not collected here. No UC parameter validation, conversion or solving.",
   "instances": [
     {
       "name": "matpower/case14/2017-01-01",
@@ -18,8 +18,9 @@
       ],
       "references": "[MTPWR, PSTCA]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case30/2017-01-01",
@@ -33,8 +34,9 @@
       ],
       "references": "[MTPWR, PSTCA]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case57/2017-01-01",
@@ -48,8 +50,9 @@
       ],
       "references": "[MTPWR, PSTCA]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case118/2017-01-01",
@@ -63,8 +66,9 @@
       ],
       "references": "[MTPWR, PSTCA]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case300/2017-01-01",
@@ -78,8 +82,9 @@
       ],
       "references": "[MTPWR, PSTCA]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case2383wp/2017-01-01",
@@ -93,8 +98,9 @@
       ],
       "references": "[MTPWR]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case2736sp/2017-01-01",
@@ -108,8 +114,9 @@
       ],
       "references": "[MTPWR]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case2737sop/2017-01-01",
@@ -123,8 +130,9 @@
       ],
       "references": "[MTPWR]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case2746wop/2017-01-01",
@@ -138,8 +146,9 @@
       ],
       "references": "[MTPWR]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case2746wp/2017-01-01",
@@ -153,8 +162,9 @@
       ],
       "references": "[MTPWR]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case3012wp/2017-01-01",
@@ -168,8 +178,9 @@
       ],
       "references": "[MTPWR]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case3120sp/2017-01-01",
@@ -183,8 +194,9 @@
       ],
       "references": "[MTPWR]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case3375wp/2017-01-01",
@@ -198,8 +210,9 @@
       ],
       "references": "[MTPWR]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case89pegase/2017-01-01",
@@ -213,8 +226,9 @@
       ],
       "references": "[JoFlMa16, FlPaCa13, MTPWR]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case1354pegase/2017-01-01",
@@ -228,8 +242,9 @@
       ],
       "references": "[JoFlMa16, FlPaCa13, MTPWR]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case2869pegase/2017-01-01",
@@ -243,8 +258,9 @@
       ],
       "references": "[JoFlMa16, FlPaCa13, MTPWR]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case9241pegase/2017-01-01",
@@ -258,8 +274,9 @@
       ],
       "references": "[JoFlMa16, FlPaCa13, MTPWR]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case13659pegase/2017-01-01",
@@ -273,8 +290,9 @@
       ],
       "references": "[JoFlMa16, FlPaCa13, MTPWR]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case1888rte/2017-01-01",
@@ -288,8 +306,9 @@
       ],
       "references": "[MTPWR, JoFlMa16]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case1951rte/2017-01-01",
@@ -303,8 +322,9 @@
       ],
       "references": "[MTPWR, JoFlMa16]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case2848rte/2017-01-01",
@@ -318,8 +338,9 @@
       ],
       "references": "[MTPWR, JoFlMa16]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case2868rte/2017-01-01",
@@ -333,8 +354,9 @@
       ],
       "references": "[MTPWR, JoFlMa16]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case6468rte/2017-01-01",
@@ -348,8 +370,9 @@
       ],
       "references": "[MTPWR, JoFlMa16]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case6470rte/2017-01-01",
@@ -363,8 +386,9 @@
       ],
       "references": "[MTPWR, JoFlMa16]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case6495rte/2017-01-01",
@@ -378,8 +402,9 @@
       ],
       "references": "[MTPWR, JoFlMa16]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "matpower/case6515rte/2017-01-01",
@@ -393,8 +418,9 @@
       ],
       "references": "[MTPWR, JoFlMa16]",
       "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "redistribution_status": "not_cleared;no_embedded_LICENSE_in_selected_original",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json"
     },
     {
       "name": "pglib-uc/ca/2014-09-01_reserves_0",
@@ -1192,9 +1218,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "10_0_1_w.json.gz",
+      "sha256": "6ef95ef5a1966914306da848f2ffa4bd835c49d520e30b1dcbcfa948eee85cbe",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/10_0_2_w",
@@ -1208,9 +1239,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "10_0_2_w.json.gz",
+      "sha256": "ecc90e704cc0af09f83b43ccc1ebfa6f49f5ecb20392ee8d626748dbdfd33eee",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/10_0_3_w",
@@ -1224,9 +1260,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "10_0_3_w.json.gz",
+      "sha256": "400bcc50e60c1e104e863798feff922f85328bdea9336b1f889980e9f96800a7",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/10_0_4_w",
@@ -1240,9 +1281,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "10_0_4_w.json.gz",
+      "sha256": "287eb64692a84dbcd00de64fc2c6e3c2e39273d2a1ec1579e7c638e84c59631c",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/10_0_5_w",
@@ -1256,9 +1302,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "10_0_5_w.json.gz",
+      "sha256": "57cfb91664f8e694525e5b91fcf84179f10ea26dd43f265c1111958e639d5dc3",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/20_0_1_w",
@@ -1272,9 +1323,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "20_0_1_w.json.gz",
+      "sha256": "6a567e0c8ebe5b2420d940f7526f343850fd45c6400e09ef1247cb450a6551be",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/20_0_2_w",
@@ -1288,9 +1344,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "20_0_2_w.json.gz",
+      "sha256": "617b9406163e66287d00a0fbeeb57c66e6db51e5511006eb69948f8868685d08",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/20_0_3_w",
@@ -1304,9 +1365,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "20_0_3_w.json.gz",
+      "sha256": "24c6c08d0aa625e46c8219eb819abba3225da8589c190973baa3253b8770dce2",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/20_0_4_w",
@@ -1320,9 +1386,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "20_0_4_w.json.gz",
+      "sha256": "7419575aa5e1865a235f34ff3bc08bf7f6d20402860037848726d40468ad4574",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/20_0_5_w",
@@ -1336,9 +1407,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "20_0_5_w.json.gz",
+      "sha256": "8750268cfc876ca71be9c5d5902cd64601a2eef26c66030ea99df07adf09b18f",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/50_0_1_w",
@@ -1352,9 +1428,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "50_0_1_w.json.gz",
+      "sha256": "043528d3b13c3c976c0115e3aeede2b94e9fc5ef147581603ff437610710d7a0",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/50_0_2_w",
@@ -1368,9 +1449,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "50_0_2_w.json.gz",
+      "sha256": "aefe0201325eec4923a399e30c3d6c8736b3e9e938e8ee7bcc9d530f69ef9db1",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/50_0_3_w",
@@ -1384,9 +1470,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "50_0_3_w.json.gz",
+      "sha256": "0e2647c852fc37fc559cd4d8126625399eb4d72d6b3925db30c822471629ae0f",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/50_0_4_w",
@@ -1400,9 +1491,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "50_0_4_w.json.gz",
+      "sha256": "119d4359e2c36f543adfc656abaa793eb8b1127c13d7ebc064cc9573b662bfd3",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/50_0_5_w",
@@ -1416,9 +1512,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "50_0_5_w.json.gz",
+      "sha256": "85ca0a18d8aec8ecba6d07fc9428eb01dd9f99e2c2bf35bc111b48ac4e7cb7a2",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/75_0_1_w",
@@ -1432,9 +1533,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "75_0_1_w.json.gz",
+      "sha256": "6694374f3c79a704b9d8da8749112217e6e004d8bb9151789e429e4b1b789772",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/75_0_2_w",
@@ -1448,9 +1554,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "75_0_2_w.json.gz",
+      "sha256": "9c4a8bf5f3c0d719163fd43358f719a3a04f2485cab275c85d4bac134657689f",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/75_0_3_w",
@@ -1464,9 +1575,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "75_0_3_w.json.gz",
+      "sha256": "a2af89da52d7f7aa78ab4ed44e106e5a33f2db906210067f24d8b38da2831acf",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/75_0_4_w",
@@ -1480,9 +1596,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "75_0_4_w.json.gz",
+      "sha256": "73017703ed46d10b18a3e57a619d8ba8a7cf5f0ee76c22214d8c5d3a5ac4ce56",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/75_0_5_w",
@@ -1496,9 +1617,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "75_0_5_w.json.gz",
+      "sha256": "4d26bf9fb6c24fd6826ec35c737a984d04860ba61ba2af68e7757f1181d12e0d",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/100_0_1_w",
@@ -1512,9 +1638,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "100_0_1_w.json.gz",
+      "sha256": "d6adb8a77e139d866579a68fd160718a6018b5466a4d4e0d24430ddd2bf2789a",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/100_0_2_w",
@@ -1528,9 +1659,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "100_0_2_w.json.gz",
+      "sha256": "f35782ae7a6ad63bb28913f0a8979c551f50315b4cca88db88b1b5452759159c",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/100_0_3_w",
@@ -1544,9 +1680,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "100_0_3_w.json.gz",
+      "sha256": "57375674eb8076530ba691ab7c0d5a06237beef601d6311de978651e21075799",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/100_0_4_w",
@@ -1560,9 +1701,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "100_0_4_w.json.gz",
+      "sha256": "f9477c2584fece8c524b8426d89295523d0a9a6d65969a833406fb26f290f2a6",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/100_0_5_w",
@@ -1576,9 +1722,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "100_0_5_w.json.gz",
+      "sha256": "d862464164f1105b850009f13fe6a377d5a04a6c9baacc2fe4e1c2b14f03c9f5",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/150_0_1_w",
@@ -1592,9 +1743,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "150_0_1_w.json.gz",
+      "sha256": "ba84dcd0f17a016a3363b022b0efa5e1b6d51d4b2e990ad06068d0b2b49cf52c",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/150_0_2_w",
@@ -1608,9 +1764,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "150_0_2_w.json.gz",
+      "sha256": "8219d5a1e8f25cd1a60de12e7517f6f42aaacc93c86e5cb3af052ee7b8b07db9",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/150_0_3_w",
@@ -1624,9 +1785,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "150_0_3_w.json.gz",
+      "sha256": "d847cbb007af2d49c7ffe7b3459cf1609147db1f45b72c5a4810a44787a1787e",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/150_0_4_w",
@@ -1640,9 +1806,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "150_0_4_w.json.gz",
+      "sha256": "c1a6dd432e584d78b1e7c8aa7bf87e0de6bddf9bea3b306b86acb19ce18bc5ea",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/150_0_5_w",
@@ -1656,9 +1827,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "150_0_5_w.json.gz",
+      "sha256": "8d14cfe6d7daf1447a513ae9b481fafbae3814b2d6b6152e51ae95f5f7371072",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/200_0_10_w",
@@ -1672,9 +1848,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "200_0_10_w.json.gz",
+      "sha256": "10ad0889c98fd1dfc70bab5538c04b05ad23406d5c0e94214acdfb6575e94124",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/200_0_11_w",
@@ -1688,9 +1869,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "200_0_11_w.json.gz",
+      "sha256": "e088bd1b29dc087505d7af8f36e50d459d4fdab5733d91ac8c7b855d226c434d",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/200_0_12_w",
@@ -1704,9 +1890,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "200_0_12_w.json.gz",
+      "sha256": "0accfef24e6f9cd4f1669c2121abf1cfeee1fa6915eecaade3a5c4437a7b7544",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/200_0_1_w",
@@ -1720,9 +1911,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "200_0_1_w.json.gz",
+      "sha256": "14015196a8cd3d572b24dd4e6a41336ee91e481e8393b7f4a8071175468e3b8e",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/200_0_2_w",
@@ -1736,9 +1932,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "200_0_2_w.json.gz",
+      "sha256": "ff0e6278143d0868b2cbc72d09aadc366b755104fc8f3be1cfabb052c9152e74",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/200_0_3_w",
@@ -1752,9 +1953,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "200_0_3_w.json.gz",
+      "sha256": "646d17034f0fe56a4a2a642427bfc2f1fde8e4327a6ff7624fdbf90a33bd6c3e",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/200_0_4_w",
@@ -1768,9 +1974,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "200_0_4_w.json.gz",
+      "sha256": "cc224489911761f4c06ff5c7c79f94862fe79c00ed4b1e7c53d6a15ed518f67e",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/200_0_5_w",
@@ -1784,9 +1995,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "200_0_5_w.json.gz",
+      "sha256": "ca7a48cfe47b8bb9431396963db4b8e2a635063ddcad8ce0df978c84043701f1",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/200_0_6_w",
@@ -1800,9 +2016,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "200_0_6_w.json.gz",
+      "sha256": "9d12fd2612643ab1cf0295a3ba9cec2a39b10c5ae45e40327152cc7d92fd122d",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/200_0_7_w",
@@ -1816,9 +2037,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "200_0_7_w.json.gz",
+      "sha256": "74c04db64c6ebc40fc4467ac8b0c8b43f25a0d9739ff6aed20c7d75b2f1c4259",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/200_0_8_w",
@@ -1832,9 +2058,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "200_0_8_w.json.gz",
+      "sha256": "35953505f06b26d648001205476f8440f269682dbefdbcdfa634b036b36ac075",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "or-lib/200_0_9_w",
@@ -1848,9 +2079,14 @@
         "0"
       ],
       "references": "[ORLIB, FrGe06]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-ORLIB-42-instances.zip",
+      "archive_member": "200_0_9_w.json.gz",
+      "sha256": "033df23b7b10f5c1f8bb7c8bbe3956b70024f515100020f1f07644686053e7f9",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_214g",
@@ -1864,9 +2100,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_214g.json.gz",
+      "sha256": "05de26ee47c585d19dfcbf560db954de6cd7a62aa4d77dd842e3306e6096144a",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_250g",
@@ -1880,9 +2121,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_250g.json.gz",
+      "sha256": "3c76fe7fa6d76c1b16ca8f844602c73fa8cd0414df07f3bb9dc0782264587b91",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_290g",
@@ -1896,9 +2142,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_290g.json.gz",
+      "sha256": "ad850eda9e15f95d86d2a488a97336b2ce61583b77f2d6300e73175699732b65",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_480g",
@@ -1912,9 +2163,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_480g.json.gz",
+      "sha256": "c9e47f2795a2f859019b75405482fb8e02203456ace8732cf011a2f7eba1ec68",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_505g",
@@ -1928,9 +2184,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_505g.json.gz",
+      "sha256": "a83faaa392185580c935ca10f42bf045ed933986fcb268242c87219822dc5532",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_623g",
@@ -1944,9 +2205,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_623g.json.gz",
+      "sha256": "1487f994c906253e14b3f0d17c688f6fd981b0f20e5dc7f6d1c0fb13af4b8664",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_647g",
@@ -1960,9 +2226,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_647g.json.gz",
+      "sha256": "664fef60f892df3c32a6d46f9c17624798bccff5221668f28389f36178c013d6",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_836g",
@@ -1976,9 +2247,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_836g.json.gz",
+      "sha256": "9166ee1d51d2788adcb059557ca0d140e6a6d58c682d77c7c7e8801472a18606",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_850g",
@@ -1992,9 +2268,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_850g.json.gz",
+      "sha256": "fc364675f558c1bc22510c96b0aa6a0ecc9e5c8b417658245260225517cdb5e2",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_918g",
@@ -2008,9 +2289,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_918g.json.gz",
+      "sha256": "c3664b211a7aeaf80f1d10e07423b305efeb7cba90a74c4e1aa7b4b2b38e8c08",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_931g",
@@ -2024,9 +2310,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_931g.json.gz",
+      "sha256": "6ee6df8be649814ef5ed66a58b10d3bfa9e40d839a1838b14da01154d0dd18b9",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_940g",
@@ -2040,9 +2331,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_940g.json.gz",
+      "sha256": "b63f50291967ab17801480cb32c2b000874bf3043c108b3adc0d346ce421fe61",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_957g",
@@ -2056,9 +2352,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_957g.json.gz",
+      "sha256": "8bcc6ca6094abd5fa5bb40fa033e3a5c57465b3af160ec2aeb8163c681e57e6b",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_959g",
@@ -2072,9 +2373,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_959g.json.gz",
+      "sha256": "f89f97d3ed90bf7a6d7cca8c16b92516a5e4836cabe50f2701bfc346e7499262",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_1069g",
@@ -2088,9 +2394,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_1069g.json.gz",
+      "sha256": "da33074ce3bf80d31b7afe06b1a1d58785f1bfc64e7f48a85914cbadb39f5d58",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_1130g",
@@ -2104,9 +2415,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_1130g.json.gz",
+      "sha256": "722ef8c541690404c74d8273d3f247d029e6b07316d1e28cc182d6de6c3dad1b",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_1376g",
@@ -2120,9 +2436,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_1376g.json.gz",
+      "sha256": "ce9df1e865dfbce06ac3bc999abb1ca31eee7341f3876c45d35ddadbc494667e",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_1393g",
@@ -2136,9 +2457,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_1393g.json.gz",
+      "sha256": "df951c4eebc6dbdddf8d47d36be47df3640c03a3175f343d61353a2113570516",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_1577g",
@@ -2152,9 +2478,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_1577g.json.gz",
+      "sha256": "bb2ba5df088003676bba308738195f772328246c2e48aa8012142fbbe0dd22f8",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_1615g",
@@ -2168,9 +2499,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_1615g.json.gz",
+      "sha256": "9e1ee00f756c9edc8d5cbec8c2c203a36239410f5dca476ee62dd0a4a493556e",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_1632g",
@@ -2184,9 +2520,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_1632g.json.gz",
+      "sha256": "e71c72c0550b00a7632b33043ad109a649f0864489a267901afbf6cffa802515",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_1768g",
@@ -2200,9 +2541,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_1768g.json.gz",
+      "sha256": "64b6ddc2795d60f429a3082dcfdac9982d7ec74c5c083b7d9dea92eca145d91f",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_1804g",
@@ -2216,9 +2562,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_1804g.json.gz",
+      "sha256": "ed19bd3278d1e2e4089af79fe5e3f21bade40365ba4ee956870ce0e4d0d3c2bb",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_1820g",
@@ -2232,9 +2583,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_1820g.json.gz",
+      "sha256": "48428181133c116b107185fa5b1b7f621e3af93319f280418a5e20f20c2d648f",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_1823g",
@@ -2248,9 +2604,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_1823g.json.gz",
+      "sha256": "fab2e028f14c523c5dfa56c244bea421a4ba156546f1f41e5ae3d458ff2d6901",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_24h_1888g",
@@ -2264,9 +2625,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_24h_1888g.json.gz",
+      "sha256": "355d0983fa526163beb1460ec8c4feab14eb55047da7ca0b7d6462d7525902d6",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_36g",
@@ -2280,9 +2646,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_36g.json.gz",
+      "sha256": "05d868f85ffae29a18a904fc594e34c462e0f94baec11e76cf6466d3b176adc6",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_38g",
@@ -2296,9 +2667,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_38g.json.gz",
+      "sha256": "074add8007393d31e0d5bb7010ae1a0ef06c947ce9c5200cadf1b0bc21ded274",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_40g",
@@ -2312,9 +2688,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_40g.json.gz",
+      "sha256": "be67237aa81e0ca8656a194fcce86ae190754f4191301dabb7835e7c6ea98999",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_53g",
@@ -2328,9 +2709,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_53g.json.gz",
+      "sha256": "03b63b1ab644928b0a5f58c5d253498a79992dc890d1ed78786f7cb70fe17d28",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_58g",
@@ -2344,9 +2730,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_58g.json.gz",
+      "sha256": "a1b1b95a8fd964e905a92ac9b12f8d612d1ecdaea04ed431254a27857930ad66",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_59g",
@@ -2360,9 +2751,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_59g.json.gz",
+      "sha256": "75bd694d3c0f108f4c0eb760863a544f220c5d542f975c1816f2bc3072f7078a",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_72g",
@@ -2376,9 +2772,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_72g.json.gz",
+      "sha256": "32f6110d644ecdcd7ae7d6f19797e580bbe5776744e2484063cf87d4dad96344",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_84g",
@@ -2392,9 +2793,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_84g.json.gz",
+      "sha256": "eb16ec3f9d8efa0c501fc961a19d045e4176d0c1fcdd425ab9de7a15a32af3c6",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_86g",
@@ -2408,9 +2814,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_86g.json.gz",
+      "sha256": "2ea73c6fb291c1fc882bdace41015baf41a0c2a565e1894ac66f6bc1194d3e9f",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_88g",
@@ -2424,9 +2835,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_88g.json.gz",
+      "sha256": "80c19c042842ae974a526a967c99fc405124b877ed4cf017b0bef7a9b16be43c",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_93g",
@@ -2440,9 +2856,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_93g.json.gz",
+      "sha256": "a88d21ad6b77169ffeba5ab114fdfd3664e034d46ae7b48428975ab92ab43f37",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_105g",
@@ -2456,9 +2877,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_105g.json.gz",
+      "sha256": "0fb1082f0e30a33ede46982e2b5e9b178ed91a20f30650a0dfb56519a1011449",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_110g",
@@ -2472,9 +2898,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_110g.json.gz",
+      "sha256": "e8be70a772dd9c54e2b99d6b97224f727528a5b75a77a2b170b6008f11a8829c",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_125g",
@@ -2488,9 +2919,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_125g.json.gz",
+      "sha256": "955e46a6005b779067139d6b55b77af8b74c04042e3957505349df63e8832135",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_130g",
@@ -2504,9 +2940,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_130g.json.gz",
+      "sha256": "94e352e86b32d79edf031a0df14f4eaf452ff809d20e17170438117e1a8e37fc",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_131g",
@@ -2520,9 +2961,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_131g.json.gz",
+      "sha256": "b303a33b66c61a86023c2c3d4c913f4ba3977f37c27b6027f1c0b9bfeb197c9d",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_140g",
@@ -2536,9 +2982,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_140g.json.gz",
+      "sha256": "304ec1a847f93ef3bd65e387c6cbbc2e9aaaef0560a0c6ae5bd583e71f9068a8",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_165g",
@@ -2552,9 +3003,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_165g.json.gz",
+      "sha256": "c9c9d022f3a67f5d63b83efde5b042e90d4455fea5cde9bcfbd3b1ab4df5ec3f",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_175g",
@@ -2568,9 +3024,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_175g.json.gz",
+      "sha256": "f048dc6cd715f75d154bd3f82e73af48a23d79d5fcbe199af2a5be6eecfe9d7a",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_179g",
@@ -2584,9 +3045,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_179g.json.gz",
+      "sha256": "de5b92f82fd2132013724728a0816b43167ec93954a570bc0eb8cf2c99c11c46",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_188g",
@@ -2600,9 +3066,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_188g.json.gz",
+      "sha256": "6ad91cb013518d0b4457bda24c3ec0dc33bd349e99a82d6c2d5c1579f4b7e386",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_192g",
@@ -2616,9 +3087,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_192g.json.gz",
+      "sha256": "e0949db0f27c42941b5800989939f3c370639f6e72908f812fa32e6bf292963a",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     },
     {
       "name": "tejada19/UC_168h_199g",
@@ -2632,9 +3108,14 @@
         "0"
       ],
       "references": "[TeLuSa19]",
-      "download_status": "collected_locally_without_new_data_validation",
-      "redistribution_status": "not_cleared",
-      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json"
+      "download_status": "collected_locally_and_mirrored_unchanged_to_github_release",
+      "redistribution_status": "MIT_embedded_license_confirmed",
+      "collection_receipt": "../reports/ucjl_collection_20261015T105825566710Z.json",
+      "license_audit": "../reports/ucjl_license_audit_batch10.json",
+      "github_release_asset": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch10/UCjl-v0.4-Tejada19-49-instances.zip",
+      "archive_member": "UC_168h_199g.json.gz",
+      "sha256": "274009ed5d71d75388ec3e4afaed0a42e136705ea06cb505adc85440abf2fe1c",
+      "cloud_collection_receipt": "../reports/cloud_collection_receipt_batch10.json"
     }
   ]
 }

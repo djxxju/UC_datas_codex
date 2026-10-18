@@ -1,0 +1,43 @@
+{
+  "checked_date": "2026-10-18",
+  "release_url": "https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-18-batch10",
+  "workflow_run_id": 39115108285,
+  "workflow_job_id": 117639214749,
+  "workflow_conclusion": "success",
+  "identity_guard_step_conclusion": "success",
+  "receipt_bytes": 94578,
+  "receipt_sha256": "267c5da6eb48b72fa97034e64530fa47b685f7dbbb83538e8c6841aecfba4036",
+  "scope": "117 existing original files read only for LICENSE and SOURCE metadata; 91 licensed files cloud-mirrored, all packaged original bytes matched audited SHA-256 before publication. No UC parameter validation, conversion or solving.",
+  "checks": [
+    {
+      "source_id": "ucjl04_orlib",
+      "parent_source_id": "unitcommitment_jl",
+      "asset_bytes": 450953,
+      "asset_sha256": "73874826b2ca211af5329b93ee3b36150cdb06e12d495ef09aefb03e434d39bf",
+      "release_receipt_identity_match": true,
+      "original_file_count": 42,
+      "all_original_sizes_and_sha256_match_license_audit": true,
+      "outer_zip_file_count": 44
+    },
+    {
+      "source_id": "ucjl04_tejada19",
+      "parent_source_id": "unitcommitment_jl",
+      "asset_bytes": 2804575,
+      "asset_sha256": "bde9ec27b090f0e14f5c9efceb0ac61a5b1c186eb9389a4523eae3566fae94c4",
+      "release_receipt_identity_match": true,
+      "original_file_count": 49,
+      "all_original_sizes_and_sha256_match_license_audit": true,
+      "outer_zip_file_count": 51
+    }
+  ],
+  "local_guard_checks": [
+    "matching synthetic bytes accepted",
+    "changed expected SHA-256 rejected",
+    "missing expected file rejected",
+    "extra expected file rejected"
+  ],
+  "source_group_count_change": 0,
+  "github_mirror_source_group_count_change": 1,
+  "parameter_validation": "not_run",
+  "solve_status": "not_run"
+}
