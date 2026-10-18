@@ -1,0 +1,23 @@
+{
+  "checked_date": "2026-10-18",
+  "release_url": "https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-18-batch09",
+  "workflow_run_id": 39113999904,
+  "workflow_conclusion": "success",
+  "receipt_bytes": 3567,
+  "receipt_sha256": "2eb030b6360235f87676784cf3aad3b8396e3505cd5bc7cb427b513febd9b4f6",
+  "scope": "Published file identity and outer ZIP directory only; inner data ZIP and PDF contents not inspected",
+  "checks": [
+    {
+      "source_id": "plan4res_cs3_edf",
+      "asset_bytes": 73237894,
+      "asset_sha256": "ba17e65f5e4ee55a0bc5578d4963b6ebf9f0908afb1a33cd52c43e75afc399ce",
+      "release_receipt_identity_match": true,
+      "upstream_original_sizes_and_md5_match": true,
+      "original_file_count": 2,
+      "outer_zip_file_count": 4,
+      "inner_zip_inspected": false,
+      "pdf_content_interpreted": false,
+      "solver_run": false
+    }
+  ]
+}

@@ -790,14 +790,93 @@
       "data_validation": "not_run",
       "solve_status": "not_run",
       "upstream_results_status": "not_reproduced"
+    },
+    {
+      "source_id": "plan4res_cs3_edf",
+      "title": "Plan4Res / EDF case study 3 public data V2.1 with official D4.5 documentation V4.2",
+      "source_url": "https://zenodo.org/records/3802550",
+      "related_source_urls": [
+        "https://zenodo.org/records/3785010"
+      ],
+      "metadata_urls": [
+        "https://zenodo.org/api/records/3802550",
+        "https://zenodo.org/api/records/3785010"
+      ],
+      "version": "CS3 data 2.1 (2020-04-30), documentation 4.2 (2020-05-04)",
+      "doi": "10.5281/zenodo.3802550",
+      "documentation_doi": "10.5281/zenodo.3785010",
+      "license": "CC BY 4.0 for both version-specific official Zenodo records",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "Both record APIs explicitly report open access and cc-by-4.0. Documentation record is directly linked by the dataset record. Retrieved 2026-10-18.",
+      "citation": "Sandrine Charousset, Slimane Noceir, Dominique Daniel and Nadia Oudjane (EDF), 2020. plan4res public dataset for case study 3: Cost of RES integration and impact of climate change for the European Electricity System in a future world with high shares of renewable energy sources, version 2.1, DOI 10.5281/zenodo.3802550. Mauro Dell'Amico et al. (2020), Documentation of the plan4res public dataset - deliverable D4.5, version 4.2, DOI 10.5281/zenodo.3785010. Full creator lists retained in official metadata snapshots.",
+      "institutional_affiliations": [
+        "EDF (data authors)",
+        "Plan4Res consortium, EU Horizon 2020 grant 773897"
+      ],
+      "model_scope": "Official public research data for Plan4Res case study 3, classified by publisher as unit commitment, seasonal storage valuation, flexibility and uncertainty for the European electricity system. Archive name explicitly identifies ReferenceWithoutClimateChange. Bundled official D4.5 documentation describes data formats, transformations and construction. Data and documentation count as one source group.",
+      "upstream_caveats": [
+        "The selected version is the reference-without-climate-change archive; do not claim that all climate-change scenarios or all three Plan4Res studies are included.",
+        "Public portion is archived as published; completeness for a particular UC formulation and parameter activation are not independently verified.",
+        "The D4.5 PDF documents several project case studies and is not an additional UC system.",
+        "No demand-response module or hard carbon cap is certified for this archived case.",
+        "The current GitHub toyDataset is a different versioned artifact; its license must not be inferred from these Zenodo licenses.",
+        "No inner ZIP contents or PDF pages are interpreted, no parameter table parsed, no transformation or solver run."
+      ],
+      "packaging": "original_files_with_notice",
+      "asset_name": "Plan4Res-EDF-CS3-v2.1-with-D4.5.zip",
+      "archive_inventory": true,
+      "required_member_basenames": [
+        "EDF__plan4resCS3ReferenceWithoutClimateChange__20200421__20200430__V2.1.zip",
+        "plan4res-D4.5-Dataset_Public_v4.2.pdf"
+      ],
+      "files": [
+        {
+          "filename": "EDF__plan4resCS3ReferenceWithoutClimateChange__20200421__20200430__V2.1.zip",
+          "url": "https://zenodo.org/api/records/3802550/files/EDF__plan4resCS3ReferenceWithoutClimateChange__20200421__20200430__V2.1.zip/content",
+          "upstream_size": 65893753,
+          "upstream_md5_as_reported": "8b681086189a440d7e7c58c6a74f6490",
+          "expected_content_types": [
+            "application/zip",
+            "application/octet-stream"
+          ]
+        },
+        {
+          "filename": "plan4res-D4.5-Dataset_Public_v4.2.pdf",
+          "url": "https://zenodo.org/api/records/3785010/files/plan4res-D4.5-Dataset_Public_v4.2.pdf/content",
+          "upstream_size": 9251926,
+          "upstream_md5_as_reported": "fb5be243d259ed537932b39a9065825e",
+          "expected_content_types": [
+            "application/pdf",
+            "application/octet-stream"
+          ]
+        }
+      ],
+      "status": "official_original_files_collected_on_github_and_published",
+      "github_release_asset": {
+        "id": 653021612,
+        "name": "Plan4Res-EDF-CS3-v2.1-with-D4.5.zip",
+        "bytes": 73237894,
+        "digest": "sha256:ba17e65f5e4ee55a0bc5578d4963b6ebf9f0908afb1a33cd52c43e75afc399ce",
+        "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch09/Plan4Res-EDF-CS3-v2.1-with-D4.5.zip",
+        "state": "uploaded"
+      },
+      "local_originals_present": false,
+      "collection_location": "GitHub-hosted runner",
+      "source_note": "../reports/cloud_sources_batch09.md",
+      "collection_receipt": "../reports/cloud_collection_receipt_batch09.json",
+      "archive_file_count": 4,
+      "archive_file_count_scope": "Outer ZIP only, includes two originals plus source notice and metadata; not case count",
+      "data_validation": "not_run",
+      "solve_status": "not_run",
+      "upstream_results_status": "not_reproduced"
     }
   ],
   "current_priority": "collect_official_ready_made_data_only; reaffirmed_by_user_2026-10-18_after_format_review",
   "current_validation_policy": "deferred_by_user_2026-10-15",
   "current_solve_policy": "deferred_by_user; COPT is primary local solver; Gurobi is an explicit future compatibility target",
-  "latest_collection_publication_commit": "e531876941a551236bb3dcb9512675fe2c564ba7",
+  "latest_collection_publication_commit": "f7500213012dedeb89ddd18cadbb88f6001a7763",
   "storage_policy": "GitHub repository and Releases are primary; new large data collected on GitHub runners; local duplicate cleanup requires a verified remote identity and restore URL",
-  "latest_release": "https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-18-batch08",
+  "latest_release": "https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-18-batch09",
   "cataloged_only_candidates": [
     {
       "source_id": "cuc_data",
@@ -866,6 +945,30 @@
       "missing_material": "README explicitly withholds internal district heat-demand data used in paper; substituting generic data would be a derived case",
       "last_reviewed_date": "2026-10-17",
       "source_note": "../reports/cloud_sources_batch07.md"
+    },
+    {
+      "source_id": "dygtcn_uc_topology",
+      "source_url": "https://github.com/galigaliga/DyGTCN-for-UC-with-topology-changes",
+      "commit": "197095070ee4fe6efbb838173a97b4c39a057c29",
+      "scope": "Author-linked IEEE118 UC prediction and topology-change code; publisher paper describes dispatchable demand response.",
+      "status": "author_entry_cataloged_not_collected",
+      "license_status": "GitHub license null; complete pinned tree has no LICENSE/COPYING/NOTICE; README provides execution instructions but no explicit redistribution grant",
+      "paper_url": "https://www.sciencedirect.com/science/article/pii/S0378779626010047",
+      "doi": null,
+      "last_reviewed_date": "2026-10-18",
+      "source_note": "../reports/cloud_sources_batch09.md"
+    },
+    {
+      "source_id": "closed_loop_ncuc",
+      "source_url": "https://github.com/asxadf/Closed_Loop_NCUC_Dataset",
+      "commit": "4c1c3c75ee8231f0d1c10ebed8926d9e15c6b1bb",
+      "scope": "Author RTS24 network-constrained UC predict-and-optimize data, Elia load and renewable forecasts/measurements, features and MATLAB models; README states 15-minute source data.",
+      "status": "author_entry_cataloged_not_collected",
+      "license_status": "GitHub license null; complete pinned tree has no LICENSE/COPYING/NOTICE; open-access wording and citation request do not establish a redistribution license",
+      "paper_url": "https://ieeexplore.ieee.org/document/9617122",
+      "doi": null,
+      "last_reviewed_date": "2026-10-18",
+      "source_note": "../reports/cloud_sources_batch09.md"
     }
   ],
   "future_solver_targets": [
@@ -887,11 +990,11 @@
     }
   ],
   "collection_summary": {
-    "collected_source_records": 16,
-    "sources_with_github_originals": 14,
+    "collected_source_records": 17,
+    "sources_with_github_originals": 15,
     "sources_with_local_only_originals": 2,
-    "cataloged_only_candidates": 5,
-    "counting_note": "Source groups are not independent grids, daily scenarios or software libraries. The paired OPTIT Zenodo records are counted as one source family; the two Dispa-SET studies share a model family. openTEPES and GenX are UC-related model/data families; example folders, RTS derivatives, alternate representations and linear-relaxation/OPF examples are not counted as independent integer UC systems."
+    "cataloged_only_candidates": 7,
+    "counting_note": "Source groups are not independent grids, daily scenarios or software libraries. The paired OPTIT Zenodo records are counted as one source family; the two Dispa-SET studies share a model family. openTEPES and GenX are UC-related model/data families; example folders, RTS derivatives, alternate representations and linear-relaxation/OPF examples are not counted as independent integer UC systems. Plan4Res CS3 data and D4.5 documentation are one source group; bibliography-only cross-references and unlicensed alternative toy data are not collected sources."
   },
   "last_github_access_audit_date": "2026-10-18",
   "access_guide": "../访问指南.md"

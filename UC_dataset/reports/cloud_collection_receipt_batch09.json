@@ -1,0 +1,87 @@
+{
+  "release_tag": "official-data-2026-10-18-batch09",
+  "collection_only": true,
+  "source_count": 1,
+  "original_file_count": 2,
+  "sources": [
+    {
+      "source_id": "plan4res_cs3_edf",
+      "source_url": "https://zenodo.org/records/3802550",
+      "asset_name": "Plan4Res-EDF-CS3-v2.1-with-D4.5.zip",
+      "asset_bytes": 73237894,
+      "asset_sha256": "ba17e65f5e4ee55a0bc5578d4963b6ebf9f0908afb1a33cd52c43e75afc399ce",
+      "status": "collected_and_packaged_for_release",
+      "original_files": [
+        {
+          "filename": "EDF__plan4resCS3ReferenceWithoutClimateChange__20200421__20200430__V2.1.zip",
+          "url": "https://zenodo.org/api/records/3802550/files/EDF__plan4resCS3ReferenceWithoutClimateChange__20200421__20200430__V2.1.zip/content",
+          "upstream_size": 65893753,
+          "upstream_md5_as_reported": "8b681086189a440d7e7c58c6a74f6490",
+          "expected_content_types": [
+            "application/zip",
+            "application/octet-stream"
+          ],
+          "status": "downloaded",
+          "bytes": 65893753,
+          "sha256": "29bd90bb89bcaaebc8a12750d1bb24d4fb2839d2009f83b1ee3faf48117fe4cd",
+          "md5": "8b681086189a440d7e7c58c6a74f6490",
+          "content_type": "application/octet-stream",
+          "final_url": "https://zenodo.org/api/records/3802550/files/EDF__plan4resCS3ReferenceWithoutClimateChange__20200421__20200430__V2.1.zip/content",
+          "last_modified": null,
+          "collected_at_utc": "2026-10-18T09:06:57.624587+00:00",
+          "parameter_validation": "not_run",
+          "solve_status": "not_run"
+        },
+        {
+          "filename": "plan4res-D4.5-Dataset_Public_v4.2.pdf",
+          "url": "https://zenodo.org/api/records/3785010/files/plan4res-D4.5-Dataset_Public_v4.2.pdf/content",
+          "upstream_size": 9251926,
+          "upstream_md5_as_reported": "fb5be243d259ed537932b39a9065825e",
+          "expected_content_types": [
+            "application/pdf",
+            "application/octet-stream"
+          ],
+          "status": "downloaded",
+          "bytes": 9251926,
+          "sha256": "9e004cf38f18505ba0020dedbc6cf3c76decc9fa72568e300e2b21d0c4c7a24f",
+          "md5": "fb5be243d259ed537932b39a9065825e",
+          "content_type": "application/octet-stream",
+          "final_url": "https://zenodo.org/api/records/3785010/files/plan4res-D4.5-Dataset_Public_v4.2.pdf/content",
+          "last_modified": null,
+          "collected_at_utc": "2026-10-18T09:06:08.365200+00:00",
+          "parameter_validation": "not_run",
+          "solve_status": "not_run"
+        }
+      ],
+      "parameter_validation": "not_run",
+      "solve_status": "not_run",
+      "archive_directory": {
+        "inspection": "ZIP central directory only; no parameter files parsed",
+        "file_count": 4,
+        "uncompressed_bytes": 75150751,
+        "folders": [
+          ""
+        ],
+        "folder_list_truncated": false,
+        "first_20_members": [
+          "EDF__plan4resCS3ReferenceWithoutClimateChange__20200421__20200430__V2.1.zip",
+          "SOURCE_METADATA.json",
+          "SOURCE_NOTICE.md",
+          "plan4res-D4.5-Dataset_Public_v4.2.pdf"
+        ],
+        "required_attachments": [
+          {
+            "path": "EDF__plan4resCS3ReferenceWithoutClimateChange__20200421__20200430__V2.1.zip",
+            "bytes": 65893753,
+            "crc32": "ff842ee6"
+          },
+          {
+            "path": "plan4res-D4.5-Dataset_Public_v4.2.pdf",
+            "bytes": 9251926,
+            "crc32": "5da554bd"
+          }
+        ]
+      }
+    }
+  ]
+}

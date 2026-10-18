@@ -122,3 +122,13 @@ Official source: https://github.com/GenXProject/GenX.jl , commit `3d9596ad9ce69e
 Requested citation: MIT Energy Initiative and Princeton University ZERO Lab. “GenX: a configurable power system capacity expansion model for studying low-carbon energy futures.” Repository snapshot above, accessed 2026-10-18. README identifies current maintainers at Princeton, MIT, NYU and Binghamton. Software concept DOI https://doi.org/10.5281/zenodo.10846069 is related metadata, not a DOI for this pinned dataset snapshot.
 
 Neither source was executed, converted or solved. Linear-relaxation UC, policy-slack, DC-OPF and shared RTS-system variants are disclosed in the [batch 08 report](UC_dataset/reports/cloud_sources_batch08.md); authors' results are not independent results of this project.
+
+## Plan4Res / EDF case study 3 (new in batch 09)
+
+Data: Sandrine Charousset, Slimane Noceir, Dominique Daniel and Nadia Oudjane (EDF), 2020, “plan4res public dataset for case study 3: Cost of RES integration and impact of climate change for the European Electricity System in a future world with high shares of renewable energy sources”, version 2.1, DOI https://doi.org/10.5281/zenodo.3802550 , official record https://zenodo.org/records/3802550 .
+
+Documentation: Mauro Dell'Amico et al. (2020), “Documentation of the plan4res public dataset - deliverable D4.5”, version 4.2, DOI https://doi.org/10.5281/zenodo.3785010 , official record https://zenodo.org/records/3785010 . Complete creator/affiliation lists are retained in the official metadata snapshots under UC_dataset/reports/zenodo_*_batch09.json. Project funding: EU Horizon 2020 grant 773897.
+
+Both version-specific Zenodo records explicitly identify Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/ . The original ZIP and PDF are retained byte-for-byte in a new outer ZIP with source metadata and attribution. No change is made to upstream data, documentation, notices or licenses. The selected data archive is explicitly named ReferenceWithoutClimateChange; this mirror does not claim to include every climate scenario, all project case studies or the current GitHub toyDataset.
+
+DyGTCN-for-UC-with-topology-changes and Closed_Loop_NCUC_Dataset are factual candidate links only. Neither pinned tree provides an explicit LICENSE/COPYING/NOTICE, and an author's public code or citation request is not treated as a redistribution grant. No candidate original payload is mirrored. The LIST demand-response item is a harvested article cross-reference, not a confirmed input dataset. See [batch 09 report](UC_dataset/reports/cloud_sources_batch09.md).

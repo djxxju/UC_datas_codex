@@ -1,0 +1,47 @@
+{
+  "checked_date": "2026-10-18",
+  "id": 416343310,
+  "tag_name": "official-data-2026-10-18-batch09",
+  "html_url": "https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-18-batch09",
+  "draft": false,
+  "prerelease": false,
+  "published_at": "2026-10-18T09:07:04Z",
+  "target_commitish": "f7500213012dedeb89ddd18cadbb88f6001a7763",
+  "workflow_run_id": 39113999904,
+  "workflow_conclusion": "success",
+  "workflow_commit": "f7500213012dedeb89ddd18cadbb88f6001a7763",
+  "assets": [
+    {
+      "id": 653021617,
+      "name": "ATTRIBUTION.md",
+      "bytes": 1201,
+      "digest": "sha256:fc1831c6ee24a586ed046b8caf59c06e7269d28439fd54b3f8dfdc945344d357",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch09/ATTRIBUTION.md",
+      "state": "uploaded"
+    },
+    {
+      "id": 653021616,
+      "name": "collection_receipt.json",
+      "bytes": 3567,
+      "digest": "sha256:2eb030b6360235f87676784cf3aad3b8396e3505cd5bc7cb427b513febd9b4f6",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch09/collection_receipt.json",
+      "state": "uploaded"
+    },
+    {
+      "id": 653021612,
+      "name": "Plan4Res-EDF-CS3-v2.1-with-D4.5.zip",
+      "bytes": 73237894,
+      "digest": "sha256:ba17e65f5e4ee55a0bc5578d4963b6ebf9f0908afb1a33cd52c43e75afc399ce",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch09/Plan4Res-EDF-CS3-v2.1-with-D4.5.zip",
+      "state": "uploaded"
+    },
+    {
+      "id": 653021621,
+      "name": "source_manifest.json",
+      "bytes": 4381,
+      "digest": "sha256:9e153c22c92f28608f506548f014fe615d4620fe5be3cc68ff1a8dcf15e4c4f2",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch09/source_manifest.json",
+      "state": "uploaded"
+    }
+  ]
+}
