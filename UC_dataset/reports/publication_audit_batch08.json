@@ -1,0 +1,33 @@
+{
+  "checked_date": "2026-10-18",
+  "scope": "File identity, archive directory and publication only; no UC parameter checks or optimization",
+  "release_url": "https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-18-batch08",
+  "workflow_run_id": 39092175293,
+  "workflow_conclusion": "success",
+  "receipt_bytes": 61725,
+  "receipt_sha256": "585a9097ac093ad5d0954a26a9009f0a755153278dc23061c159a05ea56c8cc0",
+  "source_checks": [
+    {
+      "source_id": "comillas_opentepes",
+      "asset_bytes": 160837073,
+      "asset_sha256": "54c4b64f225a2912d12f8a1e7ba4ea4921d0461db527f21f475b4ed030a72113",
+      "release_receipt_identity_match": true,
+      "git_tree_and_zip_file_count_match": true,
+      "git_tree_and_zip_uncompressed_size_match": true,
+      "archive_file_count": 1050,
+      "raw_parameters_parsed": false,
+      "solver_run": false
+    },
+    {
+      "source_id": "genx_official_examples",
+      "asset_bytes": 7283128,
+      "asset_sha256": "3489f684f320a7ea77cd011476c4e2c6d7929d450e260ef1d62fdaccb00b9aee",
+      "release_receipt_identity_match": true,
+      "git_tree_and_zip_file_count_match": true,
+      "git_tree_and_zip_uncompressed_size_match": true,
+      "archive_file_count": 936,
+      "raw_parameters_parsed": false,
+      "solver_run": false
+    }
+  ]
+}

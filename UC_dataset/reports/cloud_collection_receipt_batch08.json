@@ -1,0 +1,1232 @@
+{
+  "release_tag": "official-data-2026-10-18-batch08",
+  "collection_only": true,
+  "source_count": 2,
+  "original_file_count": 2,
+  "sources": [
+    {
+      "source_id": "comillas_opentepes",
+      "source_url": "https://github.com/IIT-EnergySystemModels/openTEPES",
+      "asset_name": "Comillas-openTEPES-5c018706.zip",
+      "asset_bytes": 160837073,
+      "asset_sha256": "54c4b64f225a2912d12f8a1e7ba4ea4921d0461db527f21f475b4ed030a72113",
+      "status": "collected_and_packaged_for_release",
+      "original_files": [
+        {
+          "filename": "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5.zip",
+          "url": "https://codeload.github.com/IIT-EnergySystemModels/openTEPES/zip/5c0187063874cca4bc7af8ff97b19c6c316dd7a5",
+          "expected_content_types": [
+            "application/zip"
+          ],
+          "status": "downloaded",
+          "bytes": 160837073,
+          "sha256": "54c4b64f225a2912d12f8a1e7ba4ea4921d0461db527f21f475b4ed030a72113",
+          "md5": "eafb4e622d9c84f7a0bcc8f2bf7b13d1",
+          "content_type": "application/zip",
+          "final_url": "https://codeload.github.com/IIT-EnergySystemModels/openTEPES/zip/5c0187063874cca4bc7af8ff97b19c6c316dd7a5",
+          "last_modified": null,
+          "collected_at_utc": "2026-10-18T03:02:22.302247+00:00",
+          "parameter_validation": "not_run",
+          "solve_status": "not_run"
+        }
+      ],
+      "parameter_validation": "not_run",
+      "solve_status": "not_run",
+      "archive_directory": {
+        "inspection": "ZIP central directory only; no parameter files parsed",
+        "file_count": 1050,
+        "uncompressed_bytes": 833931449,
+        "folders": [
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.github",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.github/actions/setup",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.github/workflows",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.idea",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.idea/inspectionProfiles",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/case_studies",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/case_studies/Optimal-Power-Grid-Design/RTS_S2P1_2030",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/case_studies/TSO-DSO_coordination/RTS24a",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/case_studies/TSO-DSO_coordination/RTS24a/CASE-A",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/case_studies/TSO-DSO_coordination/RTS24a/CASE-B",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/doc/img",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/doc/md",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/.idea",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/.idea/inspectionProfiles",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/9n",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/9n7y",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/9nH2",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/9nH2x",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/9n_AC",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/9n_ELZ",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/9n_PTDF",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/9n_duckdb",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/9n_heat",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/NG2030",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/RTS-GMLC",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/RTS-GMLC_6y",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/RTS-GMLC_AC",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/RTS-GMLC_AC_Oper",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/RTS-GMLC_Oper",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/RTS24",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/sSEP",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/scripts/openTEPES2IAMC",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/scripts/openTEPES_DuckDB",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/tests",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/tests/data"
+        ],
+        "folder_list_truncated": false,
+        "first_20_members": [
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.gitattributes",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.github/FUNDING.yml",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.github/actions/setup/action.yml",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.github/workflows/ci.yml",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.github/workflows/colab-compatibility.yml",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.gitignore",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.idea/.name",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.idea/copilot.data.migration.ask2agent.xml",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.idea/inspectionProfiles/profiles_settings.xml",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.idea/misc.xml",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.idea/modules.xml",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.idea/openTEPES.iml",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.idea/other.xml",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.idea/vcs.xml",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.idea/workspace.xml",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/.readthedocs.yaml",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/CHANGELOG.md",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/LICENSE",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/README.md",
+          "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/case_studies/Optimal-Power-Grid-Design/RTS_S2P1_2030/oT_Data_BusShunt_RTS_S2P1_2030.csv"
+        ],
+        "required_attachments": [
+          {
+            "path": "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/LICENSE",
+            "bytes": 34523,
+            "crc32": "f5dfc0dc"
+          },
+          {
+            "path": "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/README.md",
+            "bytes": 19475,
+            "crc32": "662b9a78"
+          },
+          {
+            "path": "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/case_studies/README.md",
+            "bytes": 1780,
+            "crc32": "8034622e"
+          },
+          {
+            "path": "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/doc/img/README.md",
+            "bytes": 2305,
+            "crc32": "bbf4874e"
+          },
+          {
+            "path": "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/9n/oT_Data_Demand_9n.csv",
+            "bytes": 1187823,
+            "crc32": "0ce559fe"
+          },
+          {
+            "path": "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/9n/oT_Data_Emission_9n.csv",
+            "bytes": 39,
+            "crc32": "559808a2"
+          },
+          {
+            "path": "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/9n/oT_Data_Generation_9n.csv",
+            "bytes": 2547,
+            "crc32": "28d19a67"
+          },
+          {
+            "path": "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/9n/oT_Data_Network_9n.csv",
+            "bytes": 1199,
+            "crc32": "733a9f9c"
+          },
+          {
+            "path": "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/9n_duckdb/README.md",
+            "bytes": 1437,
+            "crc32": "a961ba09"
+          },
+          {
+            "path": "openTEPES-5c0187063874cca4bc7af8ff97b19c6c316dd7a5/openTEPES/cases/RTS24/oT_Data_Generation_RTS24.csv",
+            "bytes": 4698,
+            "crc32": "c7d6ff48"
+          }
+        ]
+      }
+    },
+    {
+      "source_id": "genx_official_examples",
+      "source_url": "https://github.com/GenXProject/GenX.jl",
+      "asset_name": "GenX-official-examples-3d9596ad.zip",
+      "asset_bytes": 7283128,
+      "asset_sha256": "3489f684f320a7ea77cd011476c4e2c6d7929d450e260ef1d62fdaccb00b9aee",
+      "status": "collected_and_packaged_for_release",
+      "original_files": [
+        {
+          "filename": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b.zip",
+          "url": "https://codeload.github.com/GenXProject/GenX.jl/zip/3d9596ad9ce69e66ed0404754e58250059bf612b",
+          "expected_content_types": [
+            "application/zip"
+          ],
+          "status": "downloaded",
+          "bytes": 7283128,
+          "sha256": "3489f684f320a7ea77cd011476c4e2c6d7929d450e260ef1d62fdaccb00b9aee",
+          "md5": "eb3ff56d56e8fa94b15476ae6fde065c",
+          "content_type": "application/zip",
+          "final_url": "https://codeload.github.com/GenXProject/GenX.jl/zip/3d9596ad9ce69e66ed0404754e58250059bf612b",
+          "last_modified": null,
+          "collected_at_utc": "2026-10-18T03:02:23.759250+00:00",
+          "parameter_validation": "not_run",
+          "solve_status": "not_run"
+        }
+      ],
+      "parameter_validation": "not_run",
+      "solve_status": "not_run",
+      "archive_directory": {
+        "inspection": "ZIP central directory only; no parameter files parsed",
+        "file_count": 936,
+        "uncompressed_bytes": 24888678,
+        "folders": [
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/.github",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/.github/ISSUE_TEMPLATE",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/.github/workflows",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/docs",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/docs/src",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/docs/src/Getting_Started",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/docs/src/Model_Concept_Overview",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/docs/src/Model_Reference",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/docs/src/Model_Reference/Multi_Stage",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/docs/src/Model_Reference/Resources",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/docs/src/Public_API",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/docs/src/Tutorials",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/docs/src/Tutorials/files",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/docs/src/User_Guide",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/docs/src/assets",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/10_IEEE_9_bus_DC_OPF",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/10_IEEE_9_bus_DC_OPF/resources",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/10_IEEE_9_bus_DC_OPF/settings",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/10_IEEE_9_bus_DC_OPF/system",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/11_three_zones_w_allam_cycle_lox",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/11_three_zones_w_allam_cycle_lox/policies",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/11_three_zones_w_allam_cycle_lox/resources",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/11_three_zones_w_allam_cycle_lox/settings",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/11_three_zones_w_allam_cycle_lox/system",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/1_three_zones",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/1_three_zones/policies",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/1_three_zones/resources",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/1_three_zones/resources/policy_assignments",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/1_three_zones/settings",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/1_three_zones/system",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/2_three_zones_w_electrolyzer",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/2_three_zones_w_electrolyzer/policies",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/2_three_zones_w_electrolyzer/resources",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/2_three_zones_w_electrolyzer/resources/policy_assignments",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/2_three_zones_w_electrolyzer/settings",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/2_three_zones_w_electrolyzer/system",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/3_three_zones_w_co2_capture",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/3_three_zones_w_co2_capture/policies",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/3_three_zones_w_co2_capture/resources",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/3_three_zones_w_co2_capture/resources/policy_assignments",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/3_three_zones_w_co2_capture/settings",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/3_three_zones_w_co2_capture/system",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/4_three_zones_w_policies_slack",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/4_three_zones_w_policies_slack/policies",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/4_three_zones_w_policies_slack/resources",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/4_three_zones_w_policies_slack/resources/policy_assignments",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/4_three_zones_w_policies_slack/settings",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/4_three_zones_w_policies_slack/system",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/5_three_zones_w_piecewise_fuel",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/5_three_zones_w_piecewise_fuel/policies",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/5_three_zones_w_piecewise_fuel/resources",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/5_three_zones_w_piecewise_fuel/resources/policy_assignments",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/5_three_zones_w_piecewise_fuel/settings",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/5_three_zones_w_piecewise_fuel/system",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p1/policies",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p1/resources",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p1/system",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p2/policies",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p2/resources",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p2/system",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p3/policies",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p3/resources",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p3/system",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/settings",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/7_three_zones_w_colocated_VRE_storage",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/7_three_zones_w_colocated_VRE_storage/policies",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/7_three_zones_w_colocated_VRE_storage/resources",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/7_three_zones_w_colocated_VRE_storage/resources/policy_assignments",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/7_three_zones_w_colocated_VRE_storage/settings",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/7_three_zones_w_colocated_VRE_storage/system",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/8_three_zones_w_colocated_VRE_storage_electrolyzers",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/8_three_zones_w_colocated_VRE_storage_electrolyzers/policies",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/8_three_zones_w_colocated_VRE_storage_electrolyzers/resources",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/8_three_zones_w_colocated_VRE_storage_electrolyzers/resources/policy_assignments",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/8_three_zones_w_colocated_VRE_storage_electrolyzers/settings",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/8_three_zones_w_colocated_VRE_storage_electrolyzers/system",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/9_three_zones_w_retrofit",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/9_three_zones_w_retrofit/policies",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/9_three_zones_w_retrofit/resources",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/9_three_zones_w_retrofit/resources/policy_assignments",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/9_three_zones_w_retrofit/settings",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/9_three_zones_w_retrofit/system",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/precompile/case/policies",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/precompile/case/resources",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/precompile/case/resources/policy_assignments",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/precompile/case/settings",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/precompile/case/system",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/src",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/src/additional_tools",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/src/case_runners",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/src/configure_settings",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/src/configure_solver",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/src/load_inputs",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/src/model",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/src/model/core",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/src/model/core/discharge",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/src/model/core/transmission",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/src/model/policies"
+        ],
+        "folder_list_truncated": true,
+        "first_20_members": [
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/.JuliaFormatter.toml",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/.git-blame-ignore-revs",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/.gitattributes",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/.github/ISSUE_TEMPLATE/bug.yml",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/.github/ISSUE_TEMPLATE/config.yml",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/.github/ISSUE_TEMPLATE/feature.yml",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/.github/ISSUE_TEMPLATE/question.yml",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/.github/PULL_REQUEST_TEMPLATE.md",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/.github/workflows/CompatHelper.yml",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/.github/workflows/TagBot.yml",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/.github/workflows/changelog.yml",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/.github/workflows/ci.yml",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/.github/workflows/documentation.yml",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/.github/workflows/test_examples.yml",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/.gitignore",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/.zenodo.json",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/CHANGELOG.md",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/CITATION.cff",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/LICENSE",
+          "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/Project.toml"
+        ],
+        "required_attachments": [
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/LICENSE",
+            "bytes": 15212,
+            "crc32": "93474d15"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/README.md",
+            "bytes": 8296,
+            "crc32": "b04f96bb"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/10_IEEE_9_bus_DC_OPF/README.md",
+            "bytes": 938,
+            "crc32": "8be66a91"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/10_IEEE_9_bus_DC_OPF/Run.jl",
+            "bytes": 47,
+            "crc32": "2ba847da"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/10_IEEE_9_bus_DC_OPF/resources/Thermal.csv",
+            "bytes": 686,
+            "crc32": "214c5631"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/10_IEEE_9_bus_DC_OPF/settings/genx_settings.yml",
+            "bytes": 1331,
+            "crc32": "7ae7dafa"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/10_IEEE_9_bus_DC_OPF/system/Demand_data.csv",
+            "bytes": 377257,
+            "crc32": "a1d9ee01"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/10_IEEE_9_bus_DC_OPF/system/Network.csv",
+            "bytes": 1146,
+            "crc32": "69697c0d"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/11_three_zones_w_allam_cycle_lox/README.md",
+            "bytes": 1555,
+            "crc32": "4c516b9d"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/11_three_zones_w_allam_cycle_lox/Run.jl",
+            "bytes": 47,
+            "crc32": "2ba847da"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/11_three_zones_w_allam_cycle_lox/policies/CO2_cap.csv",
+            "bytes": 267,
+            "crc32": "16e9de85"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/11_three_zones_w_allam_cycle_lox/resources/Thermal.csv",
+            "bytes": 723,
+            "crc32": "34e9fdf0"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/11_three_zones_w_allam_cycle_lox/settings/genx_settings.yml",
+            "bytes": 1743,
+            "crc32": "38a539da"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/11_three_zones_w_allam_cycle_lox/system/Demand_data.csv",
+            "bytes": 246155,
+            "crc32": "49465037"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/11_three_zones_w_allam_cycle_lox/system/Network.csv",
+            "bytes": 375,
+            "crc32": "ef50673a"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/1_three_zones/README.md",
+            "bytes": 1515,
+            "crc32": "4305c478"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/1_three_zones/Run.jl",
+            "bytes": 47,
+            "crc32": "2ba847da"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/1_three_zones/policies/CO2_cap.csv",
+            "bytes": 267,
+            "crc32": "16e9de85"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/1_three_zones/resources/Thermal.csv",
+            "bytes": 723,
+            "crc32": "34e9fdf0"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/1_three_zones/settings/genx_settings.yml",
+            "bytes": 1739,
+            "crc32": "a7dae660"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/1_three_zones/system/Demand_data.csv",
+            "bytes": 246155,
+            "crc32": "49465037"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/1_three_zones/system/Network.csv",
+            "bytes": 361,
+            "crc32": "7898e6ab"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/2_three_zones_w_electrolyzer/README.md",
+            "bytes": 1595,
+            "crc32": "efee11fe"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/2_three_zones_w_electrolyzer/Run.jl",
+            "bytes": 47,
+            "crc32": "2ba847da"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/2_three_zones_w_electrolyzer/policies/CO2_cap.csv",
+            "bytes": 267,
+            "crc32": "16e9de85"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/2_three_zones_w_electrolyzer/resources/Thermal.csv",
+            "bytes": 723,
+            "crc32": "34e9fdf0"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/2_three_zones_w_electrolyzer/settings/genx_settings.yml",
+            "bytes": 1287,
+            "crc32": "004002a1"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/2_three_zones_w_electrolyzer/system/Demand_data.csv",
+            "bytes": 246155,
+            "crc32": "49465037"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/2_three_zones_w_electrolyzer/system/Network.csv",
+            "bytes": 361,
+            "crc32": "7898e6ab"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/3_three_zones_w_co2_capture/README.md",
+            "bytes": 1761,
+            "crc32": "5c03235a"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/3_three_zones_w_co2_capture/Run.jl",
+            "bytes": 47,
+            "crc32": "2ba847da"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/3_three_zones_w_co2_capture/policies/CO2_cap.csv",
+            "bytes": 267,
+            "crc32": "16e9de85"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/3_three_zones_w_co2_capture/resources/Thermal.csv",
+            "bytes": 853,
+            "crc32": "6dda3413"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/3_three_zones_w_co2_capture/settings/genx_settings.yml",
+            "bytes": 1871,
+            "crc32": "bc761120"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/3_three_zones_w_co2_capture/system/Demand_data.csv",
+            "bytes": 246155,
+            "crc32": "49465037"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/3_three_zones_w_co2_capture/system/Network.csv",
+            "bytes": 361,
+            "crc32": "7898e6ab"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/4_three_zones_w_policies_slack/README.md",
+            "bytes": 2414,
+            "crc32": "a359f88b"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/4_three_zones_w_policies_slack/Run.jl",
+            "bytes": 47,
+            "crc32": "2ba847da"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/4_three_zones_w_policies_slack/policies/CO2_cap.csv",
+            "bytes": 264,
+            "crc32": "59c39bde"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/4_three_zones_w_policies_slack/resources/Thermal.csv",
+            "bytes": 723,
+            "crc32": "34e9fdf0"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/4_three_zones_w_policies_slack/settings/genx_settings.yml",
+            "bytes": 1716,
+            "crc32": "59d49408"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/4_three_zones_w_policies_slack/system/Demand_data.csv",
+            "bytes": 246155,
+            "crc32": "49465037"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/4_three_zones_w_policies_slack/system/Network.csv",
+            "bytes": 361,
+            "crc32": "7898e6ab"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/5_three_zones_w_piecewise_fuel/README.md",
+            "bytes": 2176,
+            "crc32": "f6e0583f"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/5_three_zones_w_piecewise_fuel/Run.jl",
+            "bytes": 47,
+            "crc32": "2ba847da"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/5_three_zones_w_piecewise_fuel/policies/CO2_cap.csv",
+            "bytes": 267,
+            "crc32": "16e9de85"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/5_three_zones_w_piecewise_fuel/resources/Thermal.csv",
+            "bytes": 919,
+            "crc32": "da20a2fb"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/5_three_zones_w_piecewise_fuel/settings/genx_settings.yml",
+            "bytes": 1836,
+            "crc32": "7a8f3040"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/5_three_zones_w_piecewise_fuel/system/Demand_data.csv",
+            "bytes": 246155,
+            "crc32": "49465037"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/5_three_zones_w_piecewise_fuel/system/Network.csv",
+            "bytes": 361,
+            "crc32": "7898e6ab"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/README.md",
+            "bytes": 2430,
+            "crc32": "b46af49e"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/Run.jl",
+            "bytes": 47,
+            "crc32": "2ba847da"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p1/policies/CO2_cap.csv",
+            "bytes": 257,
+            "crc32": "f88b5473"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p1/resources/Thermal.csv",
+            "bytes": 723,
+            "crc32": "843bd799"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p1/system/Demand_data.csv",
+            "bytes": 246155,
+            "crc32": "49465037"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p1/system/Network.csv",
+            "bytes": 447,
+            "crc32": "1167e95b"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p2/policies/CO2_cap.csv",
+            "bytes": 263,
+            "crc32": "45728f8f"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p2/resources/Thermal.csv",
+            "bytes": 723,
+            "crc32": "843bd799"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p2/system/Demand_data.csv",
+            "bytes": 246155,
+            "crc32": "49465037"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p2/system/Network.csv",
+            "bytes": 447,
+            "crc32": "1167e95b"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p3/policies/CO2_cap.csv",
+            "bytes": 267,
+            "crc32": "16e9de85"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p3/resources/Thermal.csv",
+            "bytes": 723,
+            "crc32": "843bd799"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p3/system/Demand_data.csv",
+            "bytes": 246155,
+            "crc32": "0979b323"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/inputs/inputs_p3/system/Network.csv",
+            "bytes": 447,
+            "crc32": "1167e95b"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/6_three_zones_w_multistage/settings/genx_settings.yml",
+            "bytes": 1683,
+            "crc32": "0baafe94"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/7_three_zones_w_colocated_VRE_storage/README.md",
+            "bytes": 1927,
+            "crc32": "e3d0b539"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/7_three_zones_w_colocated_VRE_storage/Run.jl",
+            "bytes": 47,
+            "crc32": "2ba847da"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/7_three_zones_w_colocated_VRE_storage/policies/CO2_cap.csv",
+            "bytes": 267,
+            "crc32": "16e9de85"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/7_three_zones_w_colocated_VRE_storage/resources/Thermal.csv",
+            "bytes": 723,
+            "crc32": "34e9fdf0"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/7_three_zones_w_colocated_VRE_storage/settings/genx_settings.yml",
+            "bytes": 184,
+            "crc32": "89e002bd"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/7_three_zones_w_colocated_VRE_storage/system/Demand_data.csv",
+            "bytes": 973,
+            "crc32": "a3eb2fdd"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/7_three_zones_w_colocated_VRE_storage/system/Network.csv",
+            "bytes": 361,
+            "crc32": "7898e6ab"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/8_three_zones_w_colocated_VRE_storage_electrolyzers/README.md",
+            "bytes": 2066,
+            "crc32": "312aef46"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/8_three_zones_w_colocated_VRE_storage_electrolyzers/Run.jl",
+            "bytes": 46,
+            "crc32": "13773896"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/8_three_zones_w_colocated_VRE_storage_electrolyzers/policies/CO2_cap.csv",
+            "bytes": 267,
+            "crc32": "16e9de85"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/8_three_zones_w_colocated_VRE_storage_electrolyzers/resources/Thermal.csv",
+            "bytes": 723,
+            "crc32": "34e9fdf0"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/8_three_zones_w_colocated_VRE_storage_electrolyzers/settings/genx_settings.yml",
+            "bytes": 1219,
+            "crc32": "54e05c2d"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/8_three_zones_w_colocated_VRE_storage_electrolyzers/system/Demand_data.csv",
+            "bytes": 79050,
+            "crc32": "c77e199f"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/8_three_zones_w_colocated_VRE_storage_electrolyzers/system/Network.csv",
+            "bytes": 361,
+            "crc32": "7898e6ab"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/9_three_zones_w_retrofit/README.md",
+            "bytes": 1840,
+            "crc32": "0684d172"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/9_three_zones_w_retrofit/Run.jl",
+            "bytes": 47,
+            "crc32": "2ba847da"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/9_three_zones_w_retrofit/policies/CO2_cap.csv",
+            "bytes": 267,
+            "crc32": "16e9de85"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/9_three_zones_w_retrofit/resources/Thermal.csv",
+            "bytes": 2454,
+            "crc32": "ccff9224"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/9_three_zones_w_retrofit/settings/genx_settings.yml",
+            "bytes": 1715,
+            "crc32": "e4efc637"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/9_three_zones_w_retrofit/system/Demand_data.csv",
+            "bytes": 246155,
+            "crc32": "49465037"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/example_systems/9_three_zones_w_retrofit/system/Network.csv",
+            "bytes": 361,
+            "crc32": "7898e6ab"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/precompile/case/policies/CO2_cap.csv",
+            "bytes": 267,
+            "crc32": "16e9de85"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/precompile/case/resources/Thermal.csv",
+            "bytes": 846,
+            "crc32": "478eebbf"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/precompile/case/settings/genx_settings.yml",
+            "bytes": 153,
+            "crc32": "7147e38c"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/precompile/case/system/Demand_data.csv",
+            "bytes": 4157,
+            "crc32": "8eb55e06"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/precompile/case/system/Network.csv",
+            "bytes": 361,
+            "crc32": "7898e6ab"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/DCOPF/resources/Thermal.csv",
+            "bytes": 686,
+            "crc32": "214c5631"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/DCOPF/system/Demand_data.csv",
+            "bytes": 402,
+            "crc32": "873bfd20"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/DCOPF/system/Network.csv",
+            "bytes": 1062,
+            "crc32": "1bb7cd82"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/TDR/TDR_results_true/Demand_data.csv",
+            "bytes": 36101,
+            "crc32": "56819b61"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/TDR/TDR_results_true_LTS/Demand_data.csv",
+            "bytes": 36059,
+            "crc32": "6232ecd1"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/TDR/policies/CO2_cap.csv",
+            "bytes": 87,
+            "crc32": "0c3a4c51"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/TDR/resources/Thermal.csv",
+            "bytes": 501,
+            "crc32": "7ee6c469"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/TDR/system/Demand_data.csv",
+            "bytes": 155767,
+            "crc32": "e4b04583"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/VRE_storage/solar/policies/CO2_cap.csv",
+            "bytes": 88,
+            "crc32": "8f92423c"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/VRE_storage/solar/resources/Thermal.csv",
+            "bytes": 9045,
+            "crc32": "87183840"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/VRE_storage/solar/system/Demand_data.csv",
+            "bytes": 973,
+            "crc32": "a3eb2fdd"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/VRE_storage/solar/system/Network.csv",
+            "bytes": 508,
+            "crc32": "bc929210"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/VRE_storage/solar_wind/policies/CO2_cap.csv",
+            "bytes": 88,
+            "crc32": "8f92423c"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/VRE_storage/solar_wind/resources/Thermal.csv",
+            "bytes": 9045,
+            "crc32": "87183840"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/VRE_storage/solar_wind/system/Demand_data.csv",
+            "bytes": 973,
+            "crc32": "a3eb2fdd"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/VRE_storage/solar_wind/system/Network.csv",
+            "bytes": 508,
+            "crc32": "bc929210"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/VRE_storage/wind/policies/CO2_cap.csv",
+            "bytes": 88,
+            "crc32": "8f92423c"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/VRE_storage/wind/resources/Thermal.csv",
+            "bytes": 9045,
+            "crc32": "87183840"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/VRE_storage/wind/system/Demand_data.csv",
+            "bytes": 973,
+            "crc32": "a3eb2fdd"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/VRE_storage/wind/system/Network.csv",
+            "bytes": 508,
+            "crc32": "bc929210"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/allam_cycle_lox/policies/CO2_cap.csv",
+            "bytes": 267,
+            "crc32": "16e9de85"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/allam_cycle_lox/resources/Thermal.csv",
+            "bytes": 723,
+            "crc32": "34e9fdf0"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/allam_cycle_lox/system/Demand_data.csv",
+            "bytes": 4157,
+            "crc32": "8eb55e06"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/allam_cycle_lox/system/Network.csv",
+            "bytes": 375,
+            "crc32": "ef50673a"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/compute_conflicts/policies/CO2_cap.csv",
+            "bytes": 80,
+            "crc32": "a6898d90"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/compute_conflicts/resources/Thermal.csv",
+            "bytes": 462,
+            "crc32": "6120d2f8"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/compute_conflicts/system/Demand_data.csv",
+            "bytes": 538,
+            "crc32": "de17790e"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/electrolyzer/resources/Thermal.csv",
+            "bytes": 448,
+            "crc32": "beb18cd3"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/electrolyzer/system/Demand_data.csv",
+            "bytes": 2348,
+            "crc32": "aaed52f8"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/fusion_pulse_every_hour/README.md",
+            "bytes": 2135,
+            "crc32": "582dffd3"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/fusion_pulse_every_hour/resources/Thermal.csv",
+            "bytes": 733,
+            "crc32": "34082a5e"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/fusion_pulse_every_hour/system/Demand_data.csv",
+            "bytes": 580,
+            "crc32": "69a2ebee"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/load_resources/test_gen_non_colocated/policies/CO2_cap.csv",
+            "bytes": 102,
+            "crc32": "521335ca"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/load_resources/test_gen_non_colocated/resources/Thermal.csv",
+            "bytes": 8173,
+            "crc32": "00fdf9d4"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/load_resources/test_gen_non_colocated/settings/genx_settings.yml",
+            "bytes": 227,
+            "crc32": "020874a1"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/load_resources/test_gen_non_colocated/system/Demand_data.csv",
+            "bytes": 13296,
+            "crc32": "3a8cdc95"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/load_resources/test_gen_non_colocated/system/Network.csv",
+            "bytes": 392,
+            "crc32": "77f0a972"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/load_resources/test_gen_vre_stor/policies/CO2_cap.csv",
+            "bytes": 88,
+            "crc32": "8f92423c"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/load_resources/test_gen_vre_stor/resources/Thermal.csv",
+            "bytes": 9045,
+            "crc32": "87183840"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/load_resources/test_gen_vre_stor/settings/genx_settings.yml",
+            "bytes": 227,
+            "crc32": "020874a1"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/load_resources/test_gen_vre_stor/system/Demand_data.csv",
+            "bytes": 973,
+            "crc32": "a3eb2fdd"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/load_resources/test_gen_vre_stor/system/Network.csv",
+            "bytes": 508,
+            "crc32": "bc929210"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_fuels/policies/CO2_cap.csv",
+            "bytes": 87,
+            "crc32": "0c3a4c51"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_fuels/resources/Thermal.csv",
+            "bytes": 786,
+            "crc32": "1e6edc5b"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_fuels/system/Demand_data.csv",
+            "bytes": 537,
+            "crc32": "e381a3e4"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/can_retire/inputs_p1/policies/CO2_cap.csv",
+            "bytes": 79,
+            "crc32": "4c75dd28"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/can_retire/inputs_p1/resources/Thermal.csv",
+            "bytes": 505,
+            "crc32": "e9f48d52"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/can_retire/inputs_p1/system/Demand_data.csv",
+            "bytes": 2348,
+            "crc32": "aaed52f8"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/can_retire/inputs_p2/policies/CO2_cap.csv",
+            "bytes": 83,
+            "crc32": "61b54ac0"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/can_retire/inputs_p2/resources/Thermal.csv",
+            "bytes": 505,
+            "crc32": "e9f48d52"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/can_retire/inputs_p2/system/Demand_data.csv",
+            "bytes": 2348,
+            "crc32": "aaed52f8"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/can_retire/inputs_p3/policies/CO2_cap.csv",
+            "bytes": 85,
+            "crc32": "e69b9410"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/can_retire/inputs_p3/resources/Thermal.csv",
+            "bytes": 505,
+            "crc32": "e9f48d52"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/can_retire/inputs_p3/system/Demand_data.csv",
+            "bytes": 2348,
+            "crc32": "aaed52f8"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/cum_min_ret/inputs_p1/resources/Thermal.csv",
+            "bytes": 505,
+            "crc32": "6f8427d4"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/cum_min_ret/inputs_p1/system/Demand_data.csv",
+            "bytes": 2348,
+            "crc32": "aaed52f8"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/cum_min_ret/inputs_p2/resources/Thermal.csv",
+            "bytes": 505,
+            "crc32": "6f8427d4"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/cum_min_ret/inputs_p2/system/Demand_data.csv",
+            "bytes": 2348,
+            "crc32": "aaed52f8"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/cum_min_ret/inputs_p3/resources/Thermal.csv",
+            "bytes": 505,
+            "crc32": "6f8427d4"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/cum_min_ret/inputs_p3/system/Demand_data.csv",
+            "bytes": 2348,
+            "crc32": "aaed52f8"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/inputs_p1/policies/CO2_cap.csv",
+            "bytes": 79,
+            "crc32": "4c75dd28"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/inputs_p1/resources/Thermal.csv",
+            "bytes": 505,
+            "crc32": "8376db1c"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/inputs_p1/system/Demand_data.csv",
+            "bytes": 2348,
+            "crc32": "aaed52f8"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/inputs_p2/policies/CO2_cap.csv",
+            "bytes": 83,
+            "crc32": "61b54ac0"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/inputs_p2/resources/Thermal.csv",
+            "bytes": 505,
+            "crc32": "8376db1c"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/inputs_p2/system/Demand_data.csv",
+            "bytes": 2348,
+            "crc32": "aaed52f8"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/inputs_p3/policies/CO2_cap.csv",
+            "bytes": 85,
+            "crc32": "e69b9410"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/inputs_p3/resources/Thermal.csv",
+            "bytes": 505,
+            "crc32": "8376db1c"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/inputs_p3/system/Demand_data.csv",
+            "bytes": 2348,
+            "crc32": "aaed52f8"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/new_build/inputs_p1/policies/CO2_cap.csv",
+            "bytes": 79,
+            "crc32": "4c75dd28"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/new_build/inputs_p1/resources/Thermal.csv",
+            "bytes": 505,
+            "crc32": "6f8427d4"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/new_build/inputs_p1/system/Demand_data.csv",
+            "bytes": 2348,
+            "crc32": "aaed52f8"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/new_build/inputs_p2/policies/CO2_cap.csv",
+            "bytes": 83,
+            "crc32": "61b54ac0"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/new_build/inputs_p2/resources/Thermal.csv",
+            "bytes": 505,
+            "crc32": "6f8427d4"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/new_build/inputs_p2/system/Demand_data.csv",
+            "bytes": 2348,
+            "crc32": "aaed52f8"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/new_build/inputs_p3/policies/CO2_cap.csv",
+            "bytes": 85,
+            "crc32": "e69b9410"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/new_build/inputs_p3/resources/Thermal.csv",
+            "bytes": 505,
+            "crc32": "6f8427d4"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/multi_stage/new_build/inputs_p3/system/Demand_data.csv",
+            "bytes": 2348,
+            "crc32": "aaed52f8"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/piecewise_fuel/policies/CO2_cap.csv",
+            "bytes": 80,
+            "crc32": "a6898d90"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/piecewise_fuel/resources/Thermal.csv",
+            "bytes": 812,
+            "crc32": "351c0798"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/piecewise_fuel/system/Demand_data.csv",
+            "bytes": 602,
+            "crc32": "c67ee292"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/retrofit/policies/CO2_cap.csv",
+            "bytes": 87,
+            "crc32": "0c3a4c51"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/retrofit/resources/Thermal.csv",
+            "bytes": 1808,
+            "crc32": "049341a6"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/retrofit/system/Demand_data.csv",
+            "bytes": 2348,
+            "crc32": "aaed52f8"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/three_zones/policies/CO2_cap.csv",
+            "bytes": 267,
+            "crc32": "16e9de85"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/three_zones/resources/Thermal.csv",
+            "bytes": 846,
+            "crc32": "478eebbf"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/three_zones/system/Demand_data.csv",
+            "bytes": 4157,
+            "crc32": "8eb55e06"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/three_zones/system/Network.csv",
+            "bytes": 361,
+            "crc32": "7898e6ab"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/writing_outputs/zone_no_resources/policies/CO2_cap.csv",
+            "bytes": 170,
+            "crc32": "a165cd6a"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/writing_outputs/zone_no_resources/resources/Thermal.csv",
+            "bytes": 454,
+            "crc32": "68d08bb7"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/writing_outputs/zone_no_resources/system/Demand_data.csv",
+            "bytes": 3332,
+            "crc32": "bc2e0445"
+          },
+          {
+            "path": "GenX.jl-3d9596ad9ce69e66ed0404754e58250059bf612b/test/writing_outputs/zone_no_resources/system/Network.csv",
+            "bytes": 296,
+            "crc32": "e5b9ea4f"
+          }
+        ]
+      }
+    }
+  ]
+}

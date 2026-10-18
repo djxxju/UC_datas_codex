@@ -1,0 +1,55 @@
+{
+  "checked_date": "2026-10-18",
+  "id": 416202219,
+  "tag_name": "official-data-2026-10-18-batch08",
+  "html_url": "https://github.com/djxxju/UC_datas_codex/releases/tag/official-data-2026-10-18-batch08",
+  "draft": false,
+  "prerelease": false,
+  "published_at": "2026-10-18T03:02:31Z",
+  "target_commitish": "e531876941a551236bb3dcb9512675fe2c564ba7",
+  "workflow_run_id": 39092175293,
+  "workflow_conclusion": "success",
+  "workflow_commit": "e531876941a551236bb3dcb9512675fe2c564ba7",
+  "assets": [
+    {
+      "id": 652302648,
+      "name": "ATTRIBUTION.md",
+      "bytes": 2158,
+      "digest": "sha256:6bd020b77e723d0e3eda337f614e3efa8dd08efcd46a8c73f8a68e8392a13220",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch08/ATTRIBUTION.md",
+      "state": "uploaded"
+    },
+    {
+      "id": 652302645,
+      "name": "collection_receipt.json",
+      "bytes": 61725,
+      "digest": "sha256:585a9097ac093ad5d0954a26a9009f0a755153278dc23061c159a05ea56c8cc0",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch08/collection_receipt.json",
+      "state": "uploaded"
+    },
+    {
+      "id": 652302647,
+      "name": "Comillas-openTEPES-5c018706.zip",
+      "bytes": 160837073,
+      "digest": "sha256:54c4b64f225a2912d12f8a1e7ba4ea4921d0461db527f21f475b4ed030a72113",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch08/Comillas-openTEPES-5c018706.zip",
+      "state": "uploaded"
+    },
+    {
+      "id": 652302651,
+      "name": "GenX-official-examples-3d9596ad.zip",
+      "bytes": 7283128,
+      "digest": "sha256:3489f684f320a7ea77cd011476c4e2c6d7929d450e260ef1d62fdaccb00b9aee",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch08/GenX-official-examples-3d9596ad.zip",
+      "state": "uploaded"
+    },
+    {
+      "id": 652302650,
+      "name": "source_manifest.json",
+      "bytes": 6869,
+      "digest": "sha256:3c3e3d7cabaa36c08269459f10bd43e46f96f19f06caf0728896b1aed9a5820c",
+      "download_url": "https://github.com/djxxju/UC_datas_codex/releases/download/official-data-2026-10-18-batch08/source_manifest.json",
+      "state": "uploaded"
+    }
+  ]
+}

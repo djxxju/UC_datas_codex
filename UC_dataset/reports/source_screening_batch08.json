@@ -1,0 +1,62 @@
+{
+  "reviewed_date": "2026-10-18",
+  "review_scope": "Official-source identity, license and documentation review only; no case-parameter validation",
+  "items": [
+    {
+      "source_id": "comillas_opentepes",
+      "source_url": "https://github.com/IIT-EnergySystemModels/openTEPES/tree/5c0187063874cca4bc7af8ff97b19c6c316dd7a5",
+      "readme_scope": "Official institution is IIT, Universidad Pontificia Comillas. README describes network-constrained UC inside generation/storage/transmission planning, maximum CO2 emissions and demand flexibility.",
+      "case_studies_readme_url": "https://github.com/IIT-EnergySystemModels/openTEPES/blob/5c0187063874cca4bc7af8ff97b19c6c316dd7a5/case_studies/README.md",
+      "case_studies": [
+        {
+          "directory": "Optimal-Power-Grid-Design",
+          "paper_doi": "10.1016/j.segan.2024.101413",
+          "note": "Paper-specific RTS expansion-planning data with AC network detail"
+        },
+        {
+          "directory": "TSO-DSO_coordination",
+          "paper_doi": "10.1016/j.epsr.2022.108480",
+          "note": "RTS24 TSO-DSO coordination variants, local flexibility; paper-specific, not upstream CI cases"
+        }
+      ],
+      "deduplication_note": "Reference-case variants and RTS derivatives are not counted as new independent physical systems."
+    },
+    {
+      "source_id": "genx_official_examples",
+      "source_url": "https://github.com/GenXProject/GenX.jl/tree/3d9596ad9ce69e66ed0404754e58250059bf612b",
+      "readme_scope": "Official author-maintained repository, with fully specified examples and model code. Complete GPL-2.0 source is mirrored together.",
+      "example_notes": [
+        {
+          "path": "example_systems/1_three_zones/README.md",
+          "finding": "Author describes three New England zones, annual hourly data, ten resources and a rate-based cap input. No activation or parameter values independently checked."
+        },
+        {
+          "path": "example_systems/3_three_zones_w_co2_capture/README.md",
+          "finding": "Author explicitly describes linear clustering UC (UCommit=2). Text calls cap mass-based but uses gCO2/kWh; unresolved upstream wording discrepancy recorded."
+        },
+        {
+          "path": "example_systems/4_three_zones_w_policies_slack/README.md",
+          "finding": "Policy constraints may be violated with objective penalties; not a validated hard-cap UC benchmark."
+        },
+        {
+          "path": "example_systems/10_IEEE_9_bus_DC_OPF/README.md",
+          "finding": "Author describes DC-OPF case; do not count as confirmed UC example."
+        }
+      ]
+    },
+    {
+      "lead_id": "nbsdc_jilin_forecast_search_lead",
+      "source_url": "https://www.nbsdc.cn/general/dataDetail?id=63a012dd1f97ac1dc8082b66&type=1",
+      "status": "not_collected_not_counted_as_uc_candidate",
+      "evidence_level": "Search snippet described photovoltaic forecasting; opened public page returned metadata labels without populated fields.",
+      "finding": "No public complete UC input package or redistribution license verified; do not label a forecast time series as a provincial UC system."
+    },
+    {
+      "lead_id": "ferc_rto_uc_test_system",
+      "source_url": "https://www.ferc.gov/power-sales-and-markets/increasing-efficiency-through-improved-software/rto-unit-commitment-test",
+      "status": "official_reference_note_only_no_new_archive",
+      "finding": "FERC identifies public generator/demand records in docket AD10-12-002, but network data and sample model inputs subject to CEII restrictions. No restricted material requested or collected. Existing PGLIB FERC-derived data remains a different publicly archived format.",
+      "next_action": "If prioritized, inspect only the public winter/summer data records and their relationship to existing PGLIB cases."
+    }
+  ]
+}

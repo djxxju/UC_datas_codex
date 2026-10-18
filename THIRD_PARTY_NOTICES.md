@@ -108,3 +108,17 @@ Both official Zenodo records and DataCite registrations explicitly state Creativ
 TAMU DemandResponse and PyPSA-stochUC are factual candidate links only in this collection. TAMU redistribution terms remain unresolved; the PyPSA-stochUC README identifies paper-specific district heat-demand data as unpublished. No candidate original archive is mirrored. See [batch 07 source report](UC_dataset/reports/cloud_sources_batch07.md).
 
 This repository does not relicense upstream materials as a single new dataset license.
+
+## Comillas IIT openTEPES (new in batch 08)
+
+Official source: https://github.com/IIT-EnergySystemModels/openTEPES , commit `5c0187063874cca4bc7af8ff97b19c6c316dd7a5`. Developed at IIT, Universidad Pontificia Comillas. The entire unchanged repository ZIP, including the root GNU Affero General Public License v3.0, notices, source and bundled data, is mirrored in Release `official-data-2026-10-18-batch08`. No separate case-directory license was found. Preserve the complete original source and license; this project applies no replacement data license.
+
+Model citation: Andrés Ramos, Erik Quispe, Sara Lumbreras (2022), “openTEPES: Open-source Transmission and Generation Expansion Planning”, SoftwareX 18, 101070, DOI https://doi.org/10.1016/j.softx.2022.101070 . Study-specific case directories cite https://doi.org/10.1016/j.segan.2024.101413 and https://doi.org/10.1016/j.epsr.2022.108480 . These papers do not identify the pinned archive version; use the commit and receipt as well.
+
+## GenX official example systems (new in batch 08)
+
+Official source: https://github.com/GenXProject/GenX.jl , commit `3d9596ad9ce69e66ed0404754e58250059bf612b`. The former GenXProject/GenX URL redirects to this repository. The complete unchanged repository ZIP retains the GNU General Public License version 2, author notices, source, documentation and example data. No separate example-directory license was found. Do not strip the license or present the archive as a newly relicensed standalone dataset.
+
+Requested citation: MIT Energy Initiative and Princeton University ZERO Lab. “GenX: a configurable power system capacity expansion model for studying low-carbon energy futures.” Repository snapshot above, accessed 2026-10-18. README identifies current maintainers at Princeton, MIT, NYU and Binghamton. Software concept DOI https://doi.org/10.5281/zenodo.10846069 is related metadata, not a DOI for this pinned dataset snapshot.
+
+Neither source was executed, converted or solved. Linear-relaxation UC, policy-slack, DC-OPF and shared RTS-system variants are disclosed in the [batch 08 report](UC_dataset/reports/cloud_sources_batch08.md); authors' results are not independent results of this project.
