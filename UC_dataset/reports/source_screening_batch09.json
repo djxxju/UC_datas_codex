@@ -1,0 +1,81 @@
+{
+  "reviewed_date": "2026-10-18",
+  "review_scope": "Publisher metadata, author README and Git tree only; no parameter verification",
+  "collected_source_ids": [
+    "plan4res_cs3_edf"
+  ],
+  "new_candidates": [
+    {
+      "source_id": "dygtcn_uc_topology",
+      "source_url": "https://github.com/galigaliga/DyGTCN-for-UC-with-topology-changes",
+      "commit": "197095070ee4fe6efbb838173a97b4c39a057c29",
+      "scope": "Author-linked IEEE118 UC prediction and topology-change code; publisher paper describes dispatchable demand response.",
+      "status": "author_entry_cataloged_not_collected",
+      "license_status": "GitHub license null; complete pinned tree has no LICENSE/COPYING/NOTICE; README provides execution instructions but no explicit redistribution grant",
+      "paper_url": "https://www.sciencedirect.com/science/article/pii/S0378779626010047",
+      "doi": null,
+      "last_reviewed_date": "2026-10-18",
+      "source_note": "../reports/cloud_sources_batch09.md",
+      "tree_file_count": 50,
+      "tree_truncated": false
+    },
+    {
+      "source_id": "closed_loop_ncuc",
+      "source_url": "https://github.com/asxadf/Closed_Loop_NCUC_Dataset",
+      "commit": "4c1c3c75ee8231f0d1c10ebed8926d9e15c6b1bb",
+      "scope": "Author RTS24 network-constrained UC predict-and-optimize data, Elia load and renewable forecasts/measurements, features and MATLAB models; README states 15-minute source data.",
+      "status": "author_entry_cataloged_not_collected",
+      "license_status": "GitHub license null; complete pinned tree has no LICENSE/COPYING/NOTICE; open-access wording and citation request do not establish a redistribution license",
+      "paper_url": "https://ieeexplore.ieee.org/document/9617122",
+      "doi": null,
+      "last_reviewed_date": "2026-10-18",
+      "source_note": "../reports/cloud_sources_batch09.md",
+      "tree_file_count": 32,
+      "tree_truncated": false
+    }
+  ],
+  "other_leads": [
+    {
+      "source_url": "https://github.com/plan4res/toyDataset",
+      "commit": "6a1db74395aa100f6cea4fa6a0190db996683660",
+      "git_tree_files": 127,
+      "license_paths": [],
+      "github_license": null,
+      "status": "alternative_plan4res_material_not_archived",
+      "reason": "No README or explicit license in pinned tree; no inference from separately licensed Zenodo releases."
+    },
+    {
+      "source_url": "https://lore.list.lu/dataset.xhtml?persistentId=perma%3ALIST.6TVPVX",
+      "status": "bibliographic_cross_reference_not_counted_as_uc_data",
+      "reason": "Official record identifies Data Type Article and an automatically harvested cross-reference to DOI 10.1109/TSG.2020.3042847; no prepared input package confirmed."
+    },
+    {
+      "source_url": "https://www.ferc.gov/power-sales-and-markets/increasing-efficiency-through-improved-software/rto-unit-commitment-test",
+      "status": "public_attachment_list_not_obtained",
+      "public_entries": [
+        {
+          "season": "winter",
+          "accession": "20120725-4066",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20120725-4066"
+        },
+        {
+          "season": "summer",
+          "accession": "20120724-4012",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20120724-4012"
+        }
+      ],
+      "reason": "Public official links open an eLibrary page without attachment rows in retrieved text. No network/CEII-restricted files requested.",
+      "deduplication": "PGLIB FERC-derived inputs already archived; public original records must be compared before counting independent data."
+    }
+  ],
+  "coverage_gaps": [
+    "No new complete domestic provincial UC input package established in this search.",
+    "No independently confirmed demand-response input package with redistribution license was acquired."
+  ],
+  "not_performed": [
+    "author contact",
+    "case parameter validation",
+    "schema conversion",
+    "COPT/Gurobi solve"
+  ]
+}
